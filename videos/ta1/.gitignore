@@ -1,0 +1,5 @@
+# large outputs and licensed market data stay out of the repo
+deliverables/
+data/
+__pycache__/
+*.pyc
