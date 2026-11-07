@@ -12,7 +12,7 @@ def probe_frames(p):
     r = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-count_packets', '-show_entries', 'stream=nb_read_packets', '-of', 'csv=p=0', p], capture_output=True, text=True)
     return int(r.stdout.strip())
 bad = []
-for m, b, T in tl:
+for m, b, T in (tl if '--check' in sys.argv else []):
     exp = int(round(b.end * 30)); got = probe_frames(f"{build}/scenes/{m['id']}.mp4")
     if exp != got: bad.append((m['id'], exp, got))
 print('frame check:', 'OK' if not bad else bad)

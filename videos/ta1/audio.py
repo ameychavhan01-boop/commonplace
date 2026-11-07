@@ -16,7 +16,7 @@ def lufs(path):
     pk = re.findall(r'Peak:\s+(-?[\d.]+|-inf) dBFS', out)
     return I, (float(pk[-1]) if pk and pk[-1] != '-inf' else None)
 
-def limiter(x, ceiling=10 ** (-2.2 / 20), look=0.004):
+def limiter(x, ceiling=10 ** (-3.0 / 20), look=0.004):
     w = max(1, int(look * SR))
     env = maximum_filter1d(np.abs(x), size=2 * w + 1)
     g = np.minimum(1.0, ceiling / np.maximum(env, 1e-9)).astype(np.float32)
@@ -25,12 +25,13 @@ def limiter(x, ceiling=10 ** (-2.2 / 20), look=0.004):
     return (x * g).astype(np.float32)
 
 def normalize(x, tmp, target=-15.0):
-    for _ in range(3):
-        sf.write(tmp, x, SR, subtype='FLOAT')
+    """loudness is measured on the stereo file we deliver (both channels identical)."""
+    for _ in range(4):
+        sf.write(tmp, np.stack([x, x], 1), SR, subtype='FLOAT')
         I, _ = lufs(tmp)
+        if abs(I - target) < .2: break
         x = limiter(x * np.float32(10 ** ((target - I) / 20)))
-        if abs(I - target) < .3: break
-    sf.write(tmp, x, SR, subtype='FLOAT')
+    sf.write(tmp, np.stack([x, x], 1), SR, subtype='FLOAT')
     return x, lufs(tmp)
 
 def fmt_ts(t, srt=True):
