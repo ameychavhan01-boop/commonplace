@@ -1,0 +1,39 @@
+# Source Register — Episode 02: Bruce Kovner
+
+Reliability tiers: **A** primary/official · **B** reputable secondary · **C** weak/aggregator (corroboration only)
+
+**Research note:** in this session the network blocked direct page fetches from Wikipedia, Bloomberg, Institutional Investor and most news sites. These sources were read through web-search extracts. Each external figure used in the script is backed by at least two independent extracts or by a primary document (marked A). Where sources conflict, the conflict is recorded in `claims.md` and the script avoids the contested detail.
+
+| ID | Source | Tier | Used for |
+|---|---|---|---|
+| S01 | Jack D. Schwager, *Market Wizards: Interviews with Top Traders* (New York Institute of Finance, 1989), chapter "Bruce Kovner: The World Trader". Text supplied by the creator as photos (no page numbers, by decision) | A (primary interview; claims are Kovner's own or Schwager's) | All interview claims |
+| S02 | Wikipedia, "Bruce Kovner" — https://en.wikipedia.org/wiki/Bruce_Kovner (read through search extracts) | B/C | Born 1945, New York; Borough Park, Brooklyn; family moved to the Los Angeles area in 1953; Van Nuys High School; Harvard from 1962; studied at the Kennedy School; finished PhD coursework, left without the degree |
+| S03 | Bloomberg Billionaires Index, "Bruce S. Kovner" — https://www.bloomberg.com/billionaires/profiles/bruce-s-kovner/ | B | Ran Caxton 1983–2011; ≈21% average annualised return after fees over that run; CAM Capital (Jan 2012); net worth estimate (≈$8bn, point-in-time) |
+| S04 | Wikipedia, "Caxton Associates" — https://en.wikipedia.org/wiki/Caxton_Associates | B | Founded 1983 by Kovner; Andrew Law named CIO, then chairman/CEO on Kovner's retirement (2011) |
+| S05 | Stephen Taub, "Kovner Retires as Caxton Faces an Uncertain Future," *Institutional Investor*, 30 Sep 2011 — https://www.institutionalinvestor.com/article/2bszvai0b3vnle9nc54w0/premium/kovner-retires-as-caxton-faces-an-uncertain-future | B | 28% annualised for the 18 years to 2003; single digits after 2003; ≈21% annualised since founding; 2003 return of ≈20% of capital over size concerns (AUM then ≈$9.5bn) |
+| S06 | Bloomberg, "Hedge Funds Face Succession Challenge as Kovner Hands Off to Law," 14 Sep 2011; ai-CIO, "Caxton Founders Retire, Tap CIO as Successor" (2011) | B | Retirement announced Sept 2011; Law succession; Peter D'Angelo, long-time partner |
+| S07 | Federal Reserve Bank of Richmond, *Instruments of the Money Market*, ch. 14 (financial futures); CFTC history of the 1970s (archived) | A | First interest-rate futures: CBOT GNMA (Oct 1975); IMM 90-day T-bill futures began trading 6 Jan 1976 |
+| S08 | University of Illinois farmdoc weekly outlook, 9 Mar 1977 and 27 Apr 1977 — https://farmdoc.illinois.edu/assets/marketing/weekly/1977/1977-04-27.pdf ; farmdoc review, 23 Nov 1983 | A | 1977 soybean shortage: crush and exports too fast; USDA stocks "confirmed the need to ration soybeans"; futures rose to ≈$10.50 in late April 1977 (other series ≈$10.77 nearby high) |
+| S09 | Episode 01, S11 (farmdoc 31 Aug 1983; APAC) | A/B | Soybean all-time high ≈$12.90, June 1973 — used to flag Kovner's "record high" recollection |
+| S10 | Duncan Needham / Bank of England history, *Making a Modern Central Bank* (Cambridge UP), ch. "The long shadow of the Deutschemark"; Thatcher Foundation archive (PREM19/2086, note of 4 Mar 1988); Hansard HC Deb 16 Jun 1988 vol 135 | A | Unannounced policy of holding sterling at ≈DM 3.00 from early 1987 to March 1988; Lawson accepts sterling may rise above DM 3 (4 Mar 1988); sterling ≈DM 3.19 by mid-May 1988 |
+| S11 | CBC, "The U.S.-Canada free trade deal that started it all" (2018); Reagan Library, statement of 4 Oct 1987; Global Affairs Canada FTA background | A/B | Canada–US free-trade agreement reached late on 3 Oct 1987 (announced 4 Oct); signed 2 Jan 1988 |
+| S12 | *Christian Science Monitor*, editorial, 20 Oct 1987 ("Time for coordinated action"); EEC Committee of Central Bank Governors minutes (ECB archive, 1987–88) | B/A | Baker publicly rebuked Bonn over German rate rises and signalled tolerance of a lower dollar; the dollar fell ≈8% against the D-mark from October to mid-November 1987 |
+| S13 | Reserve Bank of Australia table F12 (USD/JPY monthly, via DBnomics); Toyota corporate history (endaka) | A/B | Dollar ≈¥122 at end-December 1987; ≈¥127 at end-January 1988 |
+| S14 | Encyclopedia.com, "Black Monday"; CNBC (2018) | B | Dow fell 508 points (22.6%) on 19 Oct 1987, its largest one-day percentage fall |
+| S15 | *Report of the Presidential Task Force on Market Mechanisms* (Brady Report), Jan 1988 — https://www.sechistorical.org/collection/papers/1980/1988_0101_BradyReport.pdf | A | Brady Report emphasised portfolio-insurance selling in the crash |
+| S16 | Robert J. Shiller, "Portfolio Insurance and Other Investor Fashions as Factors in the 1987 Stock Market Crash," *NBER Macroeconomics Annual* 1988 — https://www.nber.org/chapters/c10958.pdf | A/B | Portfolio insurance a plausible but contested cause |
+| S17 | The Juilliard School, "Mai Elected Board Chair" (2022) — https://www.juilliard.edu/news/157501/mai-elected-board-chair | A | Kovner chaired Juilliard's board for 21 years (2001–2022); named chairman emeritus |
+| S18 | NPR, "Juilliard Chairman Donates Trove of Rare Artifacts," 1 Mar 2006; Juilliard Manuscript Collection site — https://juilliardmanuscriptcollection.org/about-the-collection/ | A/B | Feb 2006 gift of ≈140 manuscripts and annotated editions (Bach, Mozart, Beethoven, Brahms…); Kovner declined to put his name on it |
+| S19 | InfluenceWatch, "Kovner Foundation"; The Kovner Foundation site; Philanthropy Roundtable, "Interview with Bruce Kovner" (Fall 2015, by Arthur Brooks) | B/C | AEI trustee; AEI board chair ≈2002/03–2008 (dates differ); School Choice Scholarships Foundation (1997); boards of Lincoln Center and the Metropolitan Opera |
+| S20 | Hamamatsu Univ. School of Medicine repository abstract (yen history); *Moscow Times* archive; *Spokesman-Review*, 22 Sep 1995; NPR, 13 Mar 2008 | B | Dollar below ¥100 for the first time on 21 Jun 1994 (99.85); post-war low ¥79.75 on 19 Apr 1995 |
+| S21 | Episode 01 research (claims C33, C41; sources S04, S15) | — | Commodities Corporation background; Marcus mentored Kovner; Marcus & Kovner exited currencies before the 1 Nov 1978 dollar rescue |
+| S22 | Secondary profiles: prosperity.beehiiv.com ("how a taxi driver became a billionaire"); completetradersedge.com; tradersunion.com | C | Popular but unsourced details (first $3,000 borrowed on a MasterCard; taxi driving; music study). **Not used as fact** — mentioned once as unverified |
+
+## Not verifiable / not found
+- All of Kovner's personal trade figures ($3,000 → $4,000; $35,000 on 12 April 1977; ≈$45,000 → $22,000; ≈$40,000 a few months later; $35,000 company stake; −16% in 1981; $650m under management; ≈$300m profit in 1987): interviewee claims or Schwager's figures. No public audited record for 1977–1988.
+- The British trading organisation that "tried to corner the crude oil market" and lost ≈$40m: Kovner declined to name it; searches (Gatoil/Brent forward-market episodes) did not produce a match. Not identified on screen.
+- The trader who made "$27 million trading copper spreads" and lost it: unnamed, unverifiable.
+- Copper daily volume (7,000–10,000 contracts) and the size he could move: not checked against 1988 exchange statistics; presented as Kovner's estimate.
+- The Soviet Union as "a very good trader" in currencies and grains: Kovner's opinion; not testable.
+- The Canadian-dollar move around the trade pact: the pact's date is verified (S11); the exact breakout days earlier was not checked against daily exchange-rate data.
+- Kovner's exact birth date: sources give 25 Feb 1945, 27 Feb 1945, 25 Dec 1945 and 25 Apr 1946. The script says only "born in New York in 1945".
