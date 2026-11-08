@@ -1,0 +1,3454 @@
+{
+ "chapters": [
+  {
+   "id": 1,
+   "heading": "COLD OPEN",
+   "t0": 2.6,
+   "t1": 82.24980000000001
+  },
+  {
+   "id": 2,
+   "heading": "CHAPTER ONE — THE SCHOLAR",
+   "t0": 82.24980000000001,
+   "t1": 290.8345
+  },
+  {
+   "id": 3,
+   "heading": "CHAPTER TWO — THE BLIGHT",
+   "t0": 290.8345,
+   "t1": 497.35729999999995
+  },
+  {
+   "id": 4,
+   "heading": "CHAPTER THREE — BEHIND THE GLASS",
+   "t0": 497.35729999999995,
+   "t1": 669.8298140000003
+  },
+  {
+   "id": 5,
+   "heading": "CHAPTER FOUR — THE CEILING THAT BROKE",
+   "t0": 669.8298140000003,
+   "t1": 812.5610260000008
+  },
+  {
+   "id": 6,
+   "heading": "CHAPTER FIVE — THE SAME MISTAKE TWICE",
+   "t0": 812.5610260000008,
+   "t1": 911.4298260000011
+  },
+  {
+   "id": 7,
+   "heading": "CHAPTER SIX — THE GREAT INFLATION",
+   "t0": 911.4298260000011,
+   "t1": 1054.0756260000012
+  },
+  {
+   "id": 8,
+   "heading": "CHAPTER SEVEN — THE FLOOR",
+   "t0": 1054.0756260000012,
+   "t1": 1159.5583660000013
+  },
+  {
+   "id": 9,
+   "heading": "CHAPTER EIGHT — \"HE JUST TRADES\"",
+   "t0": 1159.5583660000013,
+   "t1": 1290.4851960000015
+  },
+  {
+   "id": 10,
+   "heading": "CHAPTER NINE — GOLD, CURRENCIES AND THE NIGHT SHIFT",
+   "t0": 1290.4851960000015,
+   "t1": 1504.7156960000016
+  },
+  {
+   "id": 11,
+   "heading": "CHAPTER TEN — MARKET TONE",
+   "t0": 1504.7156960000016,
+   "t1": 1662.9785360000017
+  },
+  {
+   "id": 12,
+   "heading": "CHAPTER ELEVEN — THE PRICE OF SUCCESS",
+   "t0": 1662.9785360000017,
+   "t1": 1716.3415360000015
+  },
+  {
+   "id": 13,
+   "heading": "CHAPTER TWELVE — THE RULES",
+   "t0": 1716.3415360000015,
+   "t1": 1891.4915060000017
+  },
+  {
+   "id": 14,
+   "heading": "CHAPTER THIRTEEN — WAS HE RIGHT?",
+   "t0": 1891.4915060000017,
+   "t1": 2028.5779180000013
+  },
+  {
+   "id": 15,
+   "heading": "EPILOGUE",
+   "t0": 2028.5779180000013,
+   "t1": 2112.442818000001
+  }
+ ],
+ "subtitles": [
+  {
+   "t0": 3.2,
+   "t1": 5.20762,
+   "text": "Spring, 1971."
+  },
+  {
+   "t0": 5.89946,
+   "t1": 9.304739999999999,
+   "text": "A young man stands in a brokerage office, watching a price board."
+  },
+  {
+   "t0": 9.97968,
+   "t1": 15.5533,
+   "text": "Every dollar he has, and twenty thousand dollars borrowed from his mother, rests on a single idea."
+  },
+  {
+   "t0": 16.2533,
+   "t1": 17.523600000000002,
+   "text": "The prices start to fall."
+  },
+  {
+   "t0": 18.073700000000002,
+   "t1": 19.2466,
+   "text": "He knows he should sell."
+  },
+  {
+   "t0": 19.950000000000003,
+   "t1": 20.489800000000002,
+   "text": "He doesn't."
+  },
+  {
+   "t0": 21.0321,
+   "t1": 23.3187,
+   "text": "He watches, hoping the market will turn."
+  },
+  {
+   "t0": 24.182000000000002,
+   "t1": 25.8536,
+   "text": "Then the board stops moving."
+  },
+  {
+   "t0": 26.537300000000002,
+   "t1": 28.409799999999997,
+   "text": "The market has hit its daily limit."
+  },
+  {
+   "t0": 28.875100000000003,
+   "t1": 32.1592,
+   "text": "Trading is frozen, and there is no way out until tomorrow."
+  },
+  {
+   "t0": 32.8592,
+   "t1": 34.88590000000001,
+   "text": "By his own account, he was paralysed."
+  },
+  {
+   "t0": 35.3917,
+   "t1": 38.368700000000004,
+   "text": "He had all night to think about it, and nothing he could do."
+  },
+  {
+   "t0": 39.968700000000005,
+   "t1": 41.76140000000001,
+   "text": "His name was Michael Marcus."
+  },
+  {
+   "t0": 42.180800000000005,
+   "t1": 47.500600000000006,
+   "text": "Within fifteen years of that morning, he would become one of the most successful traders of his generation."
+  },
+  {
+   "t0": 48.00900000000001,
+   "t1": 58.458000000000006,
+   "text": "According to Jack Schwager, who interviewed him for the first chapter of the first Market Wizards book, Marcus multiplied his company trading account roughly twenty-five hundred times in a decade."
+  },
+  {
+   "t0": 59.15800000000001,
+   "t1": 62.42220000000001,
+   "text": "But the story of Michael Marcus is not really a story about winning."
+  },
+  {
+   "t0": 62.95150000000001,
+   "t1": 73.2116,
+   "text": "It is a story about losing — repeatedly, painfully, sometimes absurdly — and slowly discovering the rules that allow a trader to survive long enough to win."
+  },
+  {
+   "t0": 73.9116,
+   "t1": 75.24980000000001,
+   "text": "This is that story."
+  },
+  {
+   "t0": 87.24980000000001,
+   "t1": 94.79207000000001,
+   "text": "In 1969, Michael Marcus graduated from Johns Hopkins University, Phi Beta Kappa, near the top of his class."
+  },
+  {
+   "t0": 95.36819000000001,
+   "t1": 99.41980000000001,
+   "text": "He had a doctoral fellowship in psychology waiting for him at Clark University."
+  },
+  {
+   "t0": 100.0721,
+   "t1": 103.51780000000001,
+   "text": "By his own description, he fully expected to become a professor."
+  },
+  {
+   "t0": 104.21780000000001,
+   "t1": 107.64390000000002,
+   "text": "Then, through a friend, he met a fellow student called John."
+  },
+  {
+   "t0": 108.38710000000002,
+   "t1": 112.58510000000001,
+   "text": "John said he could double Marcus's money every two weeks — like clockwork."
+  },
+  {
+   "t0": 113.28510000000001,
+   "t1": 115.95280000000001,
+   "text": "Marcus admitted later that he never even asked how."
+  },
+  {
+   "t0": 116.54560000000001,
+   "t1": 120.95450000000001,
+   "text": "The idea was so attractive that he didn't want to spoil it by learning too many facts."
+  },
+  {
+   "t0": 121.64960000000002,
+   "t1": 128.925,
+   "text": "It is a small confession, but it contains the first lesson of this entire series: the most dangerous moment in a trader's life is the moment he wants something to be true."
+  },
+  {
+   "t0": 130.525,
+   "t1": 140.6866,
+   "text": "He hired John as his commodity adviser for thirty dollars a week — with, Marcus remembered, the occasional bag of potato chips."
+  },
+  {
+   "t0": 141.2264,
+   "t1": 143.4788,
+   "text": "He put up about a thousand dollars of savings."
+  },
+  {
+   "t0": 144.1788,
+   "t1": 158.17079999999999,
+   "text": "Their first trip to a brokerage was to the Reynolds Securities office in Baltimore: mahogany panels, hushed voices, and a great clicking quote board at the front of the room — so far from the visitors' gallery that they watched prices through binoculars."
+  },
+  {
+   "t0": 159.77079999999998,
+   "t1": 162.67839999999998,
+   "text": "To understand what happened next, we need one idea."
+  },
+  {
+   "t0": 163.41089999999997,
+   "t1": 173.64669999999998,
+   "text": "A futures contract is an agreement to buy or sell a fixed quantity of a commodity — corn, wheat, soybean meal — at a set price, for delivery in a future month."
+  },
+  {
+   "t0": 174.3027,
+   "t1": 175.91339999999997,
+   "text": "Traders don't pay the full value."
+  },
+  {
+   "t0": 176.2878,
+   "t1": 178.5477,
+   "text": "They put up a small deposit, called margin."
+  },
+  {
+   "t0": 179.2244,
+   "t1": 181.9819,
+   "text": "That makes futures powerful, and dangerous."
+  },
+  {
+   "t0": 182.48019999999997,
+   "t1": 186.35339999999997,
+   "text": "A small change in price produces a large change in the trader's account."
+  },
+  {
+   "t0": 187.05339999999995,
+   "t1": 193.37149999999997,
+   "text": "When a voice on the loudspeaker recommended buying soybean meal, Marcus turned to his adviser, expecting confidence."
+  },
+  {
+   "t0": 193.90149999999994,
+   "t1": 196.70549999999994,
+   "text": "Instead, John asked him: \"Do you think we should do it?\""
+  },
+  {
+   "t0": 197.40549999999993,
+   "t1": 197.76549999999992,
+   "text": "They bought."
+  },
+  {
+   "t0": 198.51549999999992,
+   "t1": 201.24349999999993,
+   "text": "Prices began to tick down almost immediately."
+  },
+  {
+   "t0": 201.78649999999993,
+   "t1": 204.42149999999992,
+   "text": "Marcus got out with a loss of about a hundred dollars."
+  },
+  {
+   "t0": 204.98749999999995,
+   "t1": 205.51749999999993,
+   "text": "Then corn."
+  },
+  {
+   "t0": 206.03949999999992,
+   "t1": 206.56649999999993,
+   "text": "Then wheat."
+  },
+  {
+   "t0": 207.07149999999996,
+   "t1": 208.26249999999993,
+   "text": "Each trade lost."
+  },
+  {
+   "t0": 208.83649999999994,
+   "t1": 213.78349999999995,
+   "text": "They began, Marcus joked, measuring success by how many days it took to lose their money."
+  },
+  {
+   "t0": 215.38349999999994,
+   "t1": 219.69049999999996,
+   "text": "Down to about five hundred dollars, John found a trade he said could not lose."
+  },
+  {
+   "t0": 220.24249999999995,
+   "t1": 223.37049999999994,
+   "text": "Buy August pork bellies, sell February pork bellies."
+  },
+  {
+   "t0": 223.88549999999995,
+   "t1": 228.98449999999994,
+   "text": "The price gap between the two months was wider than the cost of storing bellies from August to February."
+  },
+  {
+   "t0": 229.54849999999993,
+   "t1": 236.41049999999996,
+   "text": "In theory, a trader could take delivery in August, store the product, and deliver it in February — locking in the difference."
+  },
+  {
+   "t0": 237.11049999999994,
+   "t1": 237.84049999999993,
+   "text": "There was a problem."
+  },
+  {
+   "t0": 238.49649999999994,
+   "t1": 243.29749999999996,
+   "text": "As Marcus learned later, August bellies could not be delivered against the February contract."
+  },
+  {
+   "t0": 243.76949999999994,
+   "t1": 245.73049999999995,
+   "text": "The arbitrage did not exist."
+  },
+  {
+   "t0": 246.04649999999995,
+   "t1": 248.08849999999995,
+   "text": "The premise was wrong from the start."
+  },
+  {
+   "t0": 249.68849999999995,
+   "t1": 251.89849999999993,
+   "text": "Confident for once, they went out to lunch."
+  },
+  {
+   "t0": 252.44649999999993,
+   "t1": 255.36449999999994,
+   "text": "When they came back, Marcus was almost wiped out."
+  },
+  {
+   "t0": 255.97549999999993,
+   "t1": 262.16049999999996,
+   "text": "He would never forget John pounding on the quote board and shouting, \"Doesn't anyone want to make a guaranteed profit!\""
+  },
+  {
+   "t0": 263.7605,
+   "t1": 266.3935,
+   "text": "There is no such thing as a guaranteed profit."
+  },
+  {
+   "t0": 266.98349999999994,
+   "t1": 271.5345,
+   "text": "When a trade looks riskless, the risk is usually in the part you don't understand."
+  },
+  {
+   "t0": 272.23449999999997,
+   "t1": 273.8565,
+   "text": "Marcus fired his adviser."
+  },
+  {
+   "t0": 274.42249999999996,
+   "t1": 279.4934999999999,
+   "text": "He scraped together another five hundred dollars, traded silver on his own, and lost that too."
+  },
+  {
+   "t0": 280.2055,
+   "t1": 280.9475,
+   "text": "Eight trades."
+  },
+  {
+   "t0": 281.4504999999999,
+   "t1": 282.2595,
+   "text": "Eight losses."
+  },
+  {
+   "t0": 282.9595,
+   "t1": 284.33349999999996,
+   "text": "He never considered quitting."
+  },
+  {
+   "t0": 284.9085,
+   "t1": 289.6345,
+   "text": "He had always done well at school; he assumed trading was simply a knack he hadn't learned yet."
+  },
+  {
+   "t0": 295.8345,
+   "t1": 301.28815,
+   "text": "Marcus's father had died when he was fifteen, leaving three thousand dollars in life insurance."
+  },
+  {
+   "t0": 301.83055,
+   "t1": 304.70101,
+   "text": "Against his mother's objections, Marcus cashed it in."
+  },
+  {
+   "t0": 305.29427,
+   "t1": 308.2842,
+   "text": "But this time he decided he would learn something first."
+  },
+  {
+   "t0": 308.9842,
+   "t1": 314.6846,
+   "text": "He studied the books of Chester Keltner, a commodity analyst, and subscribed to Keltner's market letter."
+  },
+  {
+   "t0": 315.1748,
+   "t1": 317.4333,
+   "text": "The first recommendation was to buy wheat."
+  },
+  {
+   "t0": 317.9533,
+   "t1": 322.3082,
+   "text": "It worked — a gain of about four cents a bushel, two hundred dollars."
+  },
+  {
+   "t0": 322.7193,
+   "t1": 324.1939,
+   "text": "His first winning trade."
+  },
+  {
+   "t0": 324.8939,
+   "t1": 331.056,
+   "text": "Then, in the summer of 1970, he bought three contracts of December corn on a Keltner recommendation."
+  },
+  {
+   "t0": 332.656,
+   "t1": 338.0435,
+   "text": "That summer, a fungal disease called southern corn leaf blight swept through America's cornfields."
+  },
+  {
+   "t0": 338.3864,
+   "t1": 346.7651,
+   "text": "Government and research reports later estimated it destroyed roughly fifteen percent of the national corn crop — in some fields, almost everything."
+  },
+  {
+   "t0": 347.4651,
+   "t1": 348.858,
+   "text": "Corn prices surged."
+  },
+  {
+   "t0": 349.3346,
+   "t1": 350.50710000000004,
+   "text": "So did Marcus's account."
+  },
+  {
+   "t0": 351.0838,
+   "t1": 359.159,
+   "text": "Adding corn, wheat and soybeans — partly on the newsletter, partly on instinct — he finished that summer with about thirty thousand dollars."
+  },
+  {
+   "t0": 359.54970000000003,
+   "t1": 362.82710000000003,
+   "text": "For a young man from a middle-class family, it was a fortune."
+  },
+  {
+   "t0": 363.5271,
+   "t1": 365.1301,
+   "text": "He was honest about it afterwards."
+  },
+  {
+   "t0": 365.5215,
+   "t1": 367.4031,
+   "text": "He called the trade \"sheer luck.\""
+  },
+  {
+   "t0": 369.0031,
+   "t1": 370.79,
+   "text": "This is a moment worth pausing on."
+  },
+  {
+   "t0": 371.2398,
+   "t1": 378.5104,
+   "text": "A beginner who wins big early has a problem that a beginner who loses does not: he may not know which part of the win was skill and which part was luck."
+  },
+  {
+   "t0": 378.8574,
+   "t1": 380.159,
+   "text": "Marcus was about to find out."
+  },
+  {
+   "t0": 380.859,
+   "t1": 386.376,
+   "text": "That autumn he started graduate school in Worcester, Massachusetts."
+  },
+  {
+   "t0": 386.73789999999997,
+   "t1": 391.0693,
+   "text": "Instead of attending classes, he slipped away to a local brokerage office to trade."
+  },
+  {
+   "t0": 391.4607,
+   "t1": 395.2939,
+   "text": "In December 1970, he left the program and moved to New York."
+  },
+  {
+   "t0": 395.6957,
+   "t1": 400.75329999999997,
+   "text": "When people asked what he did, he told them — a little grandly — that he was a speculator."
+  },
+  {
+   "t0": 402.3533,
+   "t1": 409.53729999999996,
+   "text": "In the spring of 1971, a theory spread through the grain markets: the blight had survived the winter and would strike again."
+  },
+  {
+   "t0": 410.0123,
+   "t1": 412.71529999999996,
+   "text": "Marcus decided he would be fully positioned this time."
+  },
+  {
+   "t0": 413.41529999999995,
+   "t1": 422.27529999999996,
+   "text": "He borrowed twenty thousand dollars from his mother, added it to his thirty thousand, and bought as many corn and wheat contracts as fifty thousand dollars of margin would allow."
+  },
+  {
+   "t0": 422.7262999999999,
+   "t1": 423.77329999999995,
+   "text": "Everything he had."
+  },
+  {
+   "t0": 424.2072999999999,
+   "t1": 425.28329999999994,
+   "text": "On one idea."
+  },
+  {
+   "t0": 426.88329999999996,
+   "t1": 429.54929999999996,
+   "text": "For a while, fear of the blight held prices up."
+  },
+  {
+   "t0": 429.88329999999996,
+   "t1": 438.47429999999997,
+   "text": "Then, as Marcus remembered it, a newspaper article ridiculed the idea — suggesting there was more blight on the trading floor in Chicago than in the cornfields."
+  },
+  {
+   "t0": 438.8573,
+   "t1": 442.0482999999999,
+   "text": "Corn opened sharply lower and fell to its daily limit."
+  },
+  {
+   "t0": 442.7482999999999,
+   "t1": 443.6462999999999,
+   "text": "Here's what that means."
+  },
+  {
+   "t0": 444.0182999999999,
+   "t1": 447.73829999999987,
+   "text": "Many futures markets cap how far prices may move in a single day."
+  },
+  {
+   "t0": 448.14429999999993,
+   "t1": 455.3252999999999,
+   "text": "If the true price — the price where buyers and sellers would meet — lies below that cap, trading effectively stops."
+  },
+  {
+   "t0": 455.9332999999999,
+   "t1": 459.4382999999999,
+   "text": "There are plenty of sellers, and almost no one willing to buy at the limit."
+  },
+  {
+   "t0": 460.08129999999994,
+   "t1": 462.03629999999987,
+   "text": "The market is \"locked limit-down.\""
+  },
+  {
+   "t0": 462.6432999999999,
+   "t1": 465.3002999999999,
+   "text": "A trader who has not already sold is trapped."
+  },
+  {
+   "t0": 466.00029999999987,
+   "t1": 468.22029999999984,
+   "text": "Marcus had watched it happen in real time."
+  },
+  {
+   "t0": 468.7812999999999,
+   "t1": 470.58029999999985,
+   "text": "He knew he should sell on the way down."
+  },
+  {
+   "t0": 471.20929999999987,
+   "t1": 473.17629999999986,
+   "text": "He froze, hoping for a turn."
+  },
+  {
+   "t0": 473.87329999999986,
+   "t1": 476.64929999999987,
+   "text": "By the time the market locked, there was no way out."
+  },
+  {
+   "t0": 477.34929999999986,
+   "t1": 479.9972999999999,
+   "text": "The next morning, he sold everything at the opening."
+  },
+  {
+   "t0": 480.48029999999983,
+   "t1": 485.9912999999999,
+   "text": "He lost his own thirty thousand dollars — and twelve thousand of the twenty thousand his mother had lent him."
+  },
+  {
+   "t0": 487.59129999999993,
+   "t1": 490.1652999999999,
+   "text": "He called it his lesson in betting his whole stake."
+  },
+  {
+   "t0": 490.75729999999993,
+   "t1": 496.15729999999996,
+   "text": "But as we'll see, it took him one more near-disaster before the lesson truly took hold."
+  },
+  {
+   "t0": 502.35729999999995,
+   "t1": 505.26264999999995,
+   "text": "With a recession on, Marcus went looking for work."
+  },
+  {
+   "t0": 505.83618999999993,
+   "t1": 512.4874,
+   "text": "He found that he couldn't land even jobs he was well qualified for — and concluded it was because he didn't really want them."
+  },
+  {
+   "t0": 513.2470999999999,
+   "t1": 519.4885999999999,
+   "text": "When he applied for a position he truly wanted — commodity research analyst at Reynolds Securities — he got it."
+  },
+  {
+   "t0": 520.1886,
+   "t1": 521.7324,
+   "text": "There is a curious connection here."
+  },
+  {
+   "t0": 522.3739999999999,
+   "t1": 531.7117,
+   "text": "When Marcus left that Reynolds job, his replacement was a young analyst named Jack Schwager — the man who, years later, would interview him for Market Wizards."
+  },
+  {
+   "t0": 532.4117,
+   "t1": 534.9673,
+   "text": "At Reynolds, analysts were forbidden to trade."
+  },
+  {
+   "t0": 535.6363,
+   "t1": 536.9886,
+   "text": "Marcus traded anyway."
+  },
+  {
+   "t0": 537.5244,
+   "t1": 545.1054,
+   "text": "He borrowed from his mother, his brother and his girlfriend, opened an account at another firm, and communicated with his broker in code."
+  },
+  {
+   "t0": 545.6861,
+   "t1": 547.287,
+   "text": "\"The sun is out\" meant one thing."
+  },
+  {
+   "t0": 547.8426,
+   "t1": 549.5828,
+   "text": "\"The weather is cloudy\" meant another."
+  },
+  {
+   "t0": 551.1828,
+   "t1": 558.9137000000001,
+   "text": "Through the glass partition he watched the brokers' board while writing his research reports, trying to keep his face blank whether he was winning or losing."
+  },
+  {
+   "t0": 559.5282000000001,
+   "t1": 562.2511000000001,
+   "text": "He described the period as a manic-depressive state."
+  },
+  {
+   "t0": 562.8173,
+   "t1": 563.7586,
+   "text": "He kept losing."
+  },
+  {
+   "t0": 565.3586,
+   "t1": 572.6701,
+   "text": "Then, in October 1971, at his broker's office, he met the man he would credit with his success: Ed Seykota."
+  },
+  {
+   "t0": 573.3701000000001,
+   "t1": 580.5952000000001,
+   "text": "Seykota had recently graduated from MIT and was building some of the first computer programs to test and trade technical systems."
+  },
+  {
+   "t0": 581.0572000000001,
+   "t1": 588.8034000000001,
+   "text": "He was a trend follower: he bought markets that were rising and sold markets that were falling, and stayed with them until the trend changed."
+  },
+  {
+   "t0": 590.4034000000001,
+   "t1": 593.7599000000001,
+   "text": "The idea is simple to state and brutally hard to practise."
+  },
+  {
+   "t0": 594.2617000000001,
+   "t1": 597.5259000000001,
+   "text": "You accept many small losses, cutting each one quickly."
+  },
+  {
+   "t0": 598.0110000000002,
+   "t1": 600.4148000000001,
+   "text": "And you let a few winners run as far as they can."
+  },
+  {
+   "t0": 601.0216000000001,
+   "t1": 606.4411000000001,
+   "text": "Because the winners are so much larger than the losers, the account can grow even if most trades fail."
+  },
+  {
+   "t0": 607.1411000000002,
+   "t1": 608.6381000000001,
+   "text": "Marcus remembered one example."
+  },
+  {
+   "t0": 609.1891000000002,
+   "t1": 614.4751000000001,
+   "text": "Seykota was short silver while the market slipped lower — half a penny a day, a penny a day."
+  },
+  {
+   "t0": 615.0201000000002,
+   "t1": 618.4001000000002,
+   "text": "Everyone around him argued silver was cheap and had to go up."
+  },
+  {
+   "t0": 618.8901000000002,
+   "t1": 620.3941000000002,
+   "text": "Seykota stayed short."
+  },
+  {
+   "t0": 620.9271000000001,
+   "t1": 627.3191000000002,
+   "text": "His explanation, as Marcus recalled it, was simple: the trend was down, and he would stay short until it changed."
+  },
+  {
+   "t0": 628.0191000000002,
+   "t1": 629.8841000000002,
+   "text": "Marcus learned patience from watching that."
+  },
+  {
+   "t0": 630.4541000000002,
+   "t1": 631.5881000000002,
+   "text": "But not immediately."
+  },
+  {
+   "t0": 632.1181000000003,
+   "t1": 634.7431000000003,
+   "text": "He kept losing, even with Seykota beside him."
+  },
+  {
+   "t0": 635.3931000000002,
+   "t1": 640.0781000000002,
+   "text": "Looking back, he said he wasn't patient enough to wait for a clearly defined situation."
+  },
+  {
+   "t0": 640.7781000000002,
+   "t1": 648.2821000000002,
+   "text": "A second mentor appeared: Amos Hostetter, a semi-retired and highly successful broker at Shearson, who liked Marcus's writing."
+  },
+  {
+   "t0": 648.9201000000003,
+   "t1": 650.8251000000002,
+   "text": "Hostetter taught the same principles."
+  },
+  {
+   "t0": 651.3261000000002,
+   "t1": 656.2841000000002,
+   "text": "Two teachers, one message: cut losses, ride winners, be patient."
+  },
+  {
+   "t0": 656.9841000000002,
+   "t1": 662.8841000000002,
+   "text": "By mid-1972, Marcus had run out of money, and out of people willing to lend him any."
+  },
+  {
+   "t0": 663.5891000000003,
+   "t1": 668.6298140000002,
+   "text": "All he had left, he said, was a stubborn confidence that he could get back on track."
+  },
+  {
+   "t0": 674.8298140000003,
+   "t1": 677.9711940000003,
+   "text": "To understand Marcus's breakthrough, we need some history."
+  },
+  {
+   "t0": 678.5740740000003,
+   "t1": 684.0867940000003,
+   "text": "In August 1971, President Nixon froze wages and prices to fight inflation."
+  },
+  {
+   "t0": 684.5834640000003,
+   "t1": 688.0998140000003,
+   "text": "The freeze was followed by a longer period of official price controls."
+  },
+  {
+   "t0": 688.7998140000003,
+   "t1": 691.6852140000003,
+   "text": "Marcus was earning twelve and a half thousand dollars a year."
+  },
+  {
+   "t0": 692.2393140000003,
+   "t1": 693.5864140000003,
+   "text": "He saved seven hundred."
+  },
+  {
+   "t0": 693.9940140000003,
+   "t1": 699.9249140000003,
+   "text": "Not enough to open an account — so a friend added seven hundred more, and Marcus ran the joint account."
+  },
+  {
+   "t0": 700.6249140000003,
+   "t1": 703.3994140000003,
+   "text": "One of the markets he covered as an analyst was plywood."
+  },
+  {
+   "t0": 703.8654140000003,
+   "t1": 710.5218140000003,
+   "text": "As he recalled it, the plywood price was supposed to be held at a ceiling of one hundred and ten dollars per thousand square feet."
+  },
+  {
+   "t0": 710.9508140000004,
+   "t1": 720.0983140000003,
+   "text": "With prices near that level, Marcus actually published a bearish view: if prices legally couldn't go above a hundred and ten, there was little to lose by selling there."
+  },
+  {
+   "t0": 721.6983140000003,
+   "t1": 727.5679140000003,
+   "text": "Economics offers a clear prediction about prices held artificially low: they create shortages."
+  },
+  {
+   "t0": 727.9962140000004,
+   "t1": 729.5669140000003,
+   "text": "Plywood became scarce."
+  },
+  {
+   "t0": 729.9976140000003,
+   "t1": 733.6411140000004,
+   "text": "And no one was certain whether the futures market was bound by the same ceiling."
+  },
+  {
+   "t0": 734.3411140000004,
+   "t1": 738.4510140000004,
+   "text": "Then Marcus watched the futures price touch one hundred and ten dollars… and keep going."
+  },
+  {
+   "t0": 739.0043140000004,
+   "t1": 741.2299140000003,
+   "text": "A hundred and ten, ten."
+  },
+  {
+   "t0": 741.6601140000004,
+   "t1": 743.9460140000004,
+   "text": "A hundred and ten, twenty."
+  },
+  {
+   "t0": 744.4782140000004,
+   "t1": 746.2196140000004,
+   "text": "Nobody seemed to know what would happen."
+  },
+  {
+   "t0": 746.7328140000004,
+   "t1": 749.0320140000005,
+   "text": "The next day, it opened higher still."
+  },
+  {
+   "t0": 749.7320140000005,
+   "t1": 754.9801140000005,
+   "text": "His reasoning was simple: if they let it trade above the ceiling today, they might let it trade anywhere."
+  },
+  {
+   "t0": 755.4889140000005,
+   "t1": 756.9348140000005,
+   "text": "He bought one contract."
+  },
+  {
+   "t0": 758.5348140000006,
+   "t1": 762.8396140000006,
+   "text": "As Marcus told it, plywood eventually went to around two hundred dollars."
+  },
+  {
+   "t0": 763.2672140000005,
+   "t1": 767.7275140000006,
+   "text": "As the price rose, he added to his position — a technique called pyramiding."
+  },
+  {
+   "t0": 768.4275140000007,
+   "t1": 777.7785140000007,
+   "text": "Pyramiding means using profits from a winning position to add more, ideally in smaller amounts each time, so the position grows only while the market proves you right."
+  },
+  {
+   "t0": 778.2504140000007,
+   "t1": 780.4644140000006,
+   "text": "It's how a small account becomes a large one."
+  },
+  {
+   "t0": 781.0004140000007,
+   "t1": 787.2234140000006,
+   "text": "But it carries a risk: if you add too much, too late, a reversal can wipe out everything you've built."
+  },
+  {
+   "t0": 787.9234140000007,
+   "t1": 792.0994140000007,
+   "text": "In a few months, the seven hundred dollars had grown to about twelve thousand."
+  },
+  {
+   "t0": 793.6994140000007,
+   "t1": 797.7964140000007,
+   "text": "The futures market had become, in effect, a supplier of last resort."
+  },
+  {
+   "t0": 798.2804140000007,
+   "t1": 802.6644140000008,
+   "text": "Buyers who couldn't get plywood through normal channels could buy it there, at a higher price."
+  },
+  {
+   "t0": 803.1044140000007,
+   "t1": 811.3610260000007,
+   "text": "Marcus saw an inefficiency created by government policy — and the confusion that surrounded it — and recognised it before most others did."
+  },
+  {
+   "t0": 817.5610260000008,
+   "t1": 819.1422260000007,
+   "text": "And then he did it again."
+  },
+  {
+   "t0": 819.8422260000008,
+   "t1": 826.1301160000007,
+   "text": "He reasoned that lumber, also a wood product and also in short supply, should follow plywood through its ceiling."
+  },
+  {
+   "t0": 826.7012960000008,
+   "t1": 827.8166260000007,
+   "text": "It was a logical idea."
+  },
+  {
+   "t0": 828.3276260000008,
+   "t1": 829.6437260000008,
+   "text": "He bet everything on it."
+  },
+  {
+   "t0": 830.3437260000009,
+   "t1": 832.8969260000008,
+   "text": "He bought lumber at about a hundred and thirty dollars."
+  },
+  {
+   "t0": 833.5056260000008,
+   "t1": 841.2858260000008,
+   "text": "The very next day, as he remembered it, a government official announced a crackdown on speculators trying to repeat the plywood run in lumber."
+  },
+  {
+   "t0": 841.9035260000009,
+   "t1": 843.6028260000008,
+   "text": "The market crashed on the statement."
+  },
+  {
+   "t0": 844.2804260000008,
+   "t1": 846.8528260000008,
+   "text": "For two weeks, more official warnings followed."
+  },
+  {
+   "t0": 848.4528260000009,
+   "t1": 852.9813260000009,
+   "text": "Lumber fell to around a hundred and seventeen — a decline of about ten percent."
+  },
+  {
+   "t0": 853.4626260000009,
+   "t1": 857.0009260000008,
+   "text": "Yet Marcus's twelve thousand dollars fell below four thousand."
+  },
+  {
+   "t0": 857.7009260000009,
+   "t1": 858.5420260000009,
+   "text": "Do the arithmetic."
+  },
+  {
+   "t0": 859.0688260000009,
+   "t1": 862.7775260000009,
+   "text": "A ten percent fall in price cost him about two-thirds of his account."
+  },
+  {
+   "t0": 863.3930260000009,
+   "t1": 867.1694260000008,
+   "text": "That implies his market exposure was six to seven times his capital."
+  },
+  {
+   "t0": 867.7056260000008,
+   "t1": 873.3322260000009,
+   "text": "This is the hidden danger of leverage: it isn't the size of the market move that destroys traders."
+  },
+  {
+   "t0": 873.7275260000009,
+   "t1": 875.3266260000009,
+   "text": "It's the size of the position."
+  },
+  {
+   "t0": 876.026626000001,
+   "t1": 878.718526000001,
+   "text": "Those two weeks, he said, were the worst of his life."
+  },
+  {
+   "t0": 879.343926000001,
+   "t1": 880.319326000001,
+   "text": "His hands shook."
+  },
+  {
+   "t0": 880.844626000001,
+   "t1": 883.2537260000009,
+   "text": "Each day he went to the office ready to give up."
+  },
+  {
+   "t0": 883.953726000001,
+   "t1": 887.377226000001,
+   "text": "The market stabilised just above the level that would have wiped him out."
+  },
+  {
+   "t0": 887.975426000001,
+   "t1": 895.200926000001,
+   "text": "He held on — out of desperation more than courage, he admitted, though he noticed a support level on the chart that prices wouldn't break."
+  },
+  {
+   "t0": 895.792526000001,
+   "t1": 897.373326000001,
+   "text": "Eventually lumber turned."
+  },
+  {
+   "t0": 897.870526000001,
+   "t1": 902.495826000001,
+   "text": "By the end of 1972, the account was worth about twenty-four thousand dollars."
+  },
+  {
+   "t0": 903.195826000001,
+   "t1": 904.934226000001,
+   "text": "But the real gain was a rule."
+  },
+  {
+   "t0": 905.6037260000011,
+   "t1": 910.229826000001,
+   "text": "After lumber, Marcus said, he never again bet everything on one trade."
+  },
+  {
+   "t0": 916.4298260000011,
+   "t1": 919.8509860000011,
+   "text": "In 1973, the price controls began to loosen."
+  },
+  {
+   "t0": 920.4822260000011,
+   "t1": 926.6762260000011,
+   "text": "After two years of artificially suppressed prices and shortages, many commodities exploded upward."
+  },
+  {
+   "t0": 927.2249260000011,
+   "t1": 929.4877260000011,
+   "text": "Prices doubled in market after market."
+  },
+  {
+   "t0": 930.1877260000011,
+   "t1": 933.5630260000012,
+   "text": "Marcus was positioned for it — and so was his worldview."
+  },
+  {
+   "t0": 934.1062260000011,
+   "t1": 942.8625260000011,
+   "text": "He described himself at the time as politically right-wing and an \"inflation alarmist,\" convinced governments were constantly debasing their currencies."
+  },
+  {
+   "t0": 943.2526260000011,
+   "t1": 947.0474260000011,
+   "text": "It was, as Schwager put it, the right theory for the right time."
+  },
+  {
+   "t0": 947.6525260000011,
+   "t1": 952.9380260000012,
+   "text": "Marcus agreed: markets were so fertile that he could make plenty of mistakes and still do well."
+  },
+  {
+   "t0": 953.4868260000011,
+   "t1": 958.7787260000011,
+   "text": "In 1973, his account grew from twenty-four to sixty-four thousand dollars."
+  },
+  {
+   "t0": 960.3787260000012,
+   "t1": 963.3848260000011,
+   "text": "But his most painful moment of that year was not a loss."
+  },
+  {
+   "t0": 963.9026260000012,
+   "t1": 965.3598260000011,
+   "text": "It was a win he let go."
+  },
+  {
+   "t0": 966.0598260000012,
+   "t1": 970.9183260000012,
+   "text": "During the great soybean bull market, he impulsively took his profits and stepped aside."
+  },
+  {
+   "t0": 971.4065260000012,
+   "t1": 975.1737260000011,
+   "text": "Seykota, who never exited unless the trend changed, stayed in."
+  },
+  {
+   "t0": 975.6825260000012,
+   "t1": 983.1654260000012,
+   "text": "Marcus watched soybeans go limit-up day after day — twelve days in a row, as he remembered it — with no way to get back in."
+  },
+  {
+   "t0": 983.7190260000011,
+   "t1": 988.7465260000012,
+   "text": "Every morning he dreaded going to work, knowing Seykota was in and he was out."
+  },
+  {
+   "t0": 989.4465260000012,
+   "t1": 991.4993260000012,
+   "text": "The anguish was worse than losing money."
+  },
+  {
+   "t0": 991.9949260000012,
+   "t1": 993.2425260000011,
+   "text": "He tried tranquillisers."
+  },
+  {
+   "t0": 993.7466260000012,
+   "t1": 996.4329260000012,
+   "text": "Then someone suggested a much stronger drug."
+  },
+  {
+   "t0": 996.8967260000012,
+   "t1": 1000.0118260000012,
+   "text": "He took it, collapsed on the way to work, and missed the day."
+  },
+  {
+   "t0": 1000.4882260000012,
+   "t1": 1002.9211260000012,
+   "text": "He called it the low point of his trading career."
+  },
+  {
+   "t0": 1004.5211260000012,
+   "t1": 1011.2709260000013,
+   "text": "Schwager drew a striking conclusion from this: Marcus's most devastating experience was a profitable trade."
+  },
+  {
+   "t0": 1011.7060260000012,
+   "t1": 1015.7776260000012,
+   "text": "For a trend trader, a handful of big winners pays for everything else."
+  },
+  {
+   "t0": 1016.1926260000013,
+   "t1": 1019.0576260000012,
+   "text": "Exit them too early, and the whole system breaks."
+  },
+  {
+   "t0": 1019.7576260000012,
+   "t1": 1022.2576260000012,
+   "text": "Shortly afterwards, the situation reversed."
+  },
+  {
+   "t0": 1022.7226260000012,
+   "t1": 1024.4906260000012,
+   "text": "Seykota recommended buying coffee."
+  },
+  {
+   "t0": 1025.1026260000012,
+   "t1": 1027.1056260000012,
+   "text": "Marcus bought, but placed a close stop."
+  },
+  {
+   "t0": 1027.5246260000013,
+   "t1": 1031.4696260000012,
+   "text": "The market turned down; Marcus was stopped out with a small loss."
+  },
+  {
+   "t0": 1031.9136260000012,
+   "t1": 1037.069626000001,
+   "text": "Seykota, with no stop, was locked in a falling market for several limit-down days."
+  },
+  {
+   "t0": 1037.7696260000012,
+   "t1": 1040.2946260000012,
+   "text": "Marcus confessed that he felt a flash of joy."
+  },
+  {
+   "t0": 1040.830626000001,
+   "t1": 1047.052626000001,
+   "text": "And then a question: what kind of place was this, where his greatest happiness came from someone else's pain?"
+  },
+  {
+   "t0": 1047.580626000001,
+   "t1": 1050.716626000001,
+   "text": "He decided the competitiveness of the desk was poisoning him."
+  },
+  {
+   "t0": 1051.2206260000012,
+   "t1": 1052.8756260000011,
+   "text": "He would become a floor trader."
+  },
+  {
+   "t0": 1059.0756260000012,
+   "t1": 1063.4660560000011,
+   "text": "The New York Cotton Exchange required a net worth of a hundred thousand dollars."
+  },
+  {
+   "t0": 1064.0374160000013,
+   "t1": 1067.1633560000012,
+   "text": "After several more profitable months, Marcus qualified."
+  },
+  {
+   "t0": 1067.8633560000012,
+   "t1": 1068.8417060000013,
+   "text": "It went badly."
+  },
+  {
+   "t0": 1069.4377660000011,
+   "t1": 1072.9450660000011,
+   "text": "He was good at picking trades, he said, but hopeless at the shouting."
+  },
+  {
+   "t0": 1073.5414660000013,
+   "t1": 1078.9730660000012,
+   "text": "Too shy to make himself heard in the ring, he ended up quietly passing his orders to a friend to execute."
+  },
+  {
+   "t0": 1079.6730660000012,
+   "t1": 1084.2255660000012,
+   "text": "Yet he later recommended the experience to anyone who wanted to become a better trader."
+  },
+  {
+   "t0": 1085.8255660000011,
+   "t1": 1090.2466660000011,
+   "text": "On the floor, he said, you develop an almost subconscious feel for the market."
+  },
+  {
+   "t0": 1090.7699660000012,
+   "t1": 1093.2871660000012,
+   "text": "You learn to read it through the intensity of voices."
+  },
+  {
+   "t0": 1093.771266000001,
+   "t1": 1097.7746660000012,
+   "text": "When an active market suddenly goes quiet, the move is often running out."
+  },
+  {
+   "t0": 1098.2646660000012,
+   "t1": 1106.305066000001,
+   "text": "When a moderately loud ring suddenly becomes very loud, it may not be about to explode — it may be colliding with a wall of opposing orders."
+  },
+  {
+   "t0": 1107.005066000001,
+   "t1": 1112.918966000001,
+   "text": "The most valuable thing he took away was respect for intraday chart points — like the earlier highs of the day."
+  },
+  {
+   "t0": 1114.518966000001,
+   "t1": 1123.599766000001,
+   "text": "At such a point, Marcus would take a position far larger than he could normally afford — twenty contracts instead of three to five — with an extremely close stop."
+  },
+  {
+   "t0": 1124.072666000001,
+   "t1": 1127.436166000001,
+   "text": "Either the market took off, or he was out almost immediately."
+  },
+  {
+   "t0": 1128.008366000001,
+   "t1": 1130.928766000001,
+   "text": "He might risk ten points to make three or four hundred."
+  },
+  {
+   "t0": 1131.354866000001,
+   "t1": 1136.171666000001,
+   "text": "He compared it to surfing: catch the crest at exactly the right moment, or bail out."
+  },
+  {
+   "t0": 1136.8716660000011,
+   "t1": 1137.936366000001,
+   "text": "Look at the mathematics."
+  },
+  {
+   "t0": 1138.4274660000012,
+   "t1": 1144.117366000001,
+   "text": "If you risk one unit to make thirty, you can be wrong nine times out of ten and still come out well ahead."
+  },
+  {
+   "t0": 1144.652866000001,
+   "t1": 1146.5446660000011,
+   "text": "That's what asymmetric risk means."
+  },
+  {
+   "t0": 1147.2446660000012,
+   "t1": 1148.5625660000012,
+   "text": "But Marcus added a warning."
+  },
+  {
+   "t0": 1149.1491660000013,
+   "t1": 1152.8568660000012,
+   "text": "By 1988 he believed the technique no longer worked as well."
+  },
+  {
+   "t0": 1153.3864660000013,
+   "t1": 1158.3583660000013,
+   "text": "Markets had become choppier; a break of an intraday high was more likely to snap back."
+  },
+  {
+   "t0": 1164.5583660000013,
+   "t1": 1172.5856460000014,
+   "text": "His escape from the floor came through his old mentor, Amos Hostetter, who was also trading for a firm in Princeton called Commodities Corporation."
+  },
+  {
+   "t0": 1173.2856460000014,
+   "t1": 1181.6293960000014,
+   "text": "Founded in 1969 by the economist Helmut Weymar, the firm had prestigious backers, including the Nobel laureate Paul Samuelson."
+  },
+  {
+   "t0": 1182.1372960000015,
+   "t1": 1187.0040960000015,
+   "text": "Its founding idea was to hire brilliant econometricians and turn them into traders."
+  },
+  {
+   "t0": 1187.7040960000015,
+   "t1": 1193.9104960000016,
+   "text": "When Marcus's name came up, the first question, as he remembered it, was what he had published, and in which journals."
+  },
+  {
+   "t0": 1194.5081960000016,
+   "t1": 1196.0630960000015,
+   "text": "The answer was: nothing."
+  },
+  {
+   "t0": 1196.6631960000016,
+   "t1": 1197.8425960000015,
+   "text": "He had a bachelor's degree."
+  },
+  {
+   "t0": 1198.4055960000014,
+   "t1": 1201.4151960000015,
+   "text": "The punchline — \"He just trades\" — drew laughter."
+  },
+  {
+   "t0": 1202.0051960000014,
+   "t1": 1203.6959960000015,
+   "text": "Hostetter persuaded them anyway."
+  },
+  {
+   "t0": 1204.2567960000015,
+   "t1": 1208.3172960000015,
+   "text": "Marcus believed he was the first trader they ever hired without a PhD."
+  },
+  {
+   "t0": 1209.9172960000014,
+   "t1": 1211.5761960000013,
+   "text": "In August 1974 they gave him thirty thousand dollars."
+  },
+  {
+   "t0": 1211.8604960000014,
+   "t1": 1215.1860960000015,
+   "text": "After a few years, a further hundred thousand."
+  },
+  {
+   "t0": 1215.4666960000015,
+   "t1": 1223.6840960000015,
+   "text": "From then on, the firm mostly took money out — charging its traders around thirty percent a year to cover its expenses."
+  },
+  {
+   "t0": 1224.1344960000015,
+   "t1": 1228.9626960000014,
+   "text": "After about ten years, Marcus said, the account stood at eighty million dollars."
+  },
+  {
+   "t0": 1229.6626960000015,
+   "t1": 1232.9608960000014,
+   "text": "Schwager describes it as a twenty-five-hundred-fold increase."
+  },
+  {
+   "t0": 1233.4401960000014,
+   "t1": 1245.4262960000015,
+   "text": "To put that in perspective: multiplying money twenty-five hundred times in ten years requires an average compound return of roughly a hundred and nineteen percent a year — every year, for a decade."
+  },
+  {
+   "t0": 1245.9021960000014,
+   "t1": 1250.8699960000015,
+   "text": "Marcus himself said he made at least a hundred percent a year, for years and years."
+  },
+  {
+   "t0": 1252.4699960000014,
+   "t1": 1256.3389960000013,
+   "text": "It is important to be clear: these figures come from Marcus and Schwager."
+  },
+  {
+   "t0": 1256.8594960000014,
+   "t1": 1259.7552960000014,
+   "text": "No independent audited record is publicly available."
+  },
+  {
+   "t0": 1260.2413960000015,
+   "t1": 1269.2121960000013,
+   "text": "But Schwager knew Marcus personally, and the firm's later history speaks for itself: in 1997, Goldman Sachs acquired Commodities Corporation."
+  },
+  {
+   "t0": 1269.9121960000014,
+   "t1": 1273.3191960000013,
+   "text": "For almost two years Marcus traded little except cocoa."
+  },
+  {
+   "t0": 1273.8181960000013,
+   "t1": 1279.1441960000013,
+   "text": "Weymar was one of the world's leading cocoa experts, with a network of contacts across the industry."
+  },
+  {
+   "t0": 1279.6561960000013,
+   "t1": 1289.2851960000014,
+   "text": "Marcus said he came to know the universe of cocoa as he had never known any market — and, he added drily, he traded Weymar's information better than Weymar did."
+  },
+  {
+   "t0": 1295.4851960000015,
+   "t1": 1302.1305660000014,
+   "text": "By the late 1970s Marcus had moved to California — which, he discovered, gave him an advantage."
+  },
+  {
+   "t0": 1302.6612460000015,
+   "t1": 1305.9331960000015,
+   "text": "While his New York colleagues slept, he could trade in Hong Kong."
+  },
+  {
+   "t0": 1307.5331960000015,
+   "t1": 1312.3061960000014,
+   "text": "In late 1978, the dollar was being battered, falling to new lows."
+  },
+  {
+   "t0": 1312.7787960000014,
+   "t1": 1317.9812960000015,
+   "text": "Marcus was trading closely with a protégé, Bruce Kovner — they spoke for hours every day."
+  },
+  {
+   "t0": 1318.6140960000014,
+   "t1": 1322.8809960000015,
+   "text": "One day they noticed the dollar suddenly strengthening for no reason they could find."
+  },
+  {
+   "t0": 1323.3470960000016,
+   "t1": 1326.3166960000015,
+   "text": "They sold their long foreign-currency positions immediately."
+  },
+  {
+   "t0": 1327.0166960000015,
+   "t1": 1331.1628960000014,
+   "text": "Soon after, President Carter announced a major program to defend the dollar."
+  },
+  {
+   "t0": 1331.6572960000015,
+   "t1": 1334.1379960000015,
+   "text": "Currency futures collapsed for several days."
+  },
+  {
+   "t0": 1334.5966960000014,
+   "t1": 1336.5390960000016,
+   "text": "Marcus and Kovner were already out."
+  },
+  {
+   "t0": 1338.1390960000015,
+   "t1": 1342.0825960000016,
+   "text": "A note for accuracy: Marcus remembered the announcement coming that weekend."
+  },
+  {
+   "t0": 1342.4726960000014,
+   "t1": 1346.7048960000016,
+   "text": "The official record dates it to Wednesday, the first of November, 1978."
+  },
+  {
+   "t0": 1347.1592960000014,
+   "t1": 1351.0270960000014,
+   "text": "The details of memory fade; the principle he drew from it did not."
+  },
+  {
+   "t0": 1351.7270960000014,
+   "t1": 1356.4977960000015,
+   "text": "That principle: the big players — including governments — tend to tip their hand."
+  },
+  {
+   "t0": 1356.9427960000014,
+   "t1": 1362.7504960000015,
+   "text": "When a market moves sharply against you and you can't explain why, get out first, and look for the reason later."
+  },
+  {
+   "t0": 1364.3504960000014,
+   "t1": 1367.1780960000015,
+   "text": "1979, he said, was his best year."
+  },
+  {
+   "t0": 1367.6600960000014,
+   "t1": 1369.9463960000014,
+   "text": "Gold was in a near-vertical bull market."
+  },
+  {
+   "t0": 1370.3928960000014,
+   "t1": 1378.2214960000015,
+   "text": "He would buy in Australia, watch Hong Kong push it ten dollars higher and London another ten, and sell in New York at a thirty-dollar profit."
+  },
+  {
+   "t0": 1378.9214960000015,
+   "t1": 1381.5066960000015,
+   "text": "Then came the Soviet invasion of Afghanistan."
+  },
+  {
+   "t0": 1382.0746960000015,
+   "t1": 1384.7460960000014,
+   "text": "Marcus saw the news on television and called Hong Kong."
+  },
+  {
+   "t0": 1385.2916960000016,
+   "t1": 1388.1081960000015,
+   "text": "Nobody there seemed to know; the price hadn't moved."
+  },
+  {
+   "t0": 1388.5574960000015,
+   "t1": 1393.0562960000016,
+   "text": "By his account, he bought two hundred thousand ounces of gold before the news spread."
+  },
+  {
+   "t0": 1393.5122960000015,
+   "t1": 1401.6276960000016,
+   "text": "When it did, minutes later, he had an immediate profit of about ten dollars an ounce — on his own figures, roughly two million dollars."
+  },
+  {
+   "t0": 1402.0736960000015,
+   "t1": 1406.4196960000015,
+   "text": "He said it was the first and only time he ever traded off television news."
+  },
+  {
+   "t0": 1406.8656960000014,
+   "t1": 1409.6606960000015,
+   "text": "He was later told not to visit the Hong Kong gold floor."
+  },
+  {
+   "t0": 1411.2606960000014,
+   "t1": 1413.9466960000013,
+   "text": "He sold at around seven hundred and fifty dollars."
+  },
+  {
+   "t0": 1414.4496960000015,
+   "t1": 1420.8466960000014,
+   "text": "Gold went on to about eight hundred and fifty in January 1980 — Marcus remembered it as nearly nine hundred."
+  },
+  {
+   "t0": 1421.3326960000013,
+   "t1": 1422.7746960000013,
+   "text": "He felt sick, he said."
+  },
+  {
+   "t0": 1423.2526960000014,
+   "t1": 1426.7136960000014,
+   "text": "But when gold later fell back toward four hundred, he felt much better."
+  },
+  {
+   "t0": 1427.4136960000014,
+   "t1": 1428.4586960000015,
+   "text": "How did he know to leave?"
+  },
+  {
+   "t0": 1429.0846960000015,
+   "t1": 1430.9106960000015,
+   "text": "He had a rule for wild markets."
+  },
+  {
+   "t0": 1431.3166960000015,
+   "t1": 1435.4386960000015,
+   "text": "When a market went limit-up three days in a row, he became very cautious."
+  },
+  {
+   "t0": 1435.8506960000013,
+   "t1": 1438.2646960000015,
+   "text": "On the fourth, he almost always got out."
+  },
+  {
+   "t0": 1438.7076960000015,
+   "t1": 1442.5776960000014,
+   "text": "And if anything remained by the fifth, he had a mandatory rule to exit."
+  },
+  {
+   "t0": 1443.0096960000014,
+   "t1": 1448.2386960000015,
+   "text": "Insane volatility and momentum, he believed, signalled the end of a move, not the beginning."
+  },
+  {
+   "t0": 1449.8386960000014,
+   "t1": 1461.7396960000015,
+   "text": "In the early 1980s, by his account, Marcus held currency positions as large as six hundred million Deutsche marks — about three hundred million dollars — across his own and the company account."
+  },
+  {
+   "t0": 1462.3776960000014,
+   "t1": 1465.8186960000014,
+   "text": "He believed he was among the larger currency traders in the world."
+  },
+  {
+   "t0": 1466.3786960000014,
+   "t1": 1473.5666960000015,
+   "text": "The market never closed, so he woke almost every two hours to check Australia, Hong Kong, Zurich and London."
+  },
+  {
+   "t0": 1474.2176960000013,
+   "t1": 1475.9136960000014,
+   "text": "It ended his marriage, he said."
+  },
+  {
+   "t0": 1476.6136960000015,
+   "t1": 1478.4986960000015,
+   "text": "And size brought its own danger."
+  },
+  {
+   "t0": 1479.0756960000015,
+   "t1": 1482.8436960000015,
+   "text": "Once, the German central bank intervened to punish speculators."
+  },
+  {
+   "t0": 1483.3726960000015,
+   "t1": 1487.2916960000016,
+   "text": "Marcus was down two and a half million dollars in about five minutes."
+  },
+  {
+   "t0": 1487.8156960000015,
+   "t1": 1490.0376960000015,
+   "text": "He got out — rather than risk ten million."
+  },
+  {
+   "t0": 1490.6846960000014,
+   "t1": 1494.0646960000015,
+   "text": "Half an hour later, the market had recovered its entire fall."
+  },
+  {
+   "t0": 1494.7646960000015,
+   "t1": 1496.6286960000016,
+   "text": "He still believed he did the right thing."
+  },
+  {
+   "t0": 1497.1716960000015,
+   "t1": 1503.5156960000015,
+   "text": "A stop protects you from the disaster you can't foresee — even if, this time, the disaster didn't arrive."
+  },
+  {
+   "t0": 1509.7156960000016,
+   "t1": 1513.9694360000017,
+   "text": "If there is one idea at the heart of Marcus's mature method, it is this."
+  },
+  {
+   "t0": 1514.6113660000017,
+   "t1": 1517.7121160000015,
+   "text": "The best trades have three things going for them at once."
+  },
+  {
+   "t0": 1519.3121160000014,
+   "t1": 1524.8395360000013,
+   "text": "First, fundamentals: an imbalance of supply and demand that could drive a major move."
+  },
+  {
+   "t0": 1525.5753360000015,
+   "t1": 1530.6909360000013,
+   "text": "Second, technicals: the chart must show the market already moving in that direction."
+  },
+  {
+   "t0": 1531.2973360000015,
+   "t1": 1536.4257360000015,
+   "text": "Third, market tone: when news arrives, the market must react the right way."
+  },
+  {
+   "t0": 1536.9895360000014,
+   "t1": 1540.3841360000015,
+   "text": "A bull market should shrug off bad news and leap on good news."
+  },
+  {
+   "t0": 1541.0841360000015,
+   "t1": 1548.1609360000016,
+   "text": "Restrict yourself to those trades, Marcus said, and you must make money — in any market, under any circumstances."
+  },
+  {
+   "t0": 1548.8609360000016,
+   "t1": 1550.8936360000016,
+   "text": "Then he confessed something unusual."
+  },
+  {
+   "t0": 1551.5864360000016,
+   "t1": 1553.4909360000017,
+   "text": "He didn't follow his own advice."
+  },
+  {
+   "t0": 1554.0246360000017,
+   "t1": 1558.4933360000016,
+   "text": "He enjoyed the game too much; trading was his hobby and his release."
+  },
+  {
+   "t0": 1559.0265360000017,
+   "t1": 1560.6862360000016,
+   "text": "What saved him was sizing."
+  },
+  {
+   "t0": 1561.3535360000017,
+   "t1": 1566.2789360000015,
+   "text": "When a trade met all three criteria, he put on five or six times his normal size."
+  },
+  {
+   "t0": 1566.7946360000017,
+   "t1": 1570.3686360000015,
+   "text": "All his profits, he said, came from those trades."
+  },
+  {
+   "t0": 1570.6051360000017,
+   "t1": 1573.0797360000017,
+   "text": "The rest roughly broke even — and kept him amused."
+  },
+  {
+   "t0": 1574.6797360000016,
+   "t1": 1578.6300360000016,
+   "text": "His favourite example came from a late-1970s soybean bull market."
+  },
+  {
+   "t0": 1579.2024360000016,
+   "t1": 1580.6087360000017,
+   "text": "Marcus was heavily long."
+  },
+  {
+   "t0": 1581.1243360000017,
+   "t1": 1587.0850360000015,
+   "text": "A colleague called with spectacular export figures: the market was expected to go limit-up for three days."
+  },
+  {
+   "t0": 1587.5515360000018,
+   "t1": 1589.8886360000017,
+   "text": "He even added to his position at the next opening."
+  },
+  {
+   "t0": 1590.5886360000018,
+   "t1": 1594.1242360000017,
+   "text": "Soybeans opened limit-up — and then slipped off the limit."
+  },
+  {
+   "t0": 1594.6681360000018,
+   "t1": 1601.0322360000018,
+   "text": "If soybeans were supposed to be limit-up for three days, and couldn't hold it for one morning, something was badly wrong."
+  },
+  {
+   "t0": 1601.5874360000018,
+   "t1": 1606.8570360000017,
+   "text": "He sold frantically — so frantically that he lost count, and ended up substantially short."
+  },
+  {
+   "t0": 1607.3440360000018,
+   "t1": 1613.1475360000018,
+   "text": "He bought it back forty to fifty cents lower: the only time, he said, he made a lot of money on an error."
+  },
+  {
+   "t0": 1614.7475360000017,
+   "t1": 1617.2325360000016,
+   "text": "The rule is one of the most powerful in trading."
+  },
+  {
+   "t0": 1617.8315360000017,
+   "t1": 1619.9675360000017,
+   "text": "Prices reflect expectations."
+  },
+  {
+   "t0": 1620.4835360000018,
+   "t1": 1626.1795360000017,
+   "text": "When the best possible news fails to move a market, it means everyone who wanted to buy has already bought."
+  },
+  {
+   "t0": 1627.7795360000016,
+   "t1": 1630.6985360000017,
+   "text": "Marcus applied the same thinking to how markets were changing."
+  },
+  {
+   "t0": 1631.2815360000016,
+   "t1": 1644.4165360000015,
+   "text": "In the early 1970s, he said, there was a slow chain of buyers after a breakout: professionals first, then commercial users, then brokerage clients, then — in his words — \"the dentists of the world,\" who arrived last."
+  },
+  {
+   "t0": 1644.9795360000016,
+   "t1": 1650.0965360000016,
+   "text": "By the late 1980s, the moment a market broke a key level, everyone saw it at once."
+  },
+  {
+   "t0": 1650.5155360000017,
+   "t1": 1652.2725360000015,
+   "text": "The follow-through buyers were gone."
+  },
+  {
+   "t0": 1652.8495360000015,
+   "t1": 1654.3875360000015,
+   "text": "Breakouts failed more often."
+  },
+  {
+   "t0": 1655.0875360000016,
+   "t1": 1659.5795360000016,
+   "text": "So the trader must always ask: how many people are left to act on this idea?"
+  },
+  {
+   "t0": 1660.0395360000016,
+   "t1": 1661.7785360000016,
+   "text": "Has the market already priced it in?"
+  },
+  {
+   "t0": 1667.9785360000017,
+   "t1": 1672.6038160000016,
+   "text": "For all his skill in markets, Marcus was candid about his failures outside them."
+  },
+  {
+   "t0": 1673.2192360000017,
+   "t1": 1681.7083360000017,
+   "text": "He owned around ten houses — some he sold without spending a night in them — ran a plane charter service, and employed sixty or seventy people."
+  },
+  {
+   "t0": 1682.3834360000017,
+   "t1": 1690.1936360000016,
+   "text": "Of every dollar he made trading, he once estimated, thirty cents went to tax, thirty to the planes, and twenty to the real estate."
+  },
+  {
+   "t0": 1691.7936360000015,
+   "t1": 1697.7909360000015,
+   "text": "He said he probably lost more than half of everything he made — and that when staff warned him, he fired them."
+  },
+  {
+   "t0": 1698.5067360000014,
+   "t1": 1705.8689360000014,
+   "text": "He invested emotionally, without analysis: repeating, outside the markets, the very mistake of his first trades."
+  },
+  {
+   "t0": 1706.5689360000015,
+   "t1": 1708.7745360000015,
+   "text": "He took it, he said, as a life lesson."
+  },
+  {
+   "t0": 1709.4249360000015,
+   "t1": 1715.1415360000015,
+   "text": "He didn't need to own a house in every beautiful place in the world; he could stay at a hotel and walk on the beach."
+  },
+  {
+   "t0": 1721.3415360000015,
+   "t1": 1726.5050760000015,
+   "text": "When Schwager asked what he would tell a beginning or losing trader, Marcus did not hesitate."
+  },
+  {
+   "t0": 1727.2050760000016,
+   "t1": 1731.6006060000016,
+   "text": "Rule one: risk less than five percent of your money on any one idea."
+  },
+  {
+   "t0": 1733.2006060000015,
+   "t1": 1738.5987060000016,
+   "text": "That way, he said, you can be wrong more than twenty times before you are wiped out."
+  },
+  {
+   "t0": 1738.8992060000014,
+   "t1": 1743.4627060000014,
+   "text": "In fact, losing five percent twenty times in a row would still leave about a third of the account."
+  },
+  {
+   "t0": 1743.9692060000016,
+   "t1": 1746.9424060000015,
+   "text": "And note his precise wording: one idea."
+  },
+  {
+   "t0": 1747.4100060000014,
+   "t1": 1750.4747060000016,
+   "text": "Buying two related grain markets is still one idea."
+  },
+  {
+   "t0": 1750.8544060000015,
+   "t1": 1752.9672060000014,
+   "text": "If both fall together, they are one bet."
+  },
+  {
+   "t0": 1753.6672060000014,
+   "t1": 1758.5414060000014,
+   "text": "Rule two: always use stops — and decide your exit before you enter."
+  },
+  {
+   "t0": 1759.0349060000015,
+   "t1": 1762.4428060000014,
+   "text": "Marcus said he always picked his exit point before taking a trade."
+  },
+  {
+   "t0": 1762.8571060000015,
+   "t1": 1764.2833060000014,
+   "text": "A stop order commits you."
+  },
+  {
+   "t0": 1764.9833060000014,
+   "t1": 1767.8120060000015,
+   "text": "Rule three: if it doesn't feel right, get out."
+  },
+  {
+   "t0": 1768.3145060000015,
+   "t1": 1770.1028060000015,
+   "text": "Don't worry about what your broker will think."
+  },
+  {
+   "t0": 1770.4947060000015,
+   "t1": 1773.2123060000015,
+   "text": "When in doubt, get out, and get a good night's sleep."
+  },
+  {
+   "t0": 1773.6241060000013,
+   "t1": 1776.5250060000014,
+   "text": "While you're in a position, he said, you can't think clearly."
+  },
+  {
+   "t0": 1776.9983060000015,
+   "t1": 1778.2975060000015,
+   "text": "Once you're out, you can."
+  },
+  {
+   "t0": 1778.7711060000015,
+   "t1": 1780.5189060000014,
+   "text": "Often he went back in the next day."
+  },
+  {
+   "t0": 1781.2189060000014,
+   "t1": 1784.2533060000014,
+   "text": "Rule four: hold your winners and cut your losers."
+  },
+  {
+   "t0": 1784.6313060000014,
+   "t1": 1786.0632060000014,
+   "text": "Both are equally important."
+  },
+  {
+   "t0": 1786.5399060000013,
+   "t1": 1791.5033060000014,
+   "text": "In his words, \"If you don't stay with your winners, you are not going to be able to pay for the losers.\""
+  },
+  {
+   "t0": 1792.2033060000015,
+   "t1": 1794.4642060000015,
+   "text": "Rule five: follow your own light."
+  },
+  {
+   "t0": 1795.0377060000014,
+   "t1": 1796.7635060000014,
+   "text": "Marcus had many brilliant friends."
+  },
+  {
+   "t0": 1797.0580060000016,
+   "t1": 1799.1407060000015,
+   "text": "But when he traded their ideas, he lost."
+  },
+  {
+   "t0": 1799.5799060000015,
+   "t1": 1806.7581060000016,
+   "text": "A trade that isn't yours gives you none of the conviction needed to hold it — and mixing styles, he said, often gives you the worst of both."
+  },
+  {
+   "t0": 1807.4581060000016,
+   "t1": 1809.7354060000016,
+   "text": "Rule six: watch your equity curve."
+  },
+  {
+   "t0": 1810.2097060000017,
+   "t1": 1812.8058060000017,
+   "text": "If it trends down, cut back and reassess."
+  },
+  {
+   "t0": 1813.2207060000017,
+   "t1": 1817.4527060000016,
+   "text": "In a losing streak, his instinct was to fight harder — and it rarely worked."
+  },
+  {
+   "t0": 1817.8196060000016,
+   "t1": 1821.4741060000017,
+   "text": "Losing, he believed, begets losing: it feeds pessimism."
+  },
+  {
+   "t0": 1821.8932060000016,
+   "t1": 1826.3285060000017,
+   "text": "So he cut size quickly, and sometimes stopped completely for three or four weeks."
+  },
+  {
+   "t0": 1827.9285060000016,
+   "t1": 1830.5145060000016,
+   "text": "Rule seven: don't rely on experts."
+  },
+  {
+   "t0": 1830.9365060000016,
+   "t1": 1834.1085060000016,
+   "text": "Most so-called experts, he said, are not traders."
+  },
+  {
+   "t0": 1834.4305060000015,
+   "t1": 1836.9605060000015,
+   "text": "Trading requires intense personal involvement."
+  },
+  {
+   "t0": 1837.3665060000017,
+   "t1": 1838.3695060000016,
+   "text": "Do your own homework."
+  },
+  {
+   "t0": 1838.8975060000016,
+   "t1": 1846.5025060000016,
+   "text": "And don't believe the market is controlled by conspiracies: almost always, the market is bigger than anyone, and it goes where it wants to go."
+  },
+  {
+   "t0": 1847.2025060000017,
+   "t1": 1851.6825060000017,
+   "text": "Beyond the rules, he described the qualities that cannot be written down."
+  },
+  {
+   "t0": 1852.1465060000016,
+   "t1": 1852.8515060000018,
+   "text": "Gut feel."
+  },
+  {
+   "t0": 1853.1895060000018,
+   "t1": 1858.1485060000016,
+   "text": "And courage — the courage to try, to fail, to succeed, and to keep going when things are hard."
+  },
+  {
+   "t0": 1858.5575060000017,
+   "t1": 1863.0335060000016,
+   "text": "To reach the very top, he believed, requires a gift, like a great violinist."
+  },
+  {
+   "t0": 1863.4195060000018,
+   "t1": 1867.6525060000017,
+   "text": "But becoming a competent, profitable trader is a skill that can be learned."
+  },
+  {
+   "t0": 1869.2525060000016,
+   "t1": 1872.6355060000017,
+   "text": "The quality he valued most in others was open-mindedness."
+  },
+  {
+   "t0": 1872.9745060000016,
+   "t1": 1879.5025060000016,
+   "text": "When he met Bruce Kovner — then a writer and academic who traded on the side — what struck him was Kovner's objectivity."
+  },
+  {
+   "t0": 1879.9315060000017,
+   "t1": 1882.7075060000016,
+   "text": "A good trader, Marcus said, cannot be rigid."
+  },
+  {
+   "t0": 1882.9715060000017,
+   "t1": 1890.2915060000016,
+   "text": "Kovner went on to found Caxton Associates in 1983 and became one of the most successful macro traders of his era."
+  },
+  {
+   "t0": 1896.4915060000017,
+   "t1": 1899.9004360000017,
+   "text": "In May 1988, Marcus made a bold claim."
+  },
+  {
+   "t0": 1900.5485160000017,
+   "t1": 1911.0987060000016,
+   "text": "The era of trend following, he said, was over — unless a powerful imbalance overwhelmed everything else, such as a drought, or a major bout of inflation or deflation."
+  },
+  {
+   "t0": 1911.7949060000017,
+   "t1": 1917.9219060000016,
+   "text": "He pointed to Richard Dennis, one of the most famous trend followers, whose public funds had suffered heavy losses."
+  },
+  {
+   "t0": 1919.5219060000015,
+   "t1": 1920.9126060000015,
+   "text": "Part of that is verifiable."
+  },
+  {
+   "t0": 1921.3620060000014,
+   "t1": 1928.3981060000015,
+   "text": "Several of Dennis's public funds did stop trading after losses beyond fifty percent in 1987 and 1988."
+  },
+  {
+   "t0": 1928.8871060000015,
+   "t1": 1939.6626060000015,
+   "text": "And within weeks of the interview, Marcus's own exception arrived: the great drought of 1988 cut American corn production by more than a third, and grain prices surged."
+  },
+  {
+   "t0": 1940.3626060000015,
+   "t1": 1941.6477060000016,
+   "text": "Was the larger claim right?"
+  },
+  {
+   "t0": 1942.1673060000014,
+   "t1": 1944.8668060000016,
+   "text": "Here we offer interpretation, not fact."
+  },
+  {
+   "t0": 1945.4679060000014,
+   "t1": 1947.2710060000015,
+   "text": "Trend following did not disappear."
+  },
+  {
+   "t0": 1947.8005060000014,
+   "t1": 1955.0904060000014,
+   "text": "Systematic trend-following funds continued to operate for decades and enjoyed powerful years when big, persistent moves appeared."
+  },
+  {
+   "t0": 1955.5858060000014,
+   "t1": 1967.2243060000014,
+   "text": "But Marcus's deeper point has aged well: as more participants see the same signals at the same time, simple breakouts become less reliable, and edges that once came from speed or information get competed away."
+  },
+  {
+   "t0": 1968.8243060000013,
+   "t1": 1980.7918060000013,
+   "text": "Marcus's approach had clear strengths: small, defined losses; large winners; size concentrated on the best setups; and a rare willingness to admit mistakes."
+  },
+  {
+   "t0": 1981.2836060000013,
+   "t1": 1995.4894060000013,
+   "text": "It also had weaknesses, many of which he named himself: impulsiveness, trading for entertainment, a career launched in what he called an extraordinarily favourable market, and a personal life that leaked away much of what the markets gave him."
+  },
+  {
+   "t0": 1996.1894060000013,
+   "t1": 1997.5456060000013,
+   "text": "What remains relevant today?"
+  },
+  {
+   "t0": 1998.2405060000012,
+   "t1": 1999.7093060000013,
+   "text": "Almost all of the rules."
+  },
+  {
+   "t0": 2000.2893060000013,
+   "t1": 2001.0963060000013,
+   "text": "Position sizing."
+  },
+  {
+   "t0": 2001.6603060000014,
+   "t1": 2003.5313060000012,
+   "text": "Stops decided before entry."
+  },
+  {
+   "t0": 2004.1923060000013,
+   "t1": 2005.0853060000013,
+   "text": "Letting winners run."
+  },
+  {
+   "t0": 2005.7673060000013,
+   "t1": 2007.7973060000013,
+   "text": "Watching how a market reacts to news."
+  },
+  {
+   "t0": 2008.3953060000013,
+   "t1": 2010.1233060000013,
+   "text": "Asking who is left to buy."
+  },
+  {
+   "t0": 2010.8093060000012,
+   "t1": 2013.8173060000013,
+   "text": "These are not features of 1970s commodity markets."
+  },
+  {
+   "t0": 2014.2683060000013,
+   "t1": 2019.3603060000014,
+   "text": "They are features of human behaviour, and that, Marcus believed, never changes."
+  },
+  {
+   "t0": 2019.9233060000013,
+   "t1": 2027.3779180000013,
+   "text": "Trading, he said, is emotion — mass psychology, greed and fear — the same in every market."
+  },
+  {
+   "t0": 2033.5779180000013,
+   "t1": 2040.3573280000014,
+   "text": "Asked whether he would still be trading in ten or twenty years, Marcus said yes — it was too much fun to give up."
+  },
+  {
+   "t0": 2041.0335380000013,
+   "t1": 2042.5010280000013,
+   "text": "But he added a condition."
+  },
+  {
+   "t0": 2043.2546480000012,
+   "t1": 2047.2195180000012,
+   "text": "Trading as your whole life, he said, is a torturous kind of excitement."
+  },
+  {
+   "t0": 2047.8210180000012,
+   "t1": 2052.3657180000014,
+   "text": "Traders who last find balance; they have something outside the markets."
+  },
+  {
+   "t0": 2053.065718000001,
+   "t1": 2056.5087180000014,
+   "text": "He spoke about studying karate, and about spiritual traditions."
+  },
+  {
+   "t0": 2057.096218000001,
+   "t1": 2064.370318000001,
+   "text": "He quoted Albert Einstein's question — whether the universe is friendly — and said he had started his life feeling that it wasn't."
+  },
+  {
+   "t0": 2065.0311180000012,
+   "t1": 2067.398218000001,
+   "text": "Now, he said, he was a lot closer."
+  },
+  {
+   "t0": 2068.098218000001,
+   "t1": 2071.987418000001,
+   "text": "Michael Marcus died in March 2023, in Austin, Texas."
+  },
+  {
+   "t0": 2072.625418000001,
+   "t1": 2083.703318000001,
+   "text": "When Jack Schwager learned of it, he described Marcus as one of the greatest traders he ever knew — and called his brutally honest interview, the first chapter of the first Market Wizards book, his favourite."
+  },
+  {
+   "t0": 2085.303318000001,
+   "t1": 2087.509518000001,
+   "text": "He began with eight straight losses."
+  },
+  {
+   "t0": 2087.9387180000012,
+   "t1": 2090.840818000001,
+   "text": "He was wiped out, then nearly wiped out again."
+  },
+  {
+   "t0": 2091.424718000001,
+   "t1": 2095.859418000001,
+   "text": "He missed the trade of a lifetime, and once made a fortune by mistake."
+  },
+  {
+   "t0": 2096.5594180000007,
+   "t1": 2099.6873180000007,
+   "text": "What made him a Market Wizard was not that he avoided failure."
+  },
+  {
+   "t0": 2100.2576180000005,
+   "t1": 2103.442818000001,
+   "text": "It was that, each time, he turned it into a rule."
+  }
+ ],
+ "cues": [
+  {
+   "chapter": 1,
+   "idx": 0,
+   "para": 0,
+   "text": "Black. A ticker board clicks. Corn prices begin to fall, tick by tick, then freeze at a red \"LIMIT DOWN\" bar. Slow push-in.",
+   "t0": 3.2
+  },
+  {
+   "chapter": 1,
+   "idx": 1,
+   "para": 3,
+   "text": "Title card sequence: name fades in over the frozen board.",
+   "t0": 39.56870000000001
+  },
+  {
+   "chapter": 1,
+   "idx": 2,
+   "para": 6,
+   "text": "Series title: MARKET WIZARDS. Episode card: \"EPISODE ONE · MICHAEL MARCUS\".",
+   "t0": 74.8498
+  },
+  {
+   "chapter": 2,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER ONE · The Scholar\". Archival-style texture: campus, 1969 (illustrative, no real photos).",
+   "t0": 82.24980000000001
+  },
+  {
+   "chapter": 2,
+   "idx": 1,
+   "para": 3,
+   "text": "Ledger animation: \"$1,000 savings\" · \"Adviser: $30/week\".",
+   "t0": 130.125
+  },
+  {
+   "chapter": 2,
+   "idx": 2,
+   "para": 5,
+   "text": "Explainer — \"WHAT IS A FUTURES CONTRACT?\" Animated contract card: commodity, quantity, delivery month, price. Then \"MARGIN\": a small deposit controlling a large position; leverage dial.",
+   "t0": 159.37079999999997
+  },
+  {
+   "chapter": 2,
+   "idx": 3,
+   "para": 8,
+   "text": "Explainer — \"THE SPREAD THAT COULDN'T LOSE\". Two contract months side by side: AUGUST and FEBRUARY pork bellies. A bracket labelled \"spread\". A second bracket labelled \"carrying charge: storage + interest + insurance\".",
+   "t0": 214.98349999999994
+  },
+  {
+   "chapter": 2,
+   "idx": 4,
+   "para": 10,
+   "text": "Red stamp over the diagram: \"NOT DELIVERABLE\".",
+   "t0": 249.28849999999994
+  },
+  {
+   "chapter": 2,
+   "idx": 5,
+   "para": 11,
+   "text": "Lower-third lesson card.",
+   "t0": 263.3605
+  },
+  {
+   "chapter": 3,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER TWO · The Blight\". Cornfield illustration, leaves darkening.",
+   "t0": 290.8345
+  },
+  {
+   "chapter": 3,
+   "idx": 1,
+   "para": 3,
+   "text": "Map of the US Corn Belt. Red spreading pattern. Data card: \"1970 Southern Corn Leaf Blight · ≈15% of US corn crop lost\" — source: USDA/NASA.",
+   "t0": 332.25600000000003
+  },
+  {
+   "chapter": 3,
+   "idx": 2,
+   "para": 6,
+   "text": "Split-screen: \"Skill\" vs \"Luck\". Coin flips sequence.",
+   "t0": 368.60310000000004
+  },
+  {
+   "chapter": 3,
+   "idx": 3,
+   "para": 8,
+   "text": "Headline-style card (stylised, not a reproduction): \"Will the blight return?\"",
+   "t0": 401.9533
+  },
+  {
+   "chapter": 3,
+   "idx": 4,
+   "para": 10,
+   "text": "Explainer — \"LIMIT DOWN\". A price track with a floor drawn at the daily limit. Sell orders pile up as red blocks; buyers vanish. Clock icon: \"No exit until tomorrow\".",
+   "t0": 426.4833
+  },
+  {
+   "chapter": 3,
+   "idx": 5,
+   "para": 14,
+   "text": "Lesson card, gold rule: \"RISK OF RUIN\". Animated bar: one position = 100% of capital.",
+   "t0": 487.19129999999996
+  },
+  {
+   "chapter": 4,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER THREE · Behind the Glass\". An office with a glass partition; a quote board blurred beyond it.",
+   "t0": 497.35729999999995
+  },
+  {
+   "chapter": 4,
+   "idx": 1,
+   "para": 3,
+   "text": "Code-word cards flipping: SUN = ? CLOUDY = ?",
+   "t0": 550.7828000000001
+  },
+  {
+   "chapter": 4,
+   "idx": 2,
+   "para": 4,
+   "text": "Portrait placeholder (no image) — name card: \"ED SEYKOTA · MIT, 1969\". Data card: \"Early computer-tested trend-following systems\". Source: Wikipedia/Seykota.",
+   "t0": 564.9586
+  },
+  {
+   "chapter": 4,
+   "idx": 3,
+   "para": 6,
+   "text": "Explainer — \"TREND FOLLOWING\". A price series; an entry arrow at a breakout; a trailing exit line rising beneath the price; exit when price crosses it. Second panel: many small red losses and a few large gold wins; cumulative curve rising.",
+   "t0": 590.0034000000002
+  },
+  {
+   "chapter": 5,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER FOUR · The Ceiling That Broke\". Data card: \"Aug 1971 — Nixon wage-price freeze · Nov 1971–Jan 1973 — Phase II controls\". Source: Presidency Project.",
+   "t0": 669.8298140000003
+  },
+  {
+   "chapter": 5,
+   "idx": 1,
+   "para": 3,
+   "text": "Explainer — \"WHAT PRICE CONTROLS DO\". Supply/demand diagram: equilibrium price above the ceiling; shaded gap labelled \"SHORTAGE\". Then a second channel: \"FUTURES MARKET — supplier of last resort\".",
+   "t0": 721.2983140000003
+  },
+  {
+   "chapter": 5,
+   "idx": 2,
+   "para": 6,
+   "text": "Chart: plywood futures rising from $110 to ~$200 (stylised from Marcus's figures). Pyramid blocks stack as price rises; each new block smaller than the one below.",
+   "t0": 758.1348140000006
+  },
+  {
+   "chapter": 5,
+   "idx": 3,
+   "para": 9,
+   "text": "Context card: \"Futures as a two-tier market — buyers frozen out of the regulated cash market could still buy, at a higher price, in futures\" (interpretation of Marcus's account).",
+   "t0": 793.2994140000008
+  },
+  {
+   "chapter": 6,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER FIVE · The Same Mistake Twice\".",
+   "t0": 812.5610260000008
+  },
+  {
+   "chapter": 6,
+   "idx": 1,
+   "para": 3,
+   "text": "Explainer — \"WHY A SMALL MOVE CAN DESTROY A BIG POSITION\". Left: plywood +82% move, small position. Right: lumber −10% move, large position. Account bar shrinks $12,000 → under $4,000. Callout: \"≈ 6–7× exposure\" (our calculation).",
+   "t0": 848.0528260000009
+  },
+  {
+   "chapter": 6,
+   "idx": 2,
+   "para": 8,
+   "text": "Lesson card: \"Survive first. Profit second.\"",
+   "t0": 909.829826000001
+  },
+  {
+   "chapter": 7,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER SIX · The Great Inflation\". Montage of rising commodity lines (stylised).",
+   "t0": 911.4298260000011
+  },
+  {
+   "chapter": 7,
+   "idx": 1,
+   "para": 2,
+   "text": "Soybean chart: ~$3.25 rising to a peak; data card \"Soybean futures record ≈ $12.90 · June 1973\". Source: Univ. of Illinois farmdoc. A gold line marks \"Marcus exits\" early in the rise.",
+   "t0": 959.9787260000012
+  },
+  {
+   "chapter": 7,
+   "idx": 2,
+   "para": 5,
+   "text": "Explainer — \"WHY WINNERS MATTER MORE THAN YOU THINK\". Bar chart of 20 hypothetical trades: 14 small losses, 4 small wins, 2 large wins. Remove the 2 large wins → total turns negative.",
+   "t0": 1004.1211260000013
+  },
+  {
+   "chapter": 8,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER SEVEN · The Floor\". Stylised trading ring, concentric steps, raised hands.",
+   "t0": 1054.0756260000012
+  },
+  {
+   "chapter": 8,
+   "idx": 1,
+   "para": 3,
+   "text": "Explainer — \"READING THE ROOM\". Sound waveform rising and falling beneath a price line. Annotations: \"loud → quiet: move exhausting\", \"moderate → very loud: hitting opposing orders\".",
+   "t0": 1085.425566000001
+  },
+  {
+   "chapter": 8,
+   "idx": 2,
+   "para": 5,
+   "text": "Explainer — \"THE SURFING TECHNIQUE\". Intraday chart; prior high marked. Large position entered at the break; stop 10 points below; target 300–400 points. Risk/reward bar: 1R vs 30–40R. Then hypothetical table: \"Win 1 in 10 at 30R, lose 9 at 1R → net +21R\" (labelled hypothetical).",
+   "t0": 1114.118966000001
+  },
+  {
+   "chapter": 9,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER EIGHT · He Just Trades\". Data card: \"Commodities Corporation · Princeton · founded 1969 by Helmut Weymar · backers included Paul Samuelson and Amos Hostetter\". Source: Goldman Sachs history.",
+   "t0": 1159.5583660000013
+  },
+  {
+   "chapter": 9,
+   "idx": 1,
+   "para": 3,
+   "text": "Explainer — \"THE POWER OF COMPOUNDING\". Gold curve from $30,000 (Aug 1974) to $80 million (~10 years). Overlay: \"30% annual levy taken by the firm\". Callout: \"2,500× in 10 years ≈ 119% per year, compounded\" (our calculation).",
+   "t0": 1209.5172960000014
+  },
+  {
+   "chapter": 9,
+   "idx": 2,
+   "para": 5,
+   "text": "Disclosure card: \"Performance figures as reported by Marcus and Schwager; no independent audited record is publicly available.\"",
+   "t0": 1252.0699960000013
+  },
+  {
+   "chapter": 10,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER NINE · The Night Shift\". World map at night; market opening times light up in sequence: Sydney, Hong Kong, Zurich, London, New York.",
+   "t0": 1290.4851960000015
+  },
+  {
+   "chapter": 10,
+   "idx": 1,
+   "para": 1,
+   "text": "Timeline: \"Late 1978 — dollar falling to new lows\" → \"a sudden, unexplained rally\" → \"Marcus & Kovner exit\" → \"Carter dollar-rescue program, 1 Nov 1978\". Source: American Presidency Project.",
+   "t0": 1307.1331960000014
+  },
+  {
+   "chapter": 10,
+   "idx": 2,
+   "para": 3,
+   "text": "Fact-check note on screen: \"Marcus recalled the announcement as 'that weekend'; the official announcement was on Wednesday, 1 November 1978.\"",
+   "t0": 1337.7390960000014
+  },
+  {
+   "chapter": 10,
+   "idx": 3,
+   "para": 5,
+   "text": "Gold chart 1979–1980 (stylised): rise to ~$850 peak (data card: \"Gold peak ≈ $850 · 21 Jan 1980\" — source: Bloomberg). Marker: \"Marcus exit ≈ $750\".",
+   "t0": 1363.9504960000013
+  },
+  {
+   "chapter": 10,
+   "idx": 4,
+   "para": 7,
+   "text": "Explainer — \"THE LIMIT-DAY EXIT RULE\". Calendar strip of consecutive limit-up days: Day 3 amber \"Caution\", Day 4 orange \"Usually out\", Day 5 red \"Mandatory exit\".",
+   "t0": 1410.8606960000013
+  },
+  {
+   "chapter": 10,
+   "idx": 5,
+   "para": 9,
+   "text": "Data card: \"Up to 600 million Deutsche marks ≈ $300 million (Marcus's account)\". Clock graphic waking every two hours.",
+   "t0": 1449.4386960000013
+  },
+  {
+   "chapter": 11,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER TEN · Market Tone\".",
+   "t0": 1504.7156960000016
+  },
+  {
+   "chapter": 11,
+   "idx": 1,
+   "para": 1,
+   "text": "Explainer — \"THE THREE CONDITIONS\". Three pillars light up in sequence: FUNDAMENTALS (\"supply/demand imbalance\"), TECHNICALS (\"chart moving the same way\"), MARKET TONE (\"reaction to news confirms\"). A gold capstone appears only when all three are lit: \"A-GRADE TRADE · 5–6× normal size\".",
+   "t0": 1518.9121160000013
+  },
+  {
+   "chapter": 11,
+   "idx": 2,
+   "para": 4,
+   "text": "Explainer — \"WHEN GOOD NEWS FAILS\". Soybean price: opens at limit-up, ticks, slips below limit. Marcus's order reverses: SELL. Short position profits 40–50¢.",
+   "t0": 1574.2797360000015
+  },
+  {
+   "chapter": 11,
+   "idx": 3,
+   "para": 6,
+   "text": "Lesson card: \"When the news is wonderful and the market can't go up — sell.\"",
+   "t0": 1614.3475360000016
+  },
+  {
+   "chapter": 11,
+   "idx": 4,
+   "para": 7,
+   "text": "Explainer — \"WHO IS LEFT TO BUY?\". 1970s chain: professionals → grain elevator → brokerage clients → short covering → \"the dentists\" (latecomers). 1980s: all participants act at once; chain collapses into a single spike; false breakout.",
+   "t0": 1627.3795360000015
+  },
+  {
+   "chapter": 12,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER ELEVEN · The Price of Success\". Icons: houses, planes, staff — each draining coins.",
+   "t0": 1662.9785360000017
+  },
+  {
+   "chapter": 12,
+   "idx": 1,
+   "para": 1,
+   "text": "Stacked bar: $1 → 30% tax · 30% planes · 20% real estate · 20% left.",
+   "t0": 1691.3936360000014
+  },
+  {
+   "chapter": 13,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER TWELVE · The Rules\". Each rule appears as a numbered card in gold.",
+   "t0": 1716.3415360000015
+  },
+  {
+   "chapter": 13,
+   "idx": 1,
+   "para": 2,
+   "text": "Explainer — \"5% PER IDEA\". Equity bar shrinking by 5% per loss over 20 losses: 100 → 36. Second panel: two grain positions grouped under one bracket: \"ONE IDEA\".",
+   "t0": 1732.8006060000014
+  },
+  {
+   "chapter": 13,
+   "idx": 2,
+   "para": 8,
+   "text": "Equity curve with a declining section highlighted; position-size bars shrinking beneath it.",
+   "t0": 1827.5285060000015
+  },
+  {
+   "chapter": 13,
+   "idx": 3,
+   "para": 10,
+   "text": "Profile card: \"BRUCE KOVNER — founded Caxton Associates, 1983\". Source: Wikipedia.",
+   "t0": 1868.8525060000015
+  },
+  {
+   "chapter": 14,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"CHAPTER THIRTEEN · Was He Right?\". Analysis segment — on-screen label: \"ANALYSIS · OUR INTERPRETATION\".",
+   "t0": 1891.4915060000017
+  },
+  {
+   "chapter": 14,
+   "idx": 1,
+   "para": 1,
+   "text": "Data card: \"1987–88 — several Richard Dennis public funds stopped trading after losses exceeding 50%.\" Source: Wikipedia/Futures (1988). Data card: \"1988 drought — US corn output −37%, soybeans −23%.\" Source: Chicago Fed.",
+   "t0": 1919.1219060000014
+  },
+  {
+   "chapter": 14,
+   "idx": 2,
+   "para": 3,
+   "text": "Two-column card. STRENGTHS: asymmetric payoffs · strict loss limits · tiered position sizing · adaptability · brutal self-honesty. WEAKNESSES: impulsiveness · trading for entertainment · reliance on a uniquely favourable 1970s regime · lifestyle leakage · burnout.",
+   "t0": 1968.4243060000013
+  },
+  {
+   "chapter": 15,
+   "idx": 0,
+   "para": 0,
+   "text": "Chapter card: \"EPILOGUE\". Slow fade to warm charcoal. Data card: \"Michael Marcus · 1947 – 2023\". Source: Wikipedia; Jack Schwager (2023).",
+   "t0": 2028.5779180000013
+  },
+  {
+   "chapter": 15,
+   "idx": 1,
+   "para": 3,
+   "text": "Return to the image from the cold open: the frozen corn board. It unfreezes; prices move again.",
+   "t0": 2084.903318000001
+  },
+  {
+   "chapter": 15,
+   "idx": 2,
+   "para": 5,
+   "text": "Series end card: MARKET WIZARDS · \"Next episode: coming soon\". Disclaimer: \"Educational content. Hypothetical examples are illustrative. Not investment advice. Trader statements are their own recollections as published in *Market Wizards* (1989).\"",
+   "t0": 2103.042818000001
+  }
+ ],
+ "audio": [
+  {
+   "file": "ch01.mp3",
+   "a0": 0.0,
+   "a1": 12.3533,
+   "t0": 3.2
+  },
+  {
+   "file": "ch01.mp3",
+   "a0": 13.1017,
+   "a1": 29.0076,
+   "t0": 16.2533
+  },
+  {
+   "file": "ch01.mp3",
+   "a0": 29.7443,
+   "a1": 35.2538,
+   "t0": 32.8592
+  },
+  {
+   "file": "ch01.mp3",
+   "a0": 36.0402,
+   "a1": 54.5295,
+   "t0": 39.968700000000005
+  },
+  {
+   "file": "ch01.mp3",
+   "a0": 54.9617,
+   "a1": 69.0153,
+   "t0": 59.15800000000001
+  },
+  {
+   "file": "ch01.mp3",
+   "a0": 69.7509,
+   "a1": 71.0891,
+   "t0": 73.9116
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 0.0,
+   "a1": 16.268,
+   "t0": 87.24980000000001
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 16.9397,
+   "a1": 25.307,
+   "t0": 104.21780000000001
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 26.0014,
+   "a1": 41.6413,
+   "t0": 113.28510000000001
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 42.0684,
+   "a1": 55.0222,
+   "t0": 130.525
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 55.6049,
+   "a1": 69.5969,
+   "t0": 144.1788
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 70.1552,
+   "a1": 96.7378,
+   "t0": 159.77079999999998
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 97.2929,
+   "a1": 106.945,
+   "t0": 187.05339999999995
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 107.749,
+   "a1": 124.127,
+   "t0": 197.40549999999993
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 124.69,
+   "a1": 145.717,
+   "t0": 215.38349999999994
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 146.297,
+   "a1": 157.275,
+   "t0": 237.11049999999994
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 157.848,
+   "a1": 170.32,
+   "t0": 249.68849999999995
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 170.929,
+   "a1": 178.703,
+   "t0": 263.7605
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 179.317,
+   "a1": 189.342,
+   "t0": 272.23449999999997
+  },
+  {
+   "file": "ch02.mp3",
+   "a0": 189.93,
+   "a1": 196.605,
+   "t0": 282.9595
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 0.0,
+   "a1": 12.4497,
+   "t0": 295.8345
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 12.9064,
+   "a1": 28.1161,
+   "t0": 308.9842
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 28.6139,
+   "a1": 34.776,
+   "t0": 324.8939
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 35.2345,
+   "a1": 49.3436,
+   "t0": 332.656
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 49.903,
+   "a1": 65.265,
+   "t0": 347.4651
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 65.8339,
+   "a1": 69.7099,
+   "t0": 363.5271
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 70.2654,
+   "a1": 81.4213,
+   "t0": 369.0031
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 81.8897,
+   "a1": 101.784,
+   "t0": 380.859
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 102.275,
+   "a1": 112.637,
+   "t0": 402.3533
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 113.095,
+   "a1": 124.963,
+   "t0": 413.41529999999995
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 125.493,
+   "a1": 140.658,
+   "t0": 426.88329999999996
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 141.139,
+   "a1": 163.691,
+   "t0": 442.7482999999999
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 164.289,
+   "a1": 174.938,
+   "t0": 466.00029999999987
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 175.533,
+   "a1": 184.175,
+   "t0": 477.34929999999986
+  },
+  {
+   "file": "ch03.mp3",
+   "a0": 184.734,
+   "a1": 193.3,
+   "t0": 487.59129999999993
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 0.0,
+   "a1": 17.1313,
+   "t0": 502.35729999999995
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 17.9237,
+   "a1": 29.4468,
+   "t0": 520.1886
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 30.1643,
+   "a1": 47.3354,
+   "t0": 532.4117
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 48.0248,
+   "a1": 60.6006,
+   "t0": 551.1828
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 61.268,
+   "a1": 68.5795,
+   "t0": 565.3586
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 69.2217,
+   "a1": 84.655,
+   "t0": 573.3701000000001
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 85.2193,
+   "a1": 101.257,
+   "t0": 590.4034000000001
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 101.972,
+   "a1": 122.15,
+   "t0": 607.1411000000002
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 122.761,
+   "a1": 134.82,
+   "t0": 628.0191000000002
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 135.495,
+   "a1": 151.001,
+   "t0": 640.7781000000002
+  },
+  {
+   "file": "ch04.mp3",
+   "a0": 151.28,
+   "a1": 162.925714,
+   "t0": 656.9841000000002
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 0.0,
+   "a1": 13.27,
+   "t0": 674.8298140000003
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 13.7957,
+   "a1": 24.9208,
+   "t0": 688.7998140000003
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 25.4356,
+   "a1": 44.909,
+   "t0": 700.6249140000003
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 45.3926,
+   "a1": 57.3354,
+   "t0": 721.6983140000003
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 57.8405,
+   "a1": 72.5314,
+   "t0": 734.3411140000004
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 73.0495,
+   "a1": 80.2523,
+   "t0": 749.7320140000005
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 80.7109,
+   "a1": 89.9036,
+   "t0": 758.5348140000006
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 90.4051,
+   "a1": 109.201,
+   "t0": 768.4275140000007
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 109.684,
+   "a1": 113.86,
+   "t0": 787.9234140000007
+  },
+  {
+   "file": "ch05.mp3",
+   "a0": 114.309,
+   "a1": 131.970612,
+   "t0": 793.6994140000007
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 0.0,
+   "a1": 1.5812,
+   "t0": 817.5610260000008
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 2.1588,
+   "a1": 11.9603,
+   "t0": 819.8422260000008
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 12.5168,
+   "a1": 29.0259,
+   "t0": 830.3437260000009
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 29.5747,
+   "a1": 38.1228,
+   "t0": 848.4528260000009
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 38.7656,
+   "a1": 56.3913,
+   "t0": 857.7009260000009
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 56.9741,
+   "a1": 64.2012,
+   "t0": 876.026626000001
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 64.8229,
+   "a1": 83.365,
+   "t0": 883.953726000001
+  },
+  {
+   "file": "ch06.mp3",
+   "a0": 83.8378,
+   "a1": 90.8718,
+   "t0": 903.195826000001
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 0.0,
+   "a1": 13.0579,
+   "t0": 916.4298260000011
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 13.6394,
+   "a1": 42.2304,
+   "t0": 930.1877260000011
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 42.6561,
+   "a1": 47.6372,
+   "t0": 960.3787260000012
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 48.1035,
+   "a1": 70.7902,
+   "t0": 966.0598260000012
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 71.2997,
+   "a1": 84.7743,
+   "t0": 989.4465260000012
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 85.3593,
+   "a1": 99.8958,
+   "t0": 1004.5211260000012
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 100.43,
+   "a1": 117.742,
+   "t0": 1019.7576260000012
+  },
+  {
+   "file": "ch07.mp3",
+   "a0": 118.212,
+   "a1": 133.318,
+   "t0": 1037.7696260000012
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 0.0,
+   "a1": 8.08773,
+   "t0": 1059.0756260000012
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 8.79399,
+   "a1": 19.9037,
+   "t0": 1067.8633560000012
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 20.4748,
+   "a1": 25.0273,
+   "t0": 1079.6730660000012
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 25.588,
+   "a1": 46.0675,
+   "t0": 1085.8255660000011
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 46.6519,
+   "a1": 52.5658,
+   "t0": 1107.005066000001
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 53.0902,
+   "a1": 74.7429,
+   "t0": 1114.518966000001
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 75.2776,
+   "a1": 84.9506,
+   "t0": 1136.8716660000011
+  },
+  {
+   "file": "ch08.mp3",
+   "a0": 85.4629,
+   "a1": 96.5766,
+   "t0": 1147.2446660000012
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 0.0,
+   "a1": 8.02728,
+   "t0": 1164.5583660000013
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 8.66905,
+   "a1": 22.3875,
+   "t0": 1173.2856460000014
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 22.8956,
+   "a1": 43.5088,
+   "t0": 1187.7040960000015
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 44.089,
+   "a1": 63.1344,
+   "t0": 1209.9172960000014
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 63.6547,
+   "a1": 84.862,
+   "t0": 1229.6626960000015
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 85.3678,
+   "a1": 102.11,
+   "t0": 1252.4699960000014
+  },
+  {
+   "file": "ch09.mp3",
+   "a0": 102.653,
+   "a1": 122.026,
+   "t0": 1269.9121960000014
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 0.0,
+   "a1": 10.448,
+   "t0": 1295.4851960000015
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 11.0427,
+   "a1": 29.8262,
+   "t0": 1307.5331960000015
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 30.3408,
+   "a1": 39.8632,
+   "t0": 1327.0166960000015
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 40.5777,
+   "a1": 53.4657,
+   "t0": 1338.1390960000015
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 53.9616,
+   "a1": 64.985,
+   "t0": 1351.7270960000014
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 65.7522,
+   "a1": 79.6232,
+   "t0": 1364.3504960000014
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 80.1638,
+   "a1": 110.903,
+   "t0": 1378.9214960000015
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 111.401,
+   "a1": 126.854,
+   "t0": 1411.2606960000014
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 127.621,
+   "a1": 148.446,
+   "t0": 1427.4136960000014
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 148.816,
+   "a1": 174.891,
+   "t0": 1449.8386960000014
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 175.472,
+   "a1": 192.923,
+   "t0": 1476.6136960000015
+  },
+  {
+   "file": "ch10.mp3",
+   "a0": 193.462,
+   "a1": 202.213,
+   "t0": 1494.7646960000015
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 0.0,
+   "a1": 7.99642,
+   "t0": 1509.7156960000016
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 8.64478,
+   "a1": 29.7168,
+   "t0": 1519.3121160000014
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 30.2164,
+   "a1": 37.2932,
+   "t0": 1541.0841360000015
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 37.9122,
+   "a1": 62.131,
+   "t0": 1548.8609360000016
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 62.657,
+   "a1": 77.8659,
+   "t0": 1574.6797360000016
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 78.5361,
+   "a1": 101.095,
+   "t0": 1590.5886360000018
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 101.723,
+   "a1": 113.155,
+   "t0": 1614.7475360000017
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 113.733,
+   "a1": 140.341,
+   "t0": 1627.7795360000016
+  },
+  {
+   "file": "ch11.mp3",
+   "a0": 140.918,
+   "a1": 147.609,
+   "t0": 1655.0875360000016
+  },
+  {
+   "file": "ch12.mp3",
+   "a0": 0.0,
+   "a1": 22.2151,
+   "t0": 1667.9785360000017
+  },
+  {
+   "file": "ch12.mp3",
+   "a0": 22.8514,
+   "a1": 36.9267,
+   "t0": 1691.7936360000015
+  },
+  {
+   "file": "ch12.mp3",
+   "a0": 37.4964,
+   "a1": 46.069,
+   "t0": 1706.5689360000015
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 0.0,
+   "a1": 5.16354,
+   "t0": 1721.3415360000015
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 5.81907,
+   "a1": 10.2146,
+   "t0": 1727.2050760000016
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 10.6991,
+   "a1": 30.4657,
+   "t0": 1733.2006060000015
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 31.0823,
+   "a1": 41.6984,
+   "t0": 1753.6672060000014
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 42.2808,
+   "a1": 57.8164,
+   "t0": 1764.9833060000014
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 58.4256,
+   "a1": 68.71,
+   "t0": 1781.2189060000014
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 69.2471,
+   "a1": 83.8019,
+   "t0": 1792.2033060000015
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 84.4806,
+   "a1": 103.351,
+   "t0": 1807.4581060000016
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 103.842,
+   "a1": 122.416,
+   "t0": 1827.9285060000016
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 122.975,
+   "a1": 143.425,
+   "t0": 1847.2025060000017
+  },
+  {
+   "file": "ch13.mp3",
+   "a0": 143.885,
+   "a1": 164.924,
+   "t0": 1869.2525060000016
+  },
+  {
+   "file": "ch14.mp3",
+   "a0": 0.0,
+   "a1": 21.4304,
+   "t0": 1896.4915060000017
+  },
+  {
+   "file": "ch14.mp3",
+   "a0": 21.8591,
+   "a1": 41.9998,
+   "t0": 1919.5219060000015
+  },
+  {
+   "file": "ch14.mp3",
+   "a0": 42.5632,
+   "a1": 69.4249,
+   "t0": 1940.3626060000015
+  },
+  {
+   "file": "ch14.mp3",
+   "a0": 69.7052,
+   "a1": 96.3703,
+   "t0": 1968.8243060000013
+  },
+  {
+   "file": "ch14.mp3",
+   "a0": 96.9421,
+   "a1": 128.130612,
+   "t0": 1996.1894060000013
+  },
+  {
+   "file": "ch15.mp3",
+   "a0": 0.0,
+   "a1": 18.7878,
+   "t0": 2033.5779180000013
+  },
+  {
+   "file": "ch15.mp3",
+   "a0": 19.4439,
+   "a1": 33.7764,
+   "t0": 2053.065718000001
+  },
+  {
+   "file": "ch15.mp3",
+   "a0": 34.5646,
+   "a1": 50.1697,
+   "t0": 2068.098218000001
+  },
+  {
+   "file": "ch15.mp3",
+   "a0": 50.8361,
+   "a1": 61.3922,
+   "t0": 2085.303318000001
+  },
+  {
+   "file": "ch15.mp3",
+   "a0": 62.1055,
+   "a1": 68.9889,
+   "t0": 2096.5594180000007
+  }
+ ],
+ "duration": 2112.442818000001
+}
