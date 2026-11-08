@@ -266,46 +266,84 @@ def make_walk():
     return img, xs, ys
 
 
-def make_logo(size=300):
-    """Round JSR logo: uses assets/jsr_logo.png if present, else a placeholder."""
+LOGO_R = 190          # logo radius in px at 1080p
+RING_GAP = 18         # gap between disc and gold ring
+
+
+def make_logo():
+    """Load the round JSR logo (assets/jsr_logo.png, prepared by prepare_logo.py).
+    Falls back to a drawn placeholder if the asset is missing.
+    Returns pieces used by the animated sting."""
+    size = LOGO_R * 2
     path = os.path.join(HERE, "assets", "jsr_logo.png")
-    S = 4
-    big = size * S
-    canvas = Image.new("RGBA", (big, big), (0, 0, 0, 0))
-    mask = Image.new("L", (big, big), 0)
-    ImageDraw.Draw(mask).ellipse((0, 0, big - 1, big - 1), fill=255)
     if os.path.exists(path):
-        src = Image.open(path).convert("RGBA")
-        s = max(big / src.width, big / src.height)
-        src = src.resize((int(src.width * s) + 1, int(src.height * s) + 1), Image.LANCZOS)
-        src = src.crop(((src.width - big) // 2, (src.height - big) // 2,
-                        (src.width - big) // 2 + big, (src.height - big) // 2 + big))
-        bg = Image.new("RGBA", (big, big), (0, 0, 0, 255))
-        bg.alpha_composite(src)
-        canvas.paste(bg, (0, 0), mask)
+        src = Image.open(path).convert("RGBA").resize((size, size), Image.LANCZOS)
     else:
-        d = ImageDraw.Draw(canvas)
-        d.ellipse((0, 0, big - 1, big - 1), fill=(10, 10, 11, 255))
-        ring = 5 * S
-        d.ellipse((ring, ring, big - 1 - ring, big - 1 - ring), outline=GOLD + (255,), width=3 * S)
-        d.ellipse((ring + 14 * S, ring + 14 * S, big - 1 - ring - 14 * S, big - 1 - ring - 14 * S),
-                  outline=GOLD + (90,), width=1 * S)
-        f = ImageFont.truetype(FONT_FILES["display_semibold"], 104 * S)
-        label, tr = "JSR", 10 * S
-        ws = [f.getlength(c) for c in label]
-        tw = sum(ws) + tr * (len(label) - 1)
-        asc, desc = f.getmetrics()
-        bb = f.getbbox("JSR")
-        x = (big - tw) / 2
-        y = (big - (bb[3] - bb[1])) / 2 - bb[1]
-        for c, cw in zip(label, ws):
-            d.text((x, y), c, font=f, fill=WHITE + (255,))
-            x += cw + tr
-    logo = canvas.resize((size, size), Image.LANCZOS)
-    glow = Image.new("RGBA", (size * 2, size * 2), (0, 0, 0, 0))
-    ImageDraw.Draw(glow).ellipse((size * 0.45, size * 0.45, size * 1.55, size * 1.55), fill=GOLD + (70,))
-    glow = glow.filter(ImageFilter.GaussianBlur(size * 0.18))
-    return logo, glow
+        src = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+        d = ImageDraw.Draw(src)
+        d.ellipse((0, 0, size - 1, size - 1), fill=(0, 0, 0, 255))
+        d.text((size / 2, size / 2), "JSR", font=font("display_semibold", 90), fill=WHITE + (255,), anchor="mm")
+    disc_mask = src.getchannel("A")
+    letters = np.asarray(src.convert("L"), np.float32) / 255.0 * (np.asarray(disc_mask, np.float32) / 255.0)
+
+    # faint rim light on the disc edge so the black disc separates from the black screen
+    S = 4
+    rim = Image.new("L", (size * S, size * S), 0)
+    ImageDraw.Draw(rim).ellipse((S, S, size * S - S - 1, size * S - S - 1), outline=255, width=int(1.5 * S))
+    rim = np.asarray(rim.resize((size, size), Image.LANCZOS), np.float32) / 255.0
+
+    # coordinates for the light sweep (diagonal, top-left to bottom-right)
+    yy, xx = np.mgrid[0:size, 0:size].astype(np.float32) / size
+    diag = (xx * 0.82 + yy * 0.57)
+
+    glow_size = int(size * 2.4)
+    glow = Image.new("RGBA", (glow_size, glow_size), (0, 0, 0, 0))
+    gr = size * 0.62
+    c = glow_size / 2
+    ImageDraw.Draw(glow).ellipse((c - gr, c - gr, c + gr, c + gr), fill=GOLD + (95,))
+    glow = glow.filter(ImageFilter.GaussianBlur(size * 0.26))
+    return dict(size=size, disc=np.asarray(disc_mask, np.float32) / 255.0, letters=letters,
+                rim=rim, diag=diag, glow=glow)
+
+
+def logo_layer(L, ring_p, shine_pos):
+    """Compose disc + letters + rim + gold ring + light sweep (RGBA, unscaled)."""
+    size = L["size"]
+    pad = RING_GAP + 12
+    full = size + pad * 2
+    # disc and letters
+    band = np.exp(-((L["diag"] - shine_pos) / 0.075) ** 2) if shine_pos is not None else 0.0
+    lum = np.clip(L["letters"] * (0.96 + 0.12 * band), 0, 1)                      # letters brighten as light passes
+    sheen = L["disc"] * band * 0.10                                # glassy sweep across the black disc
+    rim = L["rim"] * (0.16 + 0.35 * band)
+    rgb = np.zeros((size, size, 3), np.float32)
+    white = np.array(WHITE, np.float32) / 255.0
+    gold = np.array(GOLD, np.float32) / 255.0
+    rgb += lum[..., None] * white
+    rgb += sheen[..., None] * (white * 0.6 + gold * 0.4)
+    rgb += rim[..., None] * gold
+    rgb = np.clip(rgb, 0, 1)
+    disc = Image.fromarray((rgb * 255).astype(np.uint8), "RGB").convert("RGBA")
+    disc.putalpha(Image.fromarray((L["disc"] * 255).astype(np.uint8)))
+    layer = Image.new("RGBA", (full, full), (0, 0, 0, 0))
+    layer.alpha_composite(disc, dest=(pad, pad))
+    # gold ring drawn clockwise from 12 o'clock
+    if ring_p > 0:
+        S = 3
+        ring = Image.new("RGBA", (full * S, full * S), (0, 0, 0, 0))
+        d = ImageDraw.Draw(ring)
+        rr = (size / 2 + RING_GAP) * S
+        c = full * S / 2
+        box = (c - rr, c - rr, c + rr, c + rr)
+        d.arc(box, -90, -90 + 360 * ring_p, fill=GOLD + (235,), width=int(2.2 * S))
+        if ring_p < 1:
+            ang = math.radians(-90 + 360 * ring_p)
+            hx, hy = c + rr * math.cos(ang), c + rr * math.sin(ang)
+            hr = 4 * S
+            d.ellipse((hx - hr, hy - hr, hx + hr, hy + hr), fill=(255, 236, 190, 255))
+        ring = ring.resize((full, full), Image.LANCZOS)
+        layer.alpha_composite(ring)
+    return layer
 
 
 def make_candles():
@@ -340,25 +378,61 @@ def make_candles():
 
 VIGNETTE = make_vignette()
 WALK, WALK_X, WALK_Y = make_walk()
-LOGO, GLOW = make_logo()
+LOGO = make_logo()
+GLOW = LOGO["glow"]
 CANDLES = make_candles()
 
 
 # ================================================================= scenes ===
+def ease_out_expo(x):
+    return 1.0 if x >= 1 else 1 - 2 ** (-10 * x)
+
+
+def sting_state(t):
+    """Logo animation (about 2.2 s): rise in, ring draws, light sweep, lift away."""
+    p_in = ease_out_expo(prog(t, 0.10, 0.95))
+    a_in = ease_io(prog(t, 0.10, 0.50))
+    p_out = prog(t, 1.70, 2.25)
+    e_out = p_out ** 2.2
+    alpha = a_in * (1 - ease_io(p_out))
+    y_off = (1 - p_in) * 170 - e_out * 80
+    scale = (0.90 + 0.10 * p_in) * (1 + 0.035 * e_out)
+    ring_p = ease_io(prog(t, 0.45, 1.30))
+    shine = prog(t, 0.95, 1.65)
+    shine_pos = -0.35 + 1.75 * ease_io(shine) if 0 < shine < 1 else None
+    glow_a = ease_io(prog(t, 0.30, 1.10)) * (0.85 + 0.15 * math.sin(t * 5.0))
+    return alpha, y_off, scale, ring_p, shine_pos, glow_a
+
+
 def scene_sting(base, t):
-    # Logo rises into place, holds, then lifts away and is gone (~2 s total).
-    if t > 2.1:
+    if t > 2.3:
         return
-    p_in = ease_out(prog(t, 0.05, 0.75))
-    p_out = ease_io(prog(t, 1.35, 1.95))
-    alpha = p_in * (1 - p_out)
-    y_off = (1 - p_in) * 150 - p_out * 90
-    scale = 0.9 + 0.1 * p_in
-    size = int(LOGO.width * scale)
-    logo = LOGO.resize((size, size), Image.LANCZOS) if size != LOGO.width else LOGO
-    cx, cy = W / 2, H / 2 + y_off
-    blit(base, GLOW, cx - GLOW.width / 2, cy - GLOW.height / 2, alpha * 0.9)
-    blit(base, logo, cx - size / 2, cy - size / 2, alpha)
+    # motion blur: average sub-frames while the logo is moving quickly
+    moving = t < 0.95 or t > 1.70
+    offs = (-0.375, -0.125, 0.125, 0.375) if moving else (0.0,)
+    acc_p = None   # premultiplied colour sum
+    acc_a = None   # alpha sum
+    _, _, _, ring_p, shine_pos, glow_a = sting_state(t)   # ring + light sweep: no blur
+    base_layer = logo_layer(LOGO, ring_p, shine_pos)
+    for o in offs:
+        tt = max(0.0, t + o / FPS)
+        alpha, y_off, scale, _, _, _ = sting_state(tt)     # movement: blurred
+        sub = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        if alpha > 0.003:
+            layer = base_layer
+            sz = int(round(layer.width * scale))
+            if sz != layer.width:
+                layer = layer.resize((sz, sz), Image.LANCZOS)
+            cx, cy = W / 2, H / 2 + y_off
+            blit(sub, GLOW, cx - GLOW.width / 2, cy - GLOW.height / 2, alpha * glow_a)
+            blit(sub, layer, cx - sz / 2, cy - sz / 2, alpha)
+        arr = np.asarray(sub, np.float32)
+        pm = arr[..., :3] * arr[..., 3:4] / 255.0
+        acc_p = pm if acc_p is None else acc_p + pm
+        acc_a = arr[..., 3:4] if acc_a is None else acc_a + arr[..., 3:4]
+    rgb = acc_p * 255.0 / np.maximum(acc_a, 1e-3)
+    out = np.concatenate([np.clip(rgb, 0, 255), acc_a / len(offs)], -1)
+    base.alpha_composite(Image.fromarray(out.astype(np.uint8), "RGBA"))
 
 
 def scene_cold_open(base, t):
@@ -374,7 +448,7 @@ def scene_cold_open(base, t):
         blit(base, WALK.crop((0, 0, xr, H)), 0, 0, a)
         i = int(p * (len(WALK_X) - 1))
         hx, hy = WALK_X[i], WALK_Y[i]
-        blit(base, GLOW.resize((120, 120)), hx - 60, hy - 60, a)
+        blit(base, GLOW.resize((120, 120)), hx - 60, hy - 60, a * 0.8)
         dot = Image.new("RGBA", (14, 14), (0, 0, 0, 0))
         ImageDraw.Draw(dot).ellipse((0, 0, 13, 13), fill=GOLD + (255,))
         blit(base, dot, hx - 7, hy - 7, a)
@@ -741,6 +815,15 @@ def make_audio(path, sr=44100):
         mix[i0:e, 0] += hit[: e - i0]
         mix[i0:e, 1] += hit[: e - i0]
 
+    # soft chime as the gold ring draws and the light sweeps across the logo
+    for t0, notes, gain in ((0.50, (1318.5, 1760.0), 0.05), (1.05, (2637.0, 1975.5), 0.03)):
+        i0 = int(t0 * sr)
+        ln = int(2.0 * sr)
+        tt = np.arange(ln) / sr
+        ch = sum(np.sin(2 * np.pi * f * tt) for f in notes) * np.exp(-tt * 2.6) * np.clip(tt / 0.01, 0, 1)
+        e = min(n, i0 + ln)
+        mix[i0:e, 0] += ch[: e - i0] * gain
+        mix[i0:e, 1] += ch[: e - i0] * gain * 0.85
     mix = np.clip(mix, -1, 1)
     pcm = (mix * 32767).astype("<i2")
     with wave.open(path, "wb") as wf:
@@ -782,10 +865,35 @@ def stills():
     print("stills ->", d)
 
 
+def render_intro():
+    """Standalone JSR logo intro (logo sting only) for reuse on any video."""
+    dur = 2.6
+    wav = os.path.join(OUT, "intro.wav")
+    make_audio(wav)
+    out = os.path.join(OUT, "jsr-intro.mp4")
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
+           "-s", "%dx%d" % (W, H), "-r", str(FPS), "-i", "-", "-t", str(dur), "-i", wav,
+           "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-pix_fmt", "yuv420p",
+           "-af", "afade=t=out:st=%.2f:d=0.4" % (dur - 0.4), "-c:a", "aac", "-b:a", "192k",
+           "-shortest", "-movflags", "+faststart", out]
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    for fi in range(int(dur * FPS)):
+        im = Image.new("RGBA", (W, H), BLACK + (255,))
+        scene_sting(im, fi / FPS)
+        proc.stdin.write(im.convert("RGB").tobytes())
+    proc.stdin.close()
+    proc.wait()
+    os.remove(wav)
+    print("done ->", out)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     if "--stills" in sys.argv:
         stills()
+        return
+    if "--intro" in sys.argv:
+        render_intro()
         return
     total = int(DURATION * FPS)
     workers = os.cpu_count() or 4

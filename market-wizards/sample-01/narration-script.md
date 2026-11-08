@@ -11,7 +11,7 @@ Every figure is a hypothetical example calculated in `render.py`.
 
 | Time | Visual | Narration (voice-over) |
 |---|---|---|
-| 0:00–0:02 | **JSR sting.** Black screen. The round JSR logo rises from below with a soft gold glow, holds for a moment, then lifts away and disappears. A low "hit" sound plays. | — |
+| 0:00–0:02 | **JSR intro.** Black screen. The round JSR logo rises from below with motion blur, a thin gold ring draws around it, a soft light sweeps across it, then it lifts away and fades. A low hit plays, then a soft chime. | — |
 | 0:02–0:13 | **Cold open.** Charcoal with a vignette. A faint gold price line traces across a dim grid. | Every trader in this series has lost money. Some lost fortunes. / What set them apart was not avoiding losses. It was surviving them. |
 | 0:13–0:19 | **Series title.** MARKET WIZARDS in light, widely spaced letters. A gold rule draws out from the centre. Tagline: *The Traders · The Methods · The Lessons* | — |
 | 0:19–0:24 | **Chapter card.** Gold vertical bar. CHAPTER ONE / *The Arithmetic of Survival* / *Why risk per trade decides who is still trading tomorrow* | — |
@@ -30,6 +30,6 @@ Every figure is a hypothetical example calculated in `render.py`.
 - Position size = $1,000 risk ÷ ($50 − $48) = **500 shares**
 
 ### Placeholders in this sample
-- **Logo:** a placeholder round "JSR" monogram. Put the real logo at `assets/jsr_logo.png` and re-render.
+- **Logo:** your JSR logo, cut out as a round shape (`assets/jsr_logo.png`, made by `prepare_logo.py`).
 - **Music:** an original ambient pad synthesized in code. It's a temporary bed, not the final score.
 - **Voice:** subtitles only. A recorded narration would replace or accompany them.
