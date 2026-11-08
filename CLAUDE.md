@@ -77,6 +77,15 @@ market-wizards/
   archive/                     cross-trader comparisons (built as episodes accumulate)
 ```
 
+## Production pipeline (established in Episode 01 — reuse it)
+Use `market-wizards/episodes/01-michael-marcus/` as the template.
+1. Write `script.md`: `## NN · CHAPTER …` headings, `[VISUAL]` cue lines, narration paragraphs, `{C..}` claim tags.
+2. `build/parse_script.py` → `chapters.json` (narration per chapter + cues).
+3. Generate narration per chapter with ElevenLabs Atlas (`eleven_v4`, `generations_count: 1`), all in one ElevenLabs flow; download to `audio/chNN.mp3`. Cost ≈ 1.1 credits per character.
+4. `build/align.py` → `timeline.json`: sentence timing from audio pauses (validated against Scribe word timings to within 0.3 s), chapter cards (5 s), paragraph gaps (0.7 s, or 1.6 s when a new visual starts).
+5. `build/render_episode.py`: one scene function per cue in `SCENES`; time animations to narration with `K("sentence prefix")`; `--stills` to review every scene before the full render; final mix is loudness-normalised to −16 LUFS.
+6. Final MP4s are >100 MB: never commit them (`output/` is git-ignored). Deliver with SendUserFile.
+
 ## Environment notes
 - Rendering needs Python 3, Pillow, NumPy and ffmpeg (libx264). Run `python3 render.py --stills` for quick previews.
 - ElevenLabs audio downloads come from `elevenlabsusercontent.com`. If the network blocks that host, ask to add it to the environment's allowed hosts. ElevenLabs generation spends the creator's credits: do not repeat a generation to retry it.

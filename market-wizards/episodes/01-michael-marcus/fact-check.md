@@ -46,6 +46,6 @@ All personal trades, sizes, profits and anecdotes (C04–C08, C10–C26, C28–C
 - Full source text is NOT stored in the repository.
 
 ## Open items before publishing
-- [ ] Add page numbers from the creator's edition to `claims.md`.
+- [x] Page numbers — not used, by the creator's decision; claims reference the chapter section.
 - [ ] Optional: confirm the 1971 *Wall Street Journal* headline in an archive (currently "as Marcus remembered it").
 - [ ] Optional: confirm the $110 plywood control level (currently "as he recalled it").
