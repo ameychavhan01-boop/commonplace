@@ -54,7 +54,7 @@ SOURCES (numbers checked as of 20–22 November 2026)
 • TSMC manufactures NVIDIA chips: https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/
 Full source list with every number: available on request.
 
-Music: original score composed for this channel. Narration: synthetic voice (Kokoro TTS). Illustrations: AI-generated cartoon art. No real photos, logos or footage are used. Company names are used for identification only.
+Music: original score composed for this channel. Narration: synthetic voice (Kokoro TTS). Illustrations and animations: original, made for this channel. No real photos, logos or footage are used. Company names are used for identification only.
 
 #NVIDIA #WhatIf #AI
 

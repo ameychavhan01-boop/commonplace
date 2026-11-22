@@ -87,9 +87,18 @@ def placeholder(img_id):
     bl(text_layer("(placeholder — final cartoon art comes from ElevenLabs)", "semi", 44, (160, 140, 120)), 1440, 1400)
     return canvas
 
+DOODLE_KW = {"img01": "7:00 AM", "img02": "YOU OPEN CHATGPT...", "img03": "ANOTHER AI APP...",
+             "img04": "YOUR STOCK APP: RED", "img09": "THE DATA CENTER", "img12": "MIDNIGHT",
+             "img22": "THE MARKET OPENS", "img24": "GONE IN ONE MORNING", "img33": "DESIGNING CHIPS FOR THE WORLD"}
+
+def has_art(img_id):
+    return (ILLUS_DIR / f"{img_id}.png").exists()
+
 class Illus(Scene):
     """p: img, move=(x0,y0,z0)->(x1,y1,z1) where x,y in 0..1 centre, z = zoom (1 = full frame)."""
     def render(self, t, fi):
+        if not has_art(self.p["img"]):
+            return self.render_doodle(t, fi)
         im = load_illus(self.p["img"])
         a = self.p.get("a", (0.5, 0.5, 1.0)); b = self.p.get("b", (0.5, 0.5, 1.12))
         k = ease_in_out(t / max(self.dur, 0.01)) if self.p.get("ease", True) else t / max(self.dur, 0.01)
@@ -111,6 +120,28 @@ class Illus(Scene):
             f = (f * (1 - grad)).astype(np.uint8)
         kw_overlay(f, t, self.resolve(self.p.get("kw", [])), fi)
         return f
+    def render_doodle(self, t, fi):
+        from doodles import render_doodle
+        base = render_doodle(self.p["img"], t, fi)
+        a = self.p.get("a", (0.5, 0.5, 1.0)); b = self.p.get("b", (0.5, 0.5, 1.12))
+        k = ease_in_out(t / max(self.dur, 0.01))
+        # gentle camera on code-drawn art: small zoom + drift in the same direction as planned
+        z = 1.0 + 0.06 * k if b[2] >= a[2] else 1.06 - 0.06 * k
+        dx = (b[0] - a[0]) * 120 * k; dy = (b[1] - a[1]) * 80 * k
+        M = np.array([[z, 0, (1 - z) * W / 2 - dx], [0, z, (1 - z) * H / 2 - dy]], np.float32)
+        if self.p.get("shake_at") is not None:
+            sx, sy = shake(t, self.p["shake_at"], 0.6, 16); M[0, 2] += sx; M[1, 2] += sy
+        f = cv2.warpAffine(base, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+        if self.p.get("tint"):
+            col, amt = self.p["tint"]
+            amt = amt * ease_out(prog(t, self.p.get("tint_at", 0), 0.6))
+            f = (f * (1 - amt) + np.array(col) * amt).astype(np.uint8)
+        kws = self.resolve(self.p.get("kw", []))
+        if not kws and self.p["img"] in DOODLE_KW:
+            kws = [dict(text=DOODLE_KW[self.p["img"]], t=0.15, size=120, y=H * 0.87, style="plate", color=YELLOW)]
+        kw_overlay(f, t, kws, fi)
+        return f
+
     def resolve(self, items):
         out = []
         for it in items:
