@@ -12,13 +12,14 @@ Where sources disagree, the script uses the more cautious figure and says "about
 
 | Fact used | Value | Source(s) |
 |---|---|---|
-| NVIDIA market value, 20 Nov 2026 | **about $3 trillion** (~$3.03T); 4th most valuable US company | https://companiesmarketcap.com/usd/nvidia/marketcap/ · https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html · https://sundayguardianlive.com/business/nvidia-market-cap-drop-35-percent-share-slide-knocks-chipmaker-below-alphabet-valuation-to-fourth-most-valuable-us-company-325630 |
-| Peak value, early October 2026 | **about $5.7 trillion** (reports range $5.6T–$5.8T; never reached $6T) | https://decrypt.co/379959 · https://investinglive.com/stock-market-update/nvidia-hits-record-high-near-6-trillion-yet-still-trails-the-chip-sector-s-2026-rally/ · https://www.crowdfundinsider.com/2026/10/316268-nvidia-nvda-nears-6t-market-cap-as-company-stock-hits-ath/ |
-| Value lost since the October peak | **about $2.7 trillion** in roughly six to seven weeks | https://beinsure.com/news/nvidia-market-cap-drop-exceeds-wiped-out-in-stock-crash/ · https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html · https://benzinga.com/markets/equities/26/11/63516255/nvidia-stock-has-suffered-a-2-75-trillion-wipeout-as-charts-point-to-a-drop-to-100 |
+| NVIDIA market value, 20 Nov 2026 (last close before research date) | **$3.03 trillion** = close **$125.53** × **24.1 billion** shares. Script says "about three trillion" | Price: TradingView daily bars NASDAQ:NVDA (close 20 Nov 2026 = $125.53, −14.0% on the day) · Shares: NVIDIA 10-Q for quarter ended 26 Jul 2026, cover page: 24.1B shares outstanding as of 21 Aug 2026, https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm · Cross-check: https://companiesmarketcap.com/usd/nvidia/marketcap/ ($3.03T) · https://stockanalysis.com/stocks/nvda/statistics/ (24.15B shares) |
+| Why other reports say ~$3.9T | That was the value around 13 Nov ($162.85 × 24.1B = $3.92T). At the 17 Nov close (results day) it was $155.46 × 24.1B = $3.75T. The 14% fall on 20 Nov brought it to ~$3.0T | TradingView NASDAQ:NVDA daily closes · https://www.finhacker.cz/en/stocks/nvidia-market-cap/ |
+| Peak value, 6 Oct 2026 (record close) | **$5.77 trillion** = $239.24 × 24.1B. Script says "about 5.8 trillion" | TradingView NASDAQ:NVDA (record close $239.24 on 6 Oct 2026; intraday high $243.37) · https://decrypt.co/379959 · https://investinglive.com/stock-market-update/nvidia-hits-record-high-near-6-trillion-yet-still-trails-the-chip-sector-s-2026-rally/ |
+| Value lost, 6 Oct → 20 Nov 2026 (6.5 weeks) | **$2.74 trillion** = ($239.24 − $125.53) × 24.1B. Script says "about 2.7 trillion" in "just over six weeks". (The ~$1.8T figure in some reports is the loss as of ~13 Nov) | TradingView closes as above · https://beinsure.com/news/nvidia-market-cap-drop-exceeds-wiped-out-in-stock-crash/ · https://benzinga.com/markets/equities/26/11/63516255/nvidia-stock-has-suffered-a-2-75-trillion-wipeout-as-charts-point-to-a-drop-to-100 |
 | First company ever to reach $5 trillion | 29 Oct 2025, closed at $5.03T | https://finance.yahoo.com/news/nvidia-becomes-first-company-to-close-above-5-trillion-market-cap-133101442.html · https://techcrunch.com/2025/10/29/nvidia-becomes-first-public-company-worth-5-trillion |
-| Weight in the S&P 500 | **6.14%** (12 Nov 2026); ~8% in Sept 2026. Script says **"more than 5 percent"** to stay safe after the 20 Nov drop | https://calculatorai.app/blog/how-much-of-the-sp-500-is-nvidia · https://www.trefis.com/stock/nvda/articles/624815/nvidia-is-6-1-of-your-s-p-500-fund-what-is-your-number/2026-11-13 · https://cryptobriefing.com/nvidia-8-percent-sp500-weight/ |
+| Weight in the S&P 500 | **about 5% (estimated)**. Reported 6.14% on 12 Nov 2026. From 12 Nov to 20 Nov NVDA fell 24.5% ($166.19→$125.53) and the S&P 500 fell 9.0% (7,592.40→6,910.39), giving ≈ 6.14% × 0.755 / 0.910 ≈ **5.1%** | https://calculatorai.app/blog/how-much-of-the-sp-500-is-nvidia · https://www.trefis.com/stock/nvda/articles/624815/nvidia-is-6-1-of-your-s-p-500-fund-what-is-your-number/2026-11-13 · TradingView SP:SPX and NASDAQ:NVDA daily closes |
 | Weight in Nasdaq-100 (QQQ) | 6.52% (12 Nov 2026); 8.15% (31 May 2026) | https://calculatorai.app/blog/how-much-of-the-sp-500-is-nvidia · https://www.trackinsight.com/en/fund/QQQ/holdings |
-| $3 trillion is bigger than Italy's whole yearly economy | Italy GDP ≈ $2.3T (IMF 2026 projection); only ~7 countries are above $3T | https://ceoworld.biz/2026/11/05/global-gdp-2026-every-major-economy-ranked-by-the-imf/ · https://www.statisticstimes.com/economy/projected-world-gdp-ranking.php |
+| NVIDIA ≈ three-quarters of India's yearly economy | India nominal GDP 2026 = **$4.06 trillion** (IMF World Economic Outlook, Oct 2026). $3.03T ÷ $4.06T = **75%** | https://www.worldometers.info/gdp/india-gdp/ · https://en.wikipedia.org/wiki/Economy_of_India · https://statisticsoftheworld.com/india-economy · https://www.pmfias.com/india-falls-to-sixth-largest-economy/ |
 
 ## 2. NVIDIA's business
 
@@ -61,9 +62,13 @@ Where sources disagree, the script uses the more cautious figure and says "about
 
 ---
 
-## 5. Background (not used in the script)
+## 5. Leadership check (no script line depends on this)
 
-- On 12 Nov 2026 Jensen Huang resigned as NVIDIA CEO; CFO Colette Kress is interim CEO. https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition · https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout
+- **Jensen Huang is no longer NVIDIA's CEO.** He resigned as President, CEO and board member, effective immediately, on 12 Nov 2026. CFO **Colette Kress is interim CEO** and Harvey C. Jones is board chair. https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition · https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout · https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/
+- The script names **no NVIDIA executive**. The "$500 billion of orders" line is attributed to "NVIDIA" (it was a company statement in Oct 2025), so it stays correct.
+
+## 6. Background (not used in the script)
+
 - Reports say the SEC is examining NVIDIA's accounting. These are reported claims, not findings. https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html
 
 The script deliberately leaves these out: they are political, legal and personal matters, and the video is a thought experiment about the company, not about any person.

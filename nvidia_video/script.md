@@ -1,4 +1,4 @@
-# What If NVIDIA Vanished Tomorrow? (Script v1)
+# What If NVIDIA Vanished Tomorrow? (Script v2 — approved)
 
 Corner label for the whole video: **THOUGHT EXPERIMENT**
 `[ON SCREEN: ...]` = big text or graphics. Only the narration is spoken.
@@ -11,7 +11,7 @@ It's 7 AM. You open ChatGPT. Nothing.
 You try another AI app. Nothing.
 Your stock app is flashing red.
 And it all happened because one company, worth about three trillion dollars, disappeared overnight.
-`[ON SCREEN: 7:00 AM · "$3 TRILLION" · "GONE."]`
+`[ON SCREEN: 7:00 AM · "$3 TRILLION" · "GONE." · small: "market value, 20 Nov 2026"]`
 
 This is a thought experiment. But every number you'll hear is real.
 So... what actually happens if NVIDIA vanished tomorrow?
@@ -66,14 +66,15 @@ All of it slows down. Or stops.
 Day one. The stock market opens. And this is where it gets scary.
 `[CORNER: DAY 1 · 9:30 AM]`
 
-NVIDIA alone is more than 5 percent of the S&P 500: America's 500 biggest companies.
+NVIDIA alone is about 5 percent of the S&P 500: America's 500 biggest companies.
 So if you own a simple index fund, part of your money was in NVIDIA, maybe without you even knowing.
-`[ON SCREEN: pie chart, NVIDIA slice "5%+ OF THE S&P 500"]`
+`[ON SCREEN: pie chart, NVIDIA slice "~5% OF THE S&P 500"]`
 
 That slice just went to zero.
 About three trillion dollars. Gone in one morning.
-That's more than the entire yearly economy of Italy.
-`[ON SCREEN: "$3,000,000,000,000" · comparison bar vs ITALY'S GDP]`
+That's about three-quarters of India's entire yearly economy.
+Hold on to that thought. We'll come back to India.
+`[ON SCREEN: "$3,000,000,000,000" · comparison bar: NVIDIA $3.0T vs INDIA GDP $4.06T]`
 
 And it doesn't stop there.
 Companies that make parts for NVIDIA. Companies that rent out NVIDIA chips.
@@ -81,11 +82,11 @@ Companies whose whole plan was "AI."
 They all fall together, because suddenly, nobody knows what anything is worth.
 
 Want a real-world hint of how that feels?
-In early October 2026, NVIDIA was worth about 5.7 trillion dollars.
-In roughly six weeks, about 2.7 trillion of that value disappeared.
+In early October 2026, NVIDIA was worth about 5.8 trillion dollars.
+In just over six weeks, about 2.7 trillion dollars of that value disappeared.
 Markets everywhere felt it.
 Now imagine not a fall... but the whole thing, gone at once.
-`[ON SCREEN: line chart $5.7T → $3T · "-$2.7 TRILLION IN ~6 WEEKS"]`
+`[ON SCREEN: line chart $5.8T (6 Oct) → $3.0T (20 Nov) · "-$2.7 TRILLION"]`
 
 ## 5. WEEK 1: THE GIANTS PANIC
 
