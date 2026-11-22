@@ -81,5 +81,5 @@ UPLOAD CHECKLIST (for you)
   (left: "Best for viewer", right: a playlist) and a Subscribe element over the red circle.
 • Altered or synthetic content: answer "No". The video is clearly animated and doesn't show
   realistic people or events (YouTube's label is meant for realistic-looking content). The
-  description already says the voice and art are synthetic.
+  description already says the narration is a synthetic voice.
 • Category: Education. Audience: not made for kids.
