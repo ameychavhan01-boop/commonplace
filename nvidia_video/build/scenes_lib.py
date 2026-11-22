@@ -307,8 +307,8 @@ class LineChart(Scene):
             put_text(f, f"${gv:.0f}T", x0 - 30, gy, "semi", 34, (150, 155, 175), anchor="right")
         poly(f, [(x0, y1 - 20), (x0, y0), (x1 + 20, y0)], (150, 155, 175), None, 4, fi, 0.8, 5, closed=False)
         a = self.cue("draw0", 0.2); b = self.cue("draw1", self.dur * 0.8)
-        k = ease_in_out(prog(t, a, b - a))
-        n = len(pts); m = max(2, int(1 + (n - 1) * k))
+        k = lerp(self.p.get("kmin", 0.0), self.p.get("kmax", 1.0), ease_in_out(prog(t, a, b - a)))
+        n = len(pts); m = max(2, int(round(1 + (n - 1) * k)))
         xy = [(lerp(x0, x1, i / (n - 1)), lerp(y0, y1, (v - vmin) / (vmax - vmin))) for i, (_, v) in enumerate(pts)]
         # area fill
         shown = xy[:m]

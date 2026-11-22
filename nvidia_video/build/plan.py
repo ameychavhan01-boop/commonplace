@@ -52,9 +52,10 @@ sc(5, "illus", img="img04", a=(0.5, 0.5, 1.1), b=(0.5, 0.45, 1.35), shake_at=0.2
    sfx=[(0.1, "boom", 0.35)])
 sc(6, "illus", img="img05", a=(0.5, 0.45, 1.3), b=(0.5, 0.5, 1.0),
    cues=dict(n=(6, "worth"), g=(6, "disappeared")),
-   kw=[KW("$3 TRILLION", "n", size=190, y=H * 0.42, sub="market value · 20 Nov 2026"),
-       KW("GONE.", "g", size=150, y=H * 0.8, color=RED)],
-   sfx=[("n", "pop", 0.8), ("g", "boom", 0.8)])
+   kw=[KW("$3 TRILLION", "n", size=190, y=H * 0.42, sub="market value · 20 Nov 2026")],
+   sfx=[("n", "pop", 0.8)])
+sc((6, "disappeared"), "illus", img="img05", a=(0.5, 0.35, 1.7), b=(0.5, 0.3, 2.1), shake_at=0.1,
+   kw=[KW("GONE. OVERNIGHT.", 0.05, size=160, y=H * 0.8, color=RED)], sfx=[(0.05, "boom", 0.8)])
 sc(7, "big", lines=[("THOUGHT", "anton", 230, YELLOW), ("EXPERIMENT", "anton", 230, YELLOW)], style="stamp",
    bg="dark", sfx=[(0.05, "boom", 0.4)])
 sc(8, "big", lines=[("EVERY NUMBER", "anton", 170, WHITE), ("IS REAL", "anton", 170, LIME)],
@@ -69,7 +70,8 @@ sc(12, "illus", img="img07", a=(0.5, 0.5, 1.0), b=(0.5, 0.48, 1.18), cues=dict(c
    kw=[KW("CPU = 1 SMART CHEF", "c", size=120, y=H * 0.84, style="plate", color=YELLOW)], sfx=[("c", "pop", 0.6)])
 sc(13, "illus", img="img08", a=(0.5, 0.5, 1.35), b=(0.5, 0.5, 1.0), cues=dict(c=(13, "thousands")),
    kw=[KW("GPU = THOUSANDS OF COOKS", "c", size=110, y=H * 0.84, style="plate", color=LIME)], sfx=[("c", "pop", 0.6)])
-sc(14, "chip", mode="parallel", cues=dict(big=(14, "all at once")), sfx=[(0.1, "whoosh", 0.4), ("big", "pop", 0.7)])
+sc(14, "big", lines=[("WHAT AI NEEDS:", "anton", 180, WHITE)], bg="dark")
+sc((14, "billions"), "chip", mode="parallel", cues=dict(big=(14, "all at once")), sfx=[(0.1, "whoosh", 0.4), ("big", "pop", 0.7)])
 sc(15, "chip", mode="engine", sfx=[(0.6, "pop", 0.6)])
 sc(16, "illus", img="img09", a=(0.3, 0.5, 1.2), b=(0.7, 0.5, 1.2))
 sc(17, "pie", share=0.80, big="~80%", label="OF AI CHIPS IN DATA CENTERS", note="estimated · ranges 70–85%",
@@ -85,7 +87,8 @@ sc(22, "big", lines=[("20 YEARS OF", "anton", 120, WHITE), ("CODE · TOOLS · HA
    stagger=0.5, sfx=[(0.6, "pop", 0.5)])
 sc(23, "big", lines=[("HABITS.", "anton", 280, YELLOW)], bg="dark", underline=700, note="remember this word",
    note_at=1.0, sfx=[(0.1, "boom", 0.35)])
-sc(26, "counter", value=115.8, decimals=1, prefix="$", suffix=" BILLION", label="NVIDIA SALES IN 3 MONTHS",
+sc(26, "big", lines=[("IN JUST", "anton", 150, INK), ("3 MONTHS...", "anton", 230, ORANGE)], bg="paper")
+sc((26, "NVIDIA made"), "counter", value=115.8, decimals=1, prefix="$", suffix=" BILLION", label="NVIDIA SALES IN 3 MONTHS",
    sub="quarter ended 25 Oct 2026", cues=dict(num=(26, "115.8")), size=200, color=LIME,
    sfx=[("num", "ticker", 0.4), ("num", "pop", 0.6)])
 sc(27, "bars", title="WHERE THE MONEY CAME FROM", bg="dark",
@@ -140,8 +143,12 @@ sc(51, "illus", img="img22", a=(0.4, 0.45, 1.5), b=(0.45, 0.4, 1.8),
    kw=[KW("THIS IS WHERE IT GETS SCARY", 0.4, size=100, y=H * 0.84, style="plate", color=RED)])
 sc(52, "pie", share=0.05, big="~5%", label="OF THE S&P 500 IS NVIDIA", note="America's 500 biggest companies · est. 20 Nov 2026",
    color=LIME, bg="paper", big_color=LIME, cues=dict(), sfx=[(0.55, "pop", 0.6)])
+sc((52, "America's"), "illus", img="img22", a=(0.5, 0.5, 1.0), b=(0.6, 0.5, 1.2),
+   kw=[KW("AMERICA'S 500 BIGGEST COMPANIES", 0.1, size=100, y=H * 0.84, style="plate", color=WHITE)])
 sc(53, "illus", img="img23", a=(0.5, 0.5, 1.1), b=(0.55, 0.45, 1.35), cues=dict(c=(53, "index fund")),
    kw=[KW("YOUR INDEX FUND", "c", size=130, y=H * 0.84, style="plate", color=YELLOW)], sfx=[("c", "pop", 0.5)])
+sc((53, "maybe"), "illus", img="img23", a=(0.6, 0.45, 1.8), b=(0.62, 0.42, 2.1),
+   kw=[KW("WITHOUT YOU EVEN KNOWING", 0.1, size=110, y=H * 0.84, style="plate", color=WHITE)])
 sc(54, "pie", share=0.05, big="→ $0", label="THAT SLICE GOES TO ZERO", color=LIME, bg="dark",
    cues=dict(remove=(54, "zero")), sfx=[((54, "zero"), "whoosh_down", 0.6)])
 sc(55, "counter", value=3, suffix=" TRILLION", prefix="$", final="$3,000,000,000,000", label="GONE IN ONE MORNING",
@@ -167,10 +174,15 @@ sc(64, "big", lines=[("A REAL-WORLD", "anton", 150, WHITE), ("HINT", "anton", 24
    note="real data, October–November 2026")
 sc(65, "line", points=MCAP, ymin=2.0, ymax=6.4, grid=[3, 4, 5, 6], xticks=[0, 3, 22, 36],
    title="NVIDIA MARKET VALUE ($ TRILLIONS)", source="daily close × 24.1B shares · TradingView, SEC 10-Q",
-   cues=dict(draw0=(65, "worth"), draw1=(66, "disappeared"), peak=(65, "5.8"), loss=(66, "2.7")),
-   ann=[dict(text="PEAK ~$5.8T · 6 OCT", t="peak", x=560, y=215, size=58, color=LIME),
+   cues=dict(draw0=(65, "In early"), draw1=(65, "5.8"), peak=(65, "5.8")), kmax=3 / 36,
+   ann=[dict(text="PEAK ~$5.8T · 6 OCT", t="peak", x=560, y=215, size=58, color=LIME)],
+   sfx=[("peak", "pop", 0.5)])
+sc(66, "line", points=MCAP, ymin=2.0, ymax=6.4, grid=[3, 4, 5, 6], xticks=[0, 3, 22, 36],
+   title="NVIDIA MARKET VALUE ($ TRILLIONS)", source="daily close × 24.1B shares · TradingView, SEC 10-Q",
+   cues=dict(draw0=66, draw1=(66, "of that"), loss=(66, "2.7")), kmin=3 / 36,
+   ann=[dict(text="PEAK ~$5.8T · 6 OCT", t=0.0, x=560, y=215, size=58, color=LIME),
         dict(text="−$2.7 TRILLION", t="loss", x=820, y=760, size=120, color=RED)],
-   sfx=[("peak", "pop", 0.5), ("loss", "boom", 0.6)])
+   sfx=[("loss", "boom", 0.6)])
 sc(67, "world", mode="pulses", title="MARKETS EVERYWHERE FELT IT", sfx=[(0.3, "pop", 0.3)])
 sc(68, "illus", img="img05", a=(0.5, 0.35, 1.6), b=(0.5, 0.45, 1.1), cues=dict(c=(68, "gone at once")),
    kw=[KW("NOW IMAGINE: ALL AT ONCE", "c", size=120, y=H * 0.82, color=RED)], sfx=[("c", "boom", 0.7)])
@@ -183,6 +195,8 @@ sc(70, "illus", img="img27", a=(0.5, 0.5, 1.0), b=(0.5, 0.45, 1.25), shake_at=0.
 sc(71, "counter", value=500, prefix="$", suffix=" BILLION", label="OF CHIP ORDERS LINED UP",
    sub="NVIDIA's own estimate (Oct 2025), through 2026", cues=dict(num=(71, "500")),
    size=210, color=LIME, sfx=[("num", "ticker", 0.4)])
+sc((71, "chip orders"), "illus", img="img29", a=(0.85, 0.7, 1.9), b=(0.75, 0.7, 1.9),
+   kw=[KW("$500 BILLION OF ORDERS WAITING", 0.1, size=100, y=H * 0.84, style="plate", color=LIME)])
 sc(72, "cards", title="ALL WAITING FOR CHIPS", bg="dark",
    cards=[dict(title="MICROSOFT", size=58, t="c0"), dict(title="AMAZON", size=58, t="c1"),
           dict(title="META", size=58, t="c2"), dict(title="OPENAI", size=58, t="c3")],
@@ -193,11 +207,14 @@ sc(73, "illus", img="img28", a=(0.5, 0.5, 1.15), b=(0.5, 0.5, 1.0), cues=dict(c=
    kw=[KW("ORDERS: CANCELLED", 0.1, size=130, y=H * 0.16, color=RED, rot=-5), KW("...NOTHING.", "c", size=150, y=H * 0.82, color=WHITE)],
    sfx=[(0.1, "boom", 0.5)])
 sc(74, "big", lines=[("WHO STEPS IN?", "anton", 210, YELLOW)], bg="dark")
-sc(75, "cards", title="THE RIVALS", bg="paper",
+sc(75, "illus", img="img43", a=(0.3, 0.5, 1.3), b=(0.45, 0.5, 1.3), cues=dict(c=(75, "OpenAI")),
+   kw=[KW("AMD: AI CHIPS", 0.1, size=130, y=H * 0.15, style="plate", color=WHITE),
+       KW("+ A DEAL WITH OPENAI", "c", size=110, y=H * 0.84, style="plate", color=ORANGE)], sfx=[(0.1, "pop", 0.5)])
+sc(76, "cards", title="THE RIVALS", bg="paper",
    cards=[dict(title="AMD", text="AI chips + OpenAI deal", color=(255, 214, 200), t="c0"),
           dict(title="GOOGLE", text="its own TPUs", color=(205, 228, 255), t="c1"),
           dict(title="AMAZON", text="its own Trainium", color=(255, 236, 190), t="c2")],
-   cues=dict(c0=75, c1=76, c2=77), sfx=[(0.3, "pop", 0.5), (76, "pop", 0.5), (77, "pop", 0.5)])
+   cues=dict(c0=76, c1=(76, "Google"), c2=77), sfx=[((76, "Google"), "pop", 0.5), (77, "pop", 0.5)])
 sc(78, "big", lines=[("WHY NOT", "anton", 170, INK), ("JUST SWITCH?", "anton", 200, RED)], bg="paper")
 sc(79, "cards", title="3 REASONS", bg="dark",
    cards=[dict(title="1", text="FACTORIES", t="c0", color=YELLOW, size=140), dict(title="2", text="CUDA", t="c1", color=LIME, size=140),
@@ -246,26 +263,40 @@ sc(100, "counter", value=38000, suffix="+", label="GPUs FOR INDIAN STARTUPS & RE
    sub="mostly NVIDIA chips · IndiaAI compute portal", cues=dict(num=(100, "38,000")), color=SAFFRON,
    grid=dict(n=380, cols=38, cell=20, y0=190, color=(90, 110, 70)), y=640, size=200, label_size=50,
    sfx=[("num", "ticker", 0.4), ("num", "pop", 0.5)])
-sc(101, "counter", value=4096, label="NVIDIA H100 CHIPS", sub="used to train Sarvam AI's 105-billion-parameter model",
-   cues=dict(num=(101, "4,096")), size=220, color=LIME, sfx=[("num", "ticker", 0.4), ("num", "pop", 0.5)])
+sc((100, "available"), "cards", title="FOR INDIA'S OWN AI", bg="paper",
+   cards=[dict(title="STARTUPS", t="c0", color=(255, 225, 190)), dict(title="RESEARCHERS", t="c1", color=(210, 235, 210), size=60)],
+   cues=dict(c0=(100, "startups"), c1=(100, "researchers")), card_h=280,
+   sfx=[((100, "startups"), "pop", 0.4), ((100, "researchers"), "pop", 0.4)])
+sc((100, "most of them"), "chip", mode="gpu", caption="MOST OF THEM: NVIDIA CHIPS", sfx=[(0.15, "pop", 0.5)])
+sc(101, "big", lines=[("SARVAM AI", "anton", 200, SAFFRON)], bg="dark", note="an Indian AI startup", note_at=0.4)
+sc((101, "4,096"), "counter", value=4096, label="NVIDIA H100 CHIPS", sub="used to train Sarvam AI's 105-billion-parameter model",
+   cues=dict(num=0.05), size=220, color=LIME, sfx=[("num", "ticker", 0.4), ("num", "pop", 0.5)])
 sc(102, "illus", img="img35", a=(0.5, 0.5, 1.0), b=(0.55, 0.5, 1.2), cues=dict(c=(102, "loses")),
    kw=[KW("INDIA'S AI DREAM LOSES ITS ENGINE", "c", size=100, y=H * 0.84, style="plate", color=SAFFRON)])
 sc(103, "illus", img="img36", a=(0.3, 0.5, 1.2), b=(0.6, 0.5, 1.2),
    kw=[KW("INDIA'S NEW AI DATA CENTERS", 0.2, size=100, y=H * 0.15, style="plate", color=WHITE)])
 sc(104, "india", scale=19, cx=620, cy=600, title="BUILT AROUND NVIDIA", title_size=90, title_x=1300,
-   pins=[("Jamnagar", "JAMNAGAR (RELIANCE)", "p0")], cues=dict(p0=(104, "Jamnagar"), k0=(104, "Yotta's")),
-   cards=[dict(title="YOTTA", text="20,736 NVIDIA chips planned", t="k0", x=1380, y=560)],
-   sfx=[((104, "Jamnagar"), "pop", 0.5), ((104, "Yotta's"), "pop", 0.5)])
+   pins=[("Jamnagar", "JAMNAGAR (RELIANCE)", "p0")], cues=dict(p0=(104, "Jamnagar")),
+   sfx=[((104, "Jamnagar"), "pop", 0.5)])
+sc((104, "Yotta's"), "counter", value=20736, label="NVIDIA CHIPS IN YOTTA'S PLANNED CLUSTER", sub="Yotta Data Services, India",
+   cues=dict(num=0.1), size=210, color=LIME, label_size=50, sfx=[(0.1, "ticker", 0.4), (1.2, "pop", 0.5)])
+sc((104, "they were built"), "illus", img="img36", a=(0.5, 0.35, 1.5), b=(0.5, 0.4, 1.25),
+   kw=[KW("ALL BUILT AROUND NVIDIA", 0.1, size=120, y=H * 0.84, style="plate", color=YELLOW)])
 sc(105, "illus", img="img36", a=(0.7, 0.55, 1.6), b=(0.6, 0.5, 1.9),
    kw=[KW("BILLIONS OF DOLLARS: STUCK", 0.3, size=120, y=H * 0.84, color=RED)], sfx=[(0.3, "boom", 0.4)])
-sc(106, "counter", value=315, prefix="$", suffix=" BILLION", label="INDIAN TECH INDUSTRY · ~6 MILLION WORKERS",
-   sub="NASSCOM estimate, FY2026", cues=dict(num=(106, "315"), label=(106, "6 million")), size=210, color=YELLOW,
+sc(106, "counter", value=315, prefix="$", suffix=" BILLION", label="INDIA'S TECH INDUSTRY (REVENUE)",
+   sub="NASSCOM estimate, FY2026", cues=dict(num=(106, "315")), size=210, color=YELLOW,
    label_size=52, sfx=[("num", "ticker", 0.4), ("num", "pop", 0.5)])
+sc((106, "with nearly"), "counter", value=6, prefix="~", suffix=" MILLION", label="TECH WORKERS IN INDIA",
+   sub="NASSCOM estimate, FY2026 (5.95 million)", cues=dict(num=0.1), size=230, color=SAFFRON,
+   sfx=[(0.1, "ticker", 0.3), (1.1, "pop", 0.5)])
 sc(107, "cards", title="ALL BUILD ON NVIDIA TOOLS", bg="paper",
    cards=[dict(title="INFOSYS", size=60, t="c0"), dict(title="TCS", size=70, t="c1"),
           dict(title="WIPRO", size=64, t="c2"), dict(title="HCLTECH", size=58, t="c3")], card_h=250,
    cues=dict(c0=(107, "Infosys"), c1=(107, "TCS"), c2=(107, "Wipro"), c3=(107, "HCLTech")),
    sfx=[((107, "Infosys"), "pop", 0.4), ((107, "TCS"), "pop", 0.4), ((107, "Wipro"), "pop", 0.4), ((107, "HCLTech"), "pop", 0.4)])
+sc((107, "all build"), "illus", img="img33", a=(0.6, 0.5, 1.5), b=(0.4, 0.5, 1.5),
+   kw=[KW("AI SERVICES FOR CLIENTS WORLDWIDE", 0.1, size=96, y=H * 0.84, style="plate", color=WHITE)])
 sc(108, "illus", img="img37", a=(0.5, 0.5, 1.0), b=(0.4, 0.5, 1.2),
    kw=[KW("PROJECTS: FROZEN", 0.1, size=130, y=H * 0.84, style="plate", color=(120, 200, 255))], sfx=[(0.1, "glitch", 0.3)])
 sc(109, "illus", img="img37", a=(0.7, 0.45, 1.6), b=(0.75, 0.45, 1.8),
@@ -276,6 +307,7 @@ sc(111, "big", lines=[("WHAT ABOUT", "anton", 160, INK), ("GAMERS?", "anton", 23
 sc(113, "counter", value=555, suffix=" MILLION", label="GAMERS IN INDIA — MOSTLY ON PHONES",
    sub="Lumikai report, 2025 data", cues=dict(num=(113, "555")), size=210, color=TEAL, label_size=52,
    sfx=[("num", "ticker", 0.4), ("num", "pop", 0.5)])
+sc((113, "and phones"), "big", lines=[("PHONES MOSTLY USE", "anton", 150, WHITE), ("OTHER CHIPS", "anton", 220, TEAL)], bg="dark")
 sc(114, "illus", img="img38", a=(0.5, 0.5, 1.0), b=(0.5, 0.45, 1.2),
    kw=[KW("MOBILE GAMING SURVIVES!", 0.2, size=120, y=H * 0.84, style="plate", color=LIME)], sfx=[(0.2, "ding", 0.5)])
 sc(115, "illus", img="img39", a=(0.5, 0.5, 1.0), b=(0.6, 0.5, 1.3), cues=dict(c=(116, "rare")),
@@ -284,6 +316,8 @@ sc(115, "illus", img="img39", a=(0.5, 0.5, 1.0), b=(0.6, 0.5, 1.3), cues=dict(c=
 sc(117, "big", lines=[("AND THE", "anton", 150, WHITE), ("STOCK MARKET?", "anton", 200, YELLOW)], bg="dark")
 sc(118, "world", mode="flows", title="FOREIGN MONEY COULD RUSH OUT", size=84,
    note="a common pattern in panics — not a forecast")
+sc((118, "to play"), "illus", img="img26", a=(0.5, 0.5, 1.3), b=(0.5, 0.45, 1.5),
+   kw=[KW("\"PLAY IT SAFE\"", 0.1, size=140, y=H * 0.84, style="plate", color=YELLOW)])
 sc(119, "cards", title="COULD FEEL THE PRESSURE", bg="dark",
    cards=[dict(title="SENSEX ↓", t="c0", color=(255, 205, 205), size=70), dict(title="NIFTY ↓", t="c1", color=(255, 205, 205), size=70),
           dict(title="RUPEE ↓", t="c2", color=(255, 225, 190), size=70)], card_h=260,
@@ -293,8 +327,10 @@ sc(120, "illus", img="img40", a=(0.5, 0.5, 1.0), b=(0.5, 0.45, 1.2),
    kw=[KW("EVEN WITH NO LINK TO NVIDIA", 0.6, size=100, y=H * 0.84, style="plate", color=WHITE)])
 sc(121, "big", lines=[("BUT HERE'S THE", "anton", 150, WHITE), ("OTHER SIDE", "anton", 210, LIME)], bg="dark",
    sfx=[(0.1, "whoosh", 0.4)])
-sc(122, "illus", img="img41", a=(0.5, 0.5, 1.3), b=(0.5, 0.5, 1.0), cues=dict(c=(122, "millions")),
-   kw=[KW("WHO HAS MILLIONS OF ENGINEERS?", "c", size=100, y=H * 0.84, style="plate", color=YELLOW)])
+sc(122, "illus", img="img41", a=(0.5, 0.5, 1.3), b=(0.5, 0.5, 1.1),
+   kw=[KW("REWRITE AI SOFTWARE FOR NEW CHIPS", 0.3, size=100, y=H * 0.84, style="plate", color=WHITE)])
+sc((122, "who has"), "illus", img="img41", a=(0.35, 0.5, 1.7), b=(0.3, 0.5, 2.0),
+   kw=[KW("WHO HAS MILLIONS OF ENGINEERS?", 0.1, size=100, y=H * 0.84, style="plate", color=YELLOW)])
 sc(123, "india", glow=True, scale=21, cy=600, title="INDIA DOES.", title_size=170, title_y=540, fill=(70, 90, 70),
    sfx=[(0.05, "boom", 0.5), (0.1, "ding", 0.5)])
 
@@ -307,8 +343,10 @@ sc(126, "illus", img="img43", a=(0.3, 0.5, 1.2), b=(0.6, 0.5, 1.2),
 sc(127, "illus", img="img44", a=(0.5, 0.5, 1.0), b=(0.5, 0.55, 1.2),
    kw=[KW("NEW FACTORIES", 0.2, size=120, y=H * 0.84, style="plate", color=YELLOW)])
 sc(128, "code", cues=dict(stop=999.0))
-sc(129, "illus", img="img45", a=(0.5, 0.5, 1.0), b=(0.55, 0.5, 1.2), cues=dict(c=(129, "hired")),
-   kw=[KW("HIRED BY RIVALS", "c", size=130, y=H * 0.84, style="plate", color=LIME)], sfx=[("c", "pop", 0.5)])
+sc(129, "illus", img="img45", a=(0.3, 0.5, 1.4), b=(0.4, 0.5, 1.4),
+   kw=[KW("SOME OF THE BEST IN THE WORLD", 0.3, size=100, y=H * 0.84, style="plate", color=WHITE)])
+sc((129, "get hired"), "illus", img="img45", a=(0.75, 0.5, 1.4), b=(0.6, 0.5, 1.1),
+   kw=[KW("HIRED BY RIVALS", 0.05, size=130, y=H * 0.84, style="plate", color=LIME)], sfx=[(0.05, "pop", 0.5)])
 sc(130, "big", lines=[("THE KNOWLEDGE", "anton", 150, WHITE), ("DIDN'T VANISH.", "anton", 150, WHITE),
                       ("IT MOVED.", "anton", 200, LIME)], line_at=["l0", "l1", "l2"],
    cues=dict(l0=130, l1=(130, "vanish"), l2=131), bg="dark", sfx=[(131, "pop", 0.5)])

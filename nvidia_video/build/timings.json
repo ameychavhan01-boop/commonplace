@@ -3,1071 +3,1071 @@
   "id": 0,
   "text": "It's 7 AM.",
   "start": 0.0,
-  "end": 1.264,
+  "end": 1.305,
   "section": "hook"
  },
  {
   "id": 1,
   "text": "You open ChatGPT.",
-  "start": 1.732,
-  "end": 3.718,
+  "start": 1.635,
+  "end": 3.385,
   "section": "hook"
  },
  {
   "id": 2,
   "text": "Nothing.",
-  "start": 4.101,
-  "end": 4.814,
+  "start": 3.655,
+  "end": 4.394,
   "section": "hook"
  },
  {
   "id": 3,
   "text": "You try another AI app.",
-  "start": 5.409,
-  "end": 7.122,
+  "start": 4.814,
+  "end": 6.569,
   "section": "hook"
  },
  {
   "id": 4,
   "text": "Nothing.",
-  "start": 7.504,
-  "end": 8.217,
+  "start": 6.839,
+  "end": 7.579,
   "section": "hook"
  },
  {
   "id": 5,
   "text": "Your stock app is flashing red.",
-  "start": 8.727,
-  "end": 10.552,
+  "start": 7.939,
+  "end": 9.739,
   "section": "hook"
  },
  {
   "id": 6,
   "text": "And it all happened because one company, worth about three trillion dollars, disappeared overnight.",
-  "start": 11.062,
-  "end": 16.108,
+  "start": 10.099,
+  "end": 16.903,
   "section": "hook"
  },
  {
   "id": 7,
   "text": "This is a thought experiment.",
-  "start": 16.873,
-  "end": 18.631,
+  "start": 17.443,
+  "end": 19.19,
   "section": "hook"
  },
  {
   "id": 8,
   "text": "But every number you'll hear is real.",
-  "start": 18.954,
-  "end": 20.939,
+  "start": 19.418,
+  "end": 21.456,
   "section": "hook"
  },
  {
   "id": 9,
   "text": "So... what actually happens if NVIDIA vanished tomorrow?",
-  "start": 21.449,
-  "end": 24.57,
+  "start": 21.816,
+  "end": 25.412,
   "section": "hook"
  },
  {
   "id": 10,
   "text": "First, what does NVIDIA even do?",
-  "start": 25.505,
-  "end": 27.543,
+  "start": 26.072,
+  "end": 28.315,
   "section": "what"
  },
  {
   "id": 11,
   "text": "It makes chips called GPUs.",
-  "start": 28.053,
-  "end": 30.174,
+  "start": 28.675,
+  "end": 30.671,
   "section": "what"
  },
  {
   "id": 12,
   "text": "Think of a normal computer chip as one very smart chef.",
-  "start": 30.497,
-  "end": 33.771,
+  "start": 30.899,
+  "end": 34.615,
   "section": "what"
  },
  {
   "id": 13,
   "text": "A GPU is a kitchen with thousands of cooks, all chopping at the same time.",
-  "start": 34.094,
-  "end": 38.311,
+  "start": 34.843,
+  "end": 40.015,
   "section": "what"
  },
  {
   "id": 14,
   "text": "And that's exactly what AI needs: billions of tiny maths problems, solved all at once.",
-  "start": 38.634,
-  "end": 43.5,
+  "start": 40.243,
+  "end": 46.748,
   "section": "what"
  },
  {
   "id": 15,
   "text": "So GPUs are the engines of AI.",
-  "start": 44.01,
-  "end": 46.443,
+  "start": 47.108,
+  "end": 49.763,
   "section": "what"
  },
  {
   "id": 16,
   "text": "And NVIDIA makes most of them.",
-  "start": 46.766,
-  "end": 48.689,
+  "start": 49.991,
+  "end": 52.166,
   "section": "what"
  },
  {
   "id": 17,
   "text": "By most estimates, about 80 percent of the AI chips in the world's data centers.",
-  "start": 49.012,
-  "end": 53.813,
+  "start": 52.394,
+  "end": 58.207,
   "section": "what"
  },
  {
   "id": 18,
   "text": "But chips are only half the story.",
-  "start": 54.323,
-  "end": 56.334,
+  "start": 58.567,
+  "end": 60.477,
   "section": "what"
  },
  {
   "id": 19,
   "text": "The other half is called CUDA.",
-  "start": 56.657,
-  "end": 58.609,
+  "start": 60.705,
+  "end": 62.425,
   "section": "what"
  },
  {
   "id": 20,
   "text": "CUDA is the language programmers use to talk to NVIDIA chips.",
-  "start": 58.932,
-  "end": 62.502,
+  "start": 62.653,
+  "end": 67.024,
   "section": "what"
  },
  {
   "id": 21,
   "text": "NVIDIA says more than 11 million developers build with it.",
-  "start": 62.825,
-  "end": 66.561,
+  "start": 67.252,
+  "end": 71.504,
   "section": "what"
  },
  {
   "id": 22,
   "text": "That's twenty years of code, tools... and habits.",
-  "start": 66.884,
-  "end": 69.837,
+  "start": 71.732,
+  "end": 74.922,
   "section": "what"
  },
  {
   "id": 23,
   "text": "Remember that word.",
-  "start": 70.347,
-  "end": 71.67,
+  "start": 75.282,
+  "end": 76.476,
   "section": "what"
  },
  {
   "id": 24,
   "text": "Habits.",
-  "start": 71.925,
-  "end": 72.647,
+  "start": 76.656,
+  "end": 77.389,
   "section": "what"
  },
  {
   "id": 25,
   "text": "It matters later.",
-  "start": 72.987,
-  "end": 74.118,
+  "start": 77.629,
+  "end": 78.738,
   "section": "what"
  },
  {
   "id": 26,
   "text": "In just the last three months, NVIDIA made 115.8 billion dollars in sales.",
-  "start": 74.628,
-  "end": 80.059,
+  "start": 79.098,
+  "end": 85.966,
   "section": "what"
  },
  {
   "id": 27,
   "text": "And 107.6 billion of that came from data centers: the giant buildings where AI lives.",
-  "start": 80.382,
-  "end": 86.123,
+  "start": 86.194,
+  "end": 93.985,
   "section": "what"
  },
  {
   "id": 28,
   "text": "So let's play it out.",
-  "start": 87.058,
-  "end": 88.391,
+  "start": 94.645,
+  "end": 95.947,
   "section": "hour1"
  },
  {
   "id": 29,
   "text": "Midnight.",
-  "start": 88.901,
-  "end": 89.715,
+  "start": 96.307,
+  "end": 97.139,
   "section": "hour1"
  },
  {
   "id": 30,
   "text": "In our story, NVIDIA is gone.",
-  "start": 90.098,
-  "end": 92.172,
+  "start": 97.409,
+  "end": 99.55,
   "section": "hour1"
  },
  {
   "id": 31,
   "text": "And every NVIDIA chip on Earth goes dark with it.",
-  "start": 92.495,
-  "end": 95.342,
+  "start": 99.778,
+  "end": 102.927,
   "section": "hour1"
  },
  {
   "id": 32,
   "text": "Hour one.",
-  "start": 96.107,
-  "end": 97.122,
+  "start": 103.467,
+  "end": 104.365,
   "section": "hour1"
  },
  {
   "id": 33,
   "text": "The data centers go quiet.",
-  "start": 97.462,
-  "end": 99.338,
+  "start": 104.605,
+  "end": 106.294,
   "section": "hour1"
  },
  {
   "id": 34,
   "text": "ChatGPT, used by nearly a billion people every week, can't answer.",
-  "start": 99.848,
-  "end": 104.139,
+  "start": 106.654,
+  "end": 112.334,
   "section": "hour1"
  },
  {
   "id": 35,
   "text": "Image makers freeze.",
-  "start": 104.462,
-  "end": 106.056,
+  "start": 112.562,
+  "end": 113.977,
   "section": "hour1"
  },
  {
   "id": 36,
   "text": "Voice assistants go silent.",
-  "start": 106.311,
-  "end": 108.233,
+  "start": 114.157,
+  "end": 115.958,
   "section": "hour1"
  },
  {
   "id": 37,
   "text": "Coding tools stop halfway through a line.",
-  "start": 108.488,
-  "end": 110.909,
+  "start": 116.138,
+  "end": 118.443,
   "section": "hour1"
  },
  {
   "id": 38,
   "text": "A few services survive.",
-  "start": 111.419,
-  "end": 113.09,
+  "start": 118.803,
+  "end": 120.459,
   "section": "hour1"
  },
  {
   "id": 39,
   "text": "Google, for example, runs a lot of its AI on its own chips, called TPUs.",
-  "start": 113.413,
-  "end": 117.463,
+  "start": 120.687,
+  "end": 126.268,
   "section": "hour1"
  },
  {
   "id": 40,
   "text": "But most of the AI world was built on NVIDIA.",
-  "start": 117.786,
-  "end": 120.622,
+  "start": 126.496,
+  "end": 129.574,
   "section": "hour1"
  },
  {
   "id": 41,
   "text": "So most of it simply stops.",
-  "start": 120.945,
-  "end": 122.892,
+  "start": 129.802,
+  "end": 131.603,
   "section": "hour1"
  },
  {
   "id": 42,
   "text": "And it's not just chatbots.",
-  "start": 123.402,
-  "end": 125.081,
+  "start": 131.963,
+  "end": 133.572,
   "section": "hour1"
  },
  {
   "id": 43,
   "text": "Hospitals using AI to read scans.",
-  "start": 125.404,
-  "end": 127.906,
+  "start": 133.8,
+  "end": 136.488,
   "section": "hour1"
  },
  {
   "id": 44,
   "text": "Banks using AI to catch fraud.",
-  "start": 128.161,
-  "end": 130.344,
+  "start": 136.668,
+  "end": 138.918,
   "section": "hour1"
  },
  {
   "id": 45,
   "text": "Weather forecasts.",
-  "start": 130.599,
-  "end": 131.807,
+  "start": 139.098,
+  "end": 140.298,
   "section": "hour1"
  },
  {
   "id": 46,
   "text": "Scientists testing new medicines.",
-  "start": 132.062,
-  "end": 134.108,
+  "start": 140.478,
+  "end": 142.436,
   "section": "hour1"
  },
  {
   "id": 47,
   "text": "All of it slows down.",
-  "start": 134.431,
-  "end": 135.906,
+  "start": 142.664,
+  "end": 144.051,
   "section": "hour1"
  },
  {
   "id": 48,
   "text": "Or stops.",
-  "start": 136.204,
-  "end": 137.092,
+  "start": 144.261,
+  "end": 145.206,
   "section": "hour1"
  },
  {
   "id": 49,
   "text": "Day one.",
-  "start": 138.027,
-  "end": 138.867,
+  "start": 145.866,
+  "end": 146.668,
   "section": "day1"
  },
  {
   "id": 50,
   "text": "The stock market opens.",
-  "start": 139.207,
-  "end": 140.893,
+  "start": 146.908,
+  "end": 148.456,
   "section": "day1"
  },
  {
   "id": 51,
   "text": "And this is where it gets scary.",
-  "start": 141.216,
-  "end": 143.122,
+  "start": 148.684,
+  "end": 150.396,
   "section": "day1"
  },
  {
   "id": 52,
   "text": "NVIDIA alone is about 5 percent of the S and P 500: America's 500 biggest companies.",
-  "start": 143.632,
-  "end": 149.944,
+  "start": 150.756,
+  "end": 159.172,
   "section": "day1"
  },
  {
   "id": 53,
   "text": "So if you own a simple index fund, part of your money was in NVIDIA, maybe without you even knowing.",
-  "start": 150.267,
-  "end": 154.904,
+  "start": 159.4,
+  "end": 166.234,
   "section": "day1"
  },
  {
   "id": 54,
   "text": "That slice just went to zero.",
-  "start": 155.414,
-  "end": 157.379,
+  "start": 166.594,
+  "end": 168.455,
   "section": "day1"
  },
  {
   "id": 55,
   "text": "About three trillion dollars.",
-  "start": 157.889,
-  "end": 159.904,
+  "start": 168.815,
+  "end": 170.725,
   "section": "day1"
  },
  {
   "id": 56,
   "text": "Gone in one morning.",
-  "start": 160.286,
-  "end": 161.716,
+  "start": 170.995,
+  "end": 172.243,
   "section": "day1"
  },
  {
   "id": 57,
   "text": "That's about three-quarters of India's entire yearly economy.",
-  "start": 162.226,
-  "end": 165.875,
+  "start": 172.603,
+  "end": 177.01,
   "section": "day1"
  },
  {
   "id": 58,
   "text": "Hold on to that thought. We'll come back to India.",
-  "start": 166.198,
-  "end": 168.77,
+  "start": 177.238,
+  "end": 180.213,
   "section": "day1"
  },
  {
   "id": 59,
   "text": "And it doesn't stop there.",
-  "start": 169.28,
-  "end": 170.761,
+  "start": 180.573,
+  "end": 181.84,
   "section": "day1"
  },
  {
   "id": 60,
   "text": "Companies that make parts for NVIDIA.",
-  "start": 171.084,
-  "end": 173.349,
+  "start": 182.068,
+  "end": 184.326,
   "section": "day1"
  },
  {
   "id": 61,
   "text": "Companies that rent out NVIDIA chips.",
-  "start": 173.604,
-  "end": 175.908,
+  "start": 184.506,
+  "end": 186.972,
   "section": "day1"
  },
  {
   "id": 62,
   "text": "Companies whose whole plan was AI.",
-  "start": 176.163,
-  "end": 178.352,
+  "start": 187.152,
+  "end": 189.419,
   "section": "day1"
  },
  {
   "id": 63,
   "text": "They all fall together, because suddenly, nobody knows what anything is worth.",
-  "start": 178.675,
-  "end": 182.372,
+  "start": 189.647,
+  "end": 194.439,
   "section": "day1"
  },
  {
   "id": 64,
   "text": "Want a real-world hint of how that feels?",
-  "start": 182.882,
-  "end": 185.15,
+  "start": 194.799,
+  "end": 197.283,
   "section": "day1"
  },
  {
   "id": 65,
   "text": "In early October twenty twenty-six, NVIDIA was worth about 5.8 trillion dollars.",
-  "start": 185.473,
-  "end": 190.889,
+  "start": 197.511,
+  "end": 204.385,
   "section": "day1"
  },
  {
   "id": 66,
   "text": "In just over six weeks, about 2.7 trillion dollars of that value disappeared.",
-  "start": 191.212,
-  "end": 196.132,
+  "start": 204.613,
+  "end": 210.631,
   "section": "day1"
  },
  {
   "id": 67,
   "text": "Markets everywhere felt it.",
-  "start": 196.455,
-  "end": 198.204,
+  "start": 210.859,
+  "end": 212.479,
   "section": "day1"
  },
  {
   "id": 68,
   "text": "Now imagine not a fall... but the whole thing, gone at once.",
-  "start": 198.527,
-  "end": 201.814,
+  "start": 212.707,
+  "end": 216.714,
   "section": "day1"
  },
  {
   "id": 69,
   "text": "Week one.",
-  "start": 202.749,
-  "end": 203.639,
+  "start": 217.374,
+  "end": 218.274,
   "section": "week1"
  },
  {
   "id": 70,
   "text": "The tech giants panic.",
-  "start": 203.979,
-  "end": 205.61,
+  "start": 218.514,
+  "end": 219.892,
   "section": "week1"
  },
  {
   "id": 71,
   "text": "Before all this, NVIDIA said it could see around 500 billion dollars of chip orders lined up through twenty twenty-six.",
-  "start": 206.12,
-  "end": 212.817,
+  "start": 220.252,
+  "end": 229.213,
   "section": "week1"
  },
  {
   "id": 72,
   "text": "Microsoft, Amazon, Meta, OpenAI: they were all waiting for those chips.",
-  "start": 213.14,
-  "end": 217.161,
+  "start": 229.441,
+  "end": 234.936,
   "section": "week1"
  },
  {
   "id": 73,
   "text": "Now those orders point to... nothing.",
-  "start": 217.484,
-  "end": 219.881,
+  "start": 235.164,
+  "end": 237.677,
   "section": "week1"
  },
  {
   "id": 74,
   "text": "So who steps in?",
-  "start": 220.391,
-  "end": 221.631,
+  "start": 238.037,
+  "end": 239.177,
   "section": "week1"
  },
  {
   "id": 75,
   "text": "AMD makes AI chips too, and OpenAI had already signed a deal to use them.",
-  "start": 221.954,
-  "end": 226.499,
+  "start": 239.405,
+  "end": 245.391,
   "section": "week1"
  },
  {
   "id": 76,
   "text": "Google has its TPUs.",
-  "start": 226.822,
-  "end": 228.728,
+  "start": 245.619,
+  "end": 247.446,
   "section": "week1"
  },
  {
   "id": 77,
   "text": "Amazon has its own chips, called Trainium.",
-  "start": 228.983,
-  "end": 231.42,
+  "start": 247.626,
+  "end": 250.291,
   "section": "week1"
  },
  {
   "id": 78,
   "text": "So why not just switch?",
-  "start": 231.743,
-  "end": 233.435,
+  "start": 250.519,
+  "end": 251.991,
   "section": "week1"
  },
  {
   "id": 79,
   "text": "Three reasons.",
-  "start": 233.945,
-  "end": 235.068,
+  "start": 252.351,
+  "end": 253.418,
   "section": "week1"
  },
  {
   "id": 80,
   "text": "One: factories.",
-  "start": 235.578,
-  "end": 236.938,
+  "start": 253.778,
+  "end": 254.978,
   "section": "week1"
  },
  {
   "id": 81,
   "text": "Advanced chips take years to plan, and the factories that make them are already booked solid.",
-  "start": 237.236,
-  "end": 241.681,
+  "start": 255.188,
+  "end": 260.82,
   "section": "week1"
  },
  {
   "id": 82,
   "text": "Two: CUDA.",
-  "start": 242.191,
-  "end": 243.408,
+  "start": 261.18,
+  "end": 262.129,
   "section": "week1"
  },
  {
   "id": 83,
   "text": "Remember those habits?",
-  "start": 243.706,
-  "end": 245.089,
+  "start": 262.339,
+  "end": 263.741,
   "section": "week1"
  },
  {
   "id": 84,
   "text": "Millions of programs are written in NVIDIA's language.",
-  "start": 245.412,
-  "end": 248.386,
+  "start": 263.969,
+  "end": 267.632,
   "section": "week1"
  },
  {
   "id": 85,
   "text": "Moving them is like translating a giant library... one book at a time.",
-  "start": 248.709,
-  "end": 252.458,
+  "start": 267.86,
+  "end": 272.396,
   "section": "week1"
  },
  {
   "id": 86,
   "text": "Three: the full package.",
-  "start": 252.968,
-  "end": 254.659,
+  "start": 272.756,
+  "end": 274.297,
   "section": "week1"
  },
  {
   "id": 87,
   "text": "NVIDIA doesn't just sell chips.",
-  "start": 254.957,
-  "end": 257.029,
+  "start": 274.507,
+  "end": 276.45,
   "section": "week1"
  },
  {
   "id": 88,
   "text": "It sells the cables, the networking, the software... the whole machine.",
-  "start": 257.284,
-  "end": 260.681,
+  "start": 276.63,
+  "end": 280.715,
   "section": "week1"
  },
  {
   "id": 89,
   "text": "Rivals have pieces of the puzzle.",
-  "start": 261.004,
-  "end": 263.091,
+  "start": 280.943,
+  "end": 283.003,
   "section": "week1"
  },
  {
   "id": 90,
   "text": "Nobody has the whole puzzle ready.",
-  "start": 263.346,
-  "end": 265.565,
+  "start": 283.183,
+  "end": 285.333,
   "section": "week1"
  },
  {
   "id": 91,
   "text": "So the price of every AI chip still available shoots up.",
-  "start": 266.075,
-  "end": 269.28,
+  "start": 285.693,
+  "end": 289.201,
   "section": "week1"
  },
  {
   "id": 92,
   "text": "Renting AI power becomes a luxury.",
-  "start": 269.603,
-  "end": 271.954,
+  "start": 289.429,
+  "end": 291.935,
   "section": "week1"
  },
  {
   "id": 93,
   "text": "Now, what happens to India?",
-  "start": 272.889,
-  "end": 274.828,
+  "start": 292.595,
+  "end": 294.322,
   "section": "india"
  },
  {
   "id": 94,
   "text": "India isn't watching this from far away.",
-  "start": 275.338,
-  "end": 277.738,
+  "start": 294.682,
+  "end": 297.165,
   "section": "india"
  },
  {
   "id": 95,
   "text": "India is deeply wired into NVIDIA.",
-  "start": 278.061,
-  "end": 280.379,
+  "start": 297.393,
+  "end": 299.979,
   "section": "india"
  },
  {
   "id": 96,
   "text": "NVIDIA has thousands of engineers in India, in Bengaluru, Hyderabad, Pune and Gurugram.",
-  "start": 280.889,
-  "end": 285.83,
+  "start": 300.339,
+  "end": 307.18,
   "section": "india"
  },
  {
   "id": 97,
   "text": "They design chips and write software that the whole world uses.",
-  "start": 286.153,
-  "end": 289.452,
+  "start": 307.408,
+  "end": 311.257,
   "section": "india"
  },
  {
   "id": 98,
   "text": "In our story, those teams wake up... with no company.",
-  "start": 289.775,
-  "end": 293.061,
+  "start": 311.485,
+  "end": 314.998,
   "section": "india"
  },
  {
   "id": 99,
   "text": "Then there's the IndiaAI Mission.",
-  "start": 293.826,
-  "end": 295.884,
+  "start": 315.538,
+  "end": 317.667,
   "section": "india"
  },
  {
   "id": 100,
   "text": "The government has made more than 38,000 GPUs available to Indian startups and researchers, and most of them are NVIDIA chips.",
-  "start": 296.207,
-  "end": 303.635,
+  "start": 317.895,
+  "end": 328.22,
   "section": "india"
  },
  {
   "id": 101,
   "text": "For example, Sarvam AI trained its biggest model on 4,096 NVIDIA chips.",
-  "start": 303.958,
-  "end": 309.447,
+  "start": 328.448,
+  "end": 335.64,
   "section": "india"
  },
  {
   "id": 102,
   "text": "Overnight, India's own AI dream loses its engine.",
-  "start": 309.77,
-  "end": 313.039,
+  "start": 335.868,
+  "end": 339.596,
   "section": "india"
  },
  {
   "id": 103,
   "text": "India's big new AI data centers?",
-  "start": 313.549,
-  "end": 316.069,
+  "start": 339.956,
+  "end": 342.321,
   "section": "india"
  },
  {
   "id": 104,
   "text": "From Reliance in Jamnagar to Yotta's planned cluster of more than 20,000 NVIDIA chips, they were built around NVIDIA.",
-  "start": 316.392,
-  "end": 322.677,
+  "start": 342.549,
+  "end": 352.085,
   "section": "india"
  },
  {
   "id": 105,
   "text": "Billions of dollars of plans, suddenly stuck.",
-  "start": 323.0,
-  "end": 325.554,
+  "start": 352.313,
+  "end": 355.133,
   "section": "india"
  },
  {
   "id": 106,
   "text": "Indian IT is a 315 billion dollar industry, with nearly 6 million workers.",
-  "start": 326.064,
-  "end": 331.668,
+  "start": 355.493,
+  "end": 362.764,
   "section": "india"
  },
  {
   "id": 107,
   "text": "Infosys, TCS, Wipro and HCLTech all build AI services for clients using NVIDIA tools.",
-  "start": 331.991,
-  "end": 337.859,
+  "start": 362.992,
+  "end": 371.136,
   "section": "india"
  },
  {
   "id": 108,
   "text": "Those projects freeze.",
-  "start": 338.182,
-  "end": 339.755,
+  "start": 371.364,
+  "end": 372.875,
   "section": "india"
  },
  {
   "id": 109,
   "text": "Clients pause spending.",
-  "start": 340.01,
-  "end": 341.659,
+  "start": 373.055,
+  "end": 374.468,
   "section": "india"
  },
  {
   "id": 110,
   "text": "And when clients pause, hiring slows.",
-  "start": 341.914,
-  "end": 344.296,
+  "start": 374.648,
+  "end": 377.025,
   "section": "india"
  },
  {
   "id": 111,
   "text": "What about gamers?",
-  "start": 344.806,
-  "end": 346.03,
+  "start": 377.385,
+  "end": 378.633,
   "section": "india"
  },
  {
   "id": 112,
   "text": "Here's a surprise.",
-  "start": 346.328,
-  "end": 347.69,
+  "start": 378.843,
+  "end": 380.053,
   "section": "india"
  },
  {
   "id": 113,
   "text": "Most of India's 555 million gamers play on phones, and phones mostly don't use NVIDIA chips.",
-  "start": 348.013,
-  "end": 354.496,
+  "start": 380.281,
+  "end": 389.098,
   "section": "india"
  },
  {
   "id": 114,
   "text": "So mobile gaming survives!",
-  "start": 354.819,
-  "end": 356.793,
+  "start": 389.326,
+  "end": 391.191,
   "section": "india"
  },
  {
   "id": 115,
   "text": "But PC gamers get a shock.",
-  "start": 357.116,
-  "end": 359.035,
+  "start": 391.419,
+  "end": 393.31,
   "section": "india"
  },
  {
   "id": 116,
   "text": "Graphics cards become rare, and very expensive.",
-  "start": 359.29,
-  "end": 362.192,
+  "start": 393.49,
+  "end": 396.561,
   "section": "india"
  },
  {
   "id": 117,
   "text": "And the stock market?",
-  "start": 362.702,
-  "end": 363.917,
+  "start": 396.921,
+  "end": 398.129,
   "section": "india"
  },
  {
   "id": 118,
   "text": "When Wall Street panics, foreign investors often pull money out of markets like India to play it safe.",
-  "start": 364.24,
-  "end": 369.06,
+  "start": 398.357,
+  "end": 405.031,
   "section": "india"
  },
  {
   "id": 119,
   "text": "That could drag down the Sensex and the Nifty, and put pressure on the rupee.",
-  "start": 369.383,
-  "end": 373.008,
+  "start": 405.259,
+  "end": 409.697,
   "section": "india"
  },
  {
   "id": 120,
   "text": "Even Indian companies with no link to NVIDIA could feel it.",
-  "start": 373.331,
-  "end": 376.677,
+  "start": 409.925,
+  "end": 413.934,
   "section": "india"
  },
  {
   "id": 121,
   "text": "But here's the other side.",
-  "start": 377.187,
-  "end": 378.706,
+  "start": 414.294,
+  "end": 415.793,
   "section": "india"
  },
  {
   "id": 122,
   "text": "If the whole world has to rewrite its AI software for new chips... who has millions of engineers ready to do it?",
-  "start": 379.029,
-  "end": 384.449,
+  "start": 416.021,
+  "end": 423.118,
   "section": "india"
  },
  {
   "id": 123,
   "text": "India does.",
-  "start": 384.959,
-  "end": 386.044,
+  "start": 423.478,
+  "end": 424.515,
   "section": "india"
  },
  {
   "id": 124,
   "text": "Month six.",
-  "start": 386.979,
-  "end": 388.002,
+  "start": 425.175,
+  "end": 426.132,
   "section": "rebuild"
  },
  {
   "id": 125,
   "text": "The world starts to rebuild.",
-  "start": 388.342,
-  "end": 390.136,
+  "start": 426.372,
+  "end": 428.024,
   "section": "rebuild"
  },
  {
   "id": 126,
   "text": "AMD and Google make chips as fast as they can.",
-  "start": 390.646,
-  "end": 393.594,
+  "start": 428.384,
+  "end": 431.622,
   "section": "rebuild"
  },
  {
   "id": 127,
   "text": "Governments pour money into new factories.",
-  "start": 393.917,
-  "end": 396.313,
+  "start": 431.85,
+  "end": 434.449,
   "section": "rebuild"
  },
  {
   "id": 128,
   "text": "Programmers move old CUDA code to new platforms, line by line.",
-  "start": 396.636,
-  "end": 400.282,
+  "start": 434.677,
+  "end": 439.098,
   "section": "rebuild"
  },
  {
   "id": 129,
   "text": "And NVIDIA's former engineers, some of the best in the world, get hired by rivals almost instantly.",
-  "start": 400.605,
-  "end": 405.653,
+  "start": 439.326,
+  "end": 446.381,
   "section": "rebuild"
  },
  {
   "id": 130,
   "text": "Because the knowledge didn't vanish.",
-  "start": 405.976,
-  "end": 407.832,
+  "start": 446.609,
+  "end": 448.461,
   "section": "rebuild"
  },
  {
   "id": 131,
   "text": "It just moved.",
-  "start": 408.087,
-  "end": 409.192,
+  "start": 448.641,
+  "end": 449.79,
   "section": "rebuild"
  },
  {
   "id": 132,
   "text": "AI comes back.",
-  "start": 409.702,
-  "end": 411.118,
+  "start": 450.15,
+  "end": 451.415,
   "section": "rebuild"
  },
  {
   "id": 133,
   "text": "But slower, and more expensive.",
-  "start": 411.373,
-  "end": 413.311,
+  "start": 451.595,
+  "end": 453.48,
   "section": "rebuild"
  },
  {
   "id": 134,
   "text": "For a while, the future is put on pause.",
-  "start": 413.634,
-  "end": 416.008,
+  "start": 453.708,
+  "end": 456.227,
   "section": "rebuild"
  },
  {
   "id": 135,
   "text": "Year one.",
-  "start": 416.773,
-  "end": 417.762,
+  "start": 456.767,
+  "end": 457.555,
   "section": "rebuild"
  },
  {
   "id": 136,
   "text": "The map looks different.",
-  "start": 418.102,
-  "end": 419.472,
+  "start": 457.795,
+  "end": 459.102,
   "section": "rebuild"
  },
  {
   "id": 137,
   "text": "Instead of one giant, there are five or six serious chipmakers.",
-  "start": 419.795,
-  "end": 423.194,
+  "start": 459.33,
+  "end": 463.317,
   "section": "rebuild"
  },
  {
   "id": 138,
   "text": "More competition.",
-  "start": 423.517,
-  "end": 424.856,
+  "start": 463.545,
+  "end": 464.749,
   "section": "rebuild"
  },
  {
   "id": 139,
   "text": "A slower start.",
-  "start": 425.111,
-  "end": 426.295,
+  "start": 464.929,
+  "end": 466.013,
   "section": "rebuild"
  },
  {
   "id": 140,
   "text": "But a stronger system, one that can't be knocked out by a single blow.",
-  "start": 426.55,
-  "end": 430.005,
+  "start": 466.193,
+  "end": 470.57,
   "section": "rebuild"
  },
  {
   "id": 141,
   "text": "So what's the lesson?",
-  "start": 430.94,
-  "end": 432.27,
+  "start": 471.23,
+  "end": 472.455,
   "section": "lesson"
  },
  {
   "id": 142,
   "text": "When the whole world leans on one company, that company becomes a single point of failure.",
-  "start": 432.78,
-  "end": 437.13,
+  "start": 472.815,
+  "end": 478.298,
   "section": "lesson"
  },
  {
   "id": 143,
   "text": "It's like a city with only one bridge.",
-  "start": 437.453,
-  "end": 439.602,
+  "start": 478.526,
+  "end": 480.833,
   "section": "lesson"
  },
  {
   "id": 144,
   "text": "Everything works perfectly... until it doesn't.",
-  "start": 439.925,
-  "end": 442.72,
+  "start": 481.061,
+  "end": 483.83,
   "section": "lesson"
  },
  {
   "id": 145,
   "text": "And here's the twist.",
-  "start": 443.485,
-  "end": 444.882,
+  "start": 484.37,
+  "end": 485.65,
   "section": "lesson"
  },
  {
   "id": 146,
   "text": "NVIDIA doesn't even make its own chips.",
-  "start": 445.392,
-  "end": 447.741,
+  "start": 486.01,
+  "end": 488.723,
   "section": "lesson"
  },
  {
   "id": 147,
   "text": "It designs them, but they're manufactured by another company: TSMC.",
-  "start": 448.064,
-  "end": 451.722,
+  "start": 488.951,
+  "end": 493.746,
   "section": "lesson"
  },
  {
   "id": 148,
   "text": "So even the company the world depends on... depends on someone else.",
-  "start": 452.045,
-  "end": 455.631,
+  "start": 493.974,
+  "end": 498.582,
   "section": "lesson"
  },
  {
   "id": 149,
   "text": "Which makes you wonder:",
-  "start": 456.396,
-  "end": 457.664,
+  "start": 499.122,
+  "end": 500.42,
   "section": "lesson"
  },
  {
   "id": 150,
   "text": "which company does the world depend on next?",
-  "start": 457.919,
-  "end": 460.45,
+  "start": 500.6,
+  "end": 503.162,
   "section": "lesson"
  },
  {
   "id": 151,
   "text": "Tell me in the comments.",
-  "start": 460.96,
-  "end": 462.443,
+  "start": 503.522,
+  "end": 504.8,
   "section": "lesson"
  },
  {
   "id": 152,
   "text": "And if you enjoyed this, subscribe for more What If stories.",
-  "start": 462.953,
-  "end": 465.984,
+  "start": 505.16,
+  "end": 508.722,
   "section": "lesson"
  }
 ]

@@ -38,7 +38,7 @@ def lang_of(spec):
 IPA = {
     "Gurugram": "ɡˈʊɹʊɡɹˌɑːm",
     "Bengaluru": "bˈɛŋɡəlˌuːɹuː",
-    "Jamnagar": "dʒˈɑːmnəɡə",
+    "Jamnagar": "dʒˈɑːmnəɡɚ",
     "Sarvam": "sˈʌɹvəm",
     "Hyderabad": "hˈaɪdəɹəbˌæd",
     "TPUs": "tˌiːpˌiːjˈuːz",
@@ -46,10 +46,35 @@ IPA = {
     "HCLTech": "ˈeɪtʃ sˌiː ˈɛl tˈɛk",
     "Infosys": "ˈɪnfəsˌɪs",
     "Pune": "pˈuːneɪ",
+    "CUDA": "kˈuːdə",
     "NVIDIA's": "ˈɛnvˈɪdiəz",
     "IndiaAI": "ˈɪndiə ˌeɪˈaɪ",
 }
 WORD_RE = None
+
+ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+
+def int_words(n):
+    if n < 20: return ONES[n]
+    if n < 100: return TENS[n // 10] + ("-" + ONES[n % 10] if n % 10 else "")
+    if n < 1000: return ONES[n // 100] + " hundred" + (" " + int_words(n % 100) if n % 100 else "")
+    for div, name in ((10 ** 9, "billion"), (10 ** 6, "million"), (1000, "thousand")):
+        if n >= div:
+            return int_words(n // div) + " " + name + (" " + int_words(n % div) if n % div else "")
+
+def speakable(text):
+    """Spell out numbers in words (US style) so the voice reads them cleanly."""
+    import re as _re
+    def num(m):
+        raw = m.group(0).replace(",", "")
+        if "." in raw:
+            a, b = raw.split(".")
+            return int_words(int(a)) + " point " + " ".join(ONES[int(d)] for d in b)
+        return int_words(int(raw))
+    text = _re.sub(r"(?<![\w.])\d[\d,]*(?:\.\d+)?", num, text)
+    text = text.replace("TSMC", "T S M C")
+    return text
 
 def to_phonemes(text, lang):
     """Phonemize with espeak, swapping in exact IPA for known problem words."""
@@ -100,7 +125,7 @@ def synth(segments, voice, base_speed=0.92):
     out = []; timings = []; t = 0.0
     for seg in segments:
         sp = base_speed * seg.get("speed", 1.0)
-        ph = to_phonemes(seg["text"], lang)
+        ph = to_phonemes(speakable(seg["text"]), lang)
         a, sr = k.create(ph, voice=style, speed=sp, lang=lang, is_phonemes=True)
         assert sr == SR
         a = fade(trim(a.astype(np.float32)))

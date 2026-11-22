@@ -19,7 +19,7 @@ audio, timings = tts.synth(segs, voice, base_speed=speed)
 for t, s in zip(timings, segs):
     t["section"] = s["section"]
 sf.write(out / "narration_raw.wav", audio, tts.SR)
-tts.polish(out / "narration_raw.wav", out / "narration.wav")
+tts.polish(out / "narration_raw.wav", out / "narration.wav", lufs=-15.0)
 json.dump(timings, open(out / "timings.json", "w"), indent=1)
 words = sum(len(s["text"].split()) for s in segs)
 dur = timings[-1]["end"]
