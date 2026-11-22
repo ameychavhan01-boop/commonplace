@@ -8,9 +8,8 @@ OUT=..
 # 1. voice: Kokoro am_michael, speed 0.97, US English, chunk by chunk (pauses at 60%)
 [ -f "$S/voice_michael/narration.wav" ] || { python3 make_voice.py am_michael 0.97 "$S/voice_michael" 0.6; cp "$S/voice_michael/timings.json" timings.json; }
 TOTAL=$(python3 -c "import plan; print(plan.TOTAL)")
-# 2. music (original lo-fi, 76 BPM) + SFX
-python3 music.py "$S/audio/music.wav" "$TOTAL"
-python3 -c "import audio_gen, soundfile as sf; [sf.write('$S/audio/sfx_'+k+'.wav', f(), 48000) for k, f in audio_gen.SFX.items()]"
+# 2. music (original cinematic score that follows the story) + SFX
+python3 audio_gen.py "$S/audio" 0.4 "$TOTAL"
 # 3. mix: music ~11 dB under voice; master + voice-only at -15 LUFS, ~-2 dBTP
 python3 mix.py "$S/voice_michael/narration.wav" "$S/audio" "$S/mix.wav" "$S/voice_only.wav"
 # 4. picture
