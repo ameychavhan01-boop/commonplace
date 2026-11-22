@@ -1,0 +1,744 @@
+1
+00:00:00,400 --> 00:00:01,814
+It's 7 AM.
+
+2
+00:00:02,132 --> 00:00:04,268
+You open ChatGPT.
+
+3
+00:00:04,501 --> 00:00:05,501
+Nothing.
+
+4
+00:00:05,809 --> 00:00:07,672
+You try another AI app.
+
+5
+00:00:07,904 --> 00:00:08,904
+Nothing.
+
+6
+00:00:09,127 --> 00:00:11,102
+Your stock app is flashing red.
+
+7
+00:00:11,462 --> 00:00:13,461
+And it all happened because one company,
+
+8
+00:00:13,501 --> 00:00:16,658
+worth about three trillion
+dollars, disappeared overnight.
+
+9
+00:00:17,273 --> 00:00:19,181
+This is a thought experiment.
+
+10
+00:00:19,354 --> 00:00:21,489
+But every number you'll hear is real.
+
+11
+00:00:21,849 --> 00:00:25,120
+So... what actually happens
+if NVIDIA vanished tomorrow?
+
+12
+00:00:25,905 --> 00:00:28,093
+First, what does NVIDIA even do?
+
+13
+00:00:28,453 --> 00:00:30,724
+It makes chips called GPUs.
+
+14
+00:00:30,897 --> 00:00:34,321
+Think of a normal computer
+chip as one very smart chef.
+
+15
+00:00:34,494 --> 00:00:38,861
+A GPU is a kitchen with thousands of
+cooks, all chopping at the same time.
+
+16
+00:00:39,034 --> 00:00:40,861
+And that's exactly what AI needs:
+
+17
+00:00:40,901 --> 00:00:44,050
+billions of tiny maths
+problems, solved all at once.
+
+18
+00:00:44,410 --> 00:00:46,993
+So GPUs are the engines of AI.
+
+19
+00:00:47,166 --> 00:00:49,239
+And NVIDIA makes most of them.
+
+20
+00:00:49,412 --> 00:00:54,363
+By most estimates, about 80 percent of
+the AI chips in the world's data centers.
+
+21
+00:00:54,723 --> 00:00:56,884
+But chips are only half the story.
+
+22
+00:00:57,057 --> 00:00:59,159
+The other half is called CUDA.
+
+23
+00:00:59,332 --> 00:01:03,052
+CUDA is the language programmers
+use to talk to NVIDIA chips.
+
+24
+00:01:03,225 --> 00:01:07,111
+NVIDIA says more than 11 million
+developers build with it.
+
+25
+00:01:07,284 --> 00:01:10,387
+That's twenty years of
+code, tools... and habits.
+
+26
+00:01:10,747 --> 00:01:12,220
+Remember that word.
+
+27
+00:01:12,325 --> 00:01:13,325
+Habits.
+
+28
+00:01:13,387 --> 00:01:14,668
+It matters later.
+
+29
+00:01:15,028 --> 00:01:20,609
+In just the last three months, NVIDIA
+made 115.8 billion dollars in sales.
+
+30
+00:01:20,782 --> 00:01:24,052
+And 107.6 billion of that
+came from data centers:
+
+31
+00:01:24,092 --> 00:01:26,673
+the giant buildings where AI lives.
+
+32
+00:01:27,458 --> 00:01:28,941
+So let's play it out.
+
+33
+00:01:29,301 --> 00:01:30,301
+Midnight.
+
+34
+00:01:30,498 --> 00:01:32,722
+In our story, NVIDIA is gone.
+
+35
+00:01:32,895 --> 00:01:35,892
+And every NVIDIA chip on
+Earth goes dark with it.
+
+36
+00:01:36,507 --> 00:01:37,672
+Hour one.
+
+37
+00:01:37,862 --> 00:01:39,888
+The data centers go quiet.
+
+38
+00:01:40,248 --> 00:01:44,689
+ChatGPT, used by nearly a billion
+people every week, can't answer.
+
+39
+00:01:44,862 --> 00:01:46,606
+Image makers freeze.
+
+40
+00:01:46,711 --> 00:01:48,783
+Voice assistants go silent.
+
+41
+00:01:48,888 --> 00:01:51,459
+Coding tools stop halfway through a line.
+
+42
+00:01:51,819 --> 00:01:53,640
+A few services survive.
+
+43
+00:01:53,813 --> 00:01:58,013
+Google, for example, runs a lot of
+its AI on its own chips, called TPUs.
+
+44
+00:01:58,186 --> 00:02:01,172
+But most of the AI world
+was built on NVIDIA.
+
+45
+00:02:01,345 --> 00:02:03,442
+So most of it simply stops.
+
+46
+00:02:03,802 --> 00:02:05,631
+And it's not just chatbots.
+
+47
+00:02:05,804 --> 00:02:08,456
+Hospitals using AI to read scans.
+
+48
+00:02:08,561 --> 00:02:10,894
+Banks using AI to catch fraud.
+
+49
+00:02:10,999 --> 00:02:12,357
+Weather forecasts.
+
+50
+00:02:12,462 --> 00:02:14,658
+Scientists testing new medicines.
+
+51
+00:02:14,831 --> 00:02:16,456
+All of it slows down.
+
+52
+00:02:16,604 --> 00:02:17,642
+Or stops.
+
+53
+00:02:18,427 --> 00:02:19,427
+Day one.
+
+54
+00:02:19,607 --> 00:02:21,443
+The stock market opens.
+
+55
+00:02:21,616 --> 00:02:23,672
+And this is where it gets scary.
+
+56
+00:02:24,032 --> 00:02:30,494
+NVIDIA alone is about 5 percent of the
+S&P 500: America's 500 biggest companies.
+
+57
+00:02:30,667 --> 00:02:32,204
+So if you own a simple index fund,
+
+58
+00:02:32,244 --> 00:02:35,454
+part of your money was in NVIDIA,
+maybe without you even knowing.
+
+59
+00:02:35,814 --> 00:02:37,929
+That slice just went to zero.
+
+60
+00:02:38,289 --> 00:02:40,454
+About three trillion dollars.
+
+61
+00:02:40,686 --> 00:02:42,266
+Gone in one morning.
+
+62
+00:02:42,626 --> 00:02:46,425
+That's about three-quarters of
+India's entire yearly economy.
+
+63
+00:02:46,598 --> 00:02:49,320
+Hold on to that thought.
+We'll come back to India.
+
+64
+00:02:49,680 --> 00:02:51,311
+And it doesn't stop there.
+
+65
+00:02:51,484 --> 00:02:53,899
+Companies that make parts for NVIDIA.
+
+66
+00:02:54,004 --> 00:02:56,458
+Companies that rent out NVIDIA chips.
+
+67
+00:02:56,563 --> 00:02:58,902
+Companies whose whole plan was AI.
+
+68
+00:02:59,075 --> 00:03:02,922
+They all fall together, because suddenly,
+nobody knows what anything is worth.
+
+69
+00:03:03,282 --> 00:03:05,700
+Want a real-world hint of how that feels?
+
+70
+00:03:05,873 --> 00:03:11,439
+In early October 2026, NVIDIA was
+worth about 5.8 trillion dollars.
+
+71
+00:03:11,612 --> 00:03:16,682
+In just over six weeks, about 2.7 trillion
+dollars of that value disappeared.
+
+72
+00:03:16,855 --> 00:03:18,754
+Markets everywhere felt it.
+
+73
+00:03:18,927 --> 00:03:22,364
+Now imagine not a fall... but
+the whole thing, gone at once.
+
+74
+00:03:23,149 --> 00:03:24,189
+Week one.
+
+75
+00:03:24,379 --> 00:03:26,160
+The tech giants panic.
+
+76
+00:03:26,520 --> 00:03:27,491
+Before all this,
+
+77
+00:03:27,531 --> 00:03:30,238
+NVIDIA said it could
+see around 500 billion
+
+78
+00:03:30,278 --> 00:03:33,367
+dollars of chip orders
+lined up through 2026.
+
+79
+00:03:33,540 --> 00:03:37,711
+Microsoft, Amazon, Meta, OpenAI: they
+were all waiting for those chips.
+
+80
+00:03:37,884 --> 00:03:40,431
+Now those orders point to... nothing.
+
+81
+00:03:40,791 --> 00:03:42,181
+So who steps in?
+
+82
+00:03:42,354 --> 00:03:47,049
+AMD makes AI chips too, and OpenAI
+had already signed a deal to use them.
+
+83
+00:03:47,222 --> 00:03:49,278
+Google has its TPUs.
+
+84
+00:03:49,383 --> 00:03:51,970
+Amazon has its own chips, called Trainium.
+
+85
+00:03:52,143 --> 00:03:53,985
+So why not just switch?
+
+86
+00:03:54,345 --> 00:03:55,618
+Three reasons.
+
+87
+00:03:55,978 --> 00:03:57,488
+One: factories.
+
+88
+00:03:57,636 --> 00:03:59,221
+Advanced chips take years to plan,
+
+89
+00:03:59,261 --> 00:04:02,231
+and the factories that make
+them are already booked solid.
+
+90
+00:04:02,591 --> 00:04:03,958
+Two: CUDA.
+
+91
+00:04:04,106 --> 00:04:05,639
+Remember those habits?
+
+92
+00:04:05,812 --> 00:04:08,936
+Millions of programs are
+written in NVIDIA's language.
+
+93
+00:04:09,109 --> 00:04:13,008
+Moving them is like translating a
+giant library... one book at a time.
+
+94
+00:04:13,368 --> 00:04:15,209
+Three: the full package.
+
+95
+00:04:15,357 --> 00:04:17,579
+NVIDIA doesn't just sell chips.
+
+96
+00:04:17,684 --> 00:04:21,231
+It sells the cables, the networking,
+the software... the whole machine.
+
+97
+00:04:21,404 --> 00:04:23,641
+Rivals have pieces of the puzzle.
+
+98
+00:04:23,746 --> 00:04:26,115
+Nobody has the whole puzzle ready.
+
+99
+00:04:26,475 --> 00:04:29,830
+So the price of every AI chip
+still available shoots up.
+
+100
+00:04:30,003 --> 00:04:32,504
+Renting AI power becomes a luxury.
+
+101
+00:04:33,289 --> 00:04:35,378
+Now, what happens to India?
+
+102
+00:04:35,738 --> 00:04:38,288
+India isn't watching this from far away.
+
+103
+00:04:38,461 --> 00:04:40,929
+India is deeply wired into NVIDIA.
+
+104
+00:04:41,289 --> 00:04:43,691
+NVIDIA has thousands
+of engineers in India,
+
+105
+00:04:43,731 --> 00:04:46,380
+in Bengaluru, Hyderabad,
+Pune and Gurugram.
+
+106
+00:04:46,553 --> 00:04:50,002
+They design chips and write
+software that the whole world uses.
+
+107
+00:04:50,175 --> 00:04:53,611
+In our story, those teams
+wake up... with no company.
+
+108
+00:04:54,226 --> 00:04:56,434
+Then there's the IndiaAI Mission.
+
+109
+00:04:56,607 --> 00:04:58,925
+The government has made more than 38,000
+
+110
+00:04:58,965 --> 00:05:01,932
+GPUs available to Indian
+startups and researchers,
+
+111
+00:05:01,972 --> 00:05:04,185
+and most of them are NVIDIA chips.
+
+112
+00:05:04,358 --> 00:05:09,997
+For example, Sarvam AI trained its
+biggest model on 4,096 NVIDIA chips.
+
+113
+00:05:10,170 --> 00:05:13,589
+Overnight, India's own AI
+dream loses its engine.
+
+114
+00:05:13,949 --> 00:05:16,619
+India's big new AI data centers?
+
+115
+00:05:16,792 --> 00:05:19,116
+From Reliance in Jamnagar
+to Yotta's planned
+
+116
+00:05:19,156 --> 00:05:21,372
+cluster of more than 20,000 NVIDIA chips,
+
+117
+00:05:21,412 --> 00:05:23,227
+they were built around NVIDIA.
+
+118
+00:05:23,400 --> 00:05:26,104
+Billions of dollars of
+plans, suddenly stuck.
+
+119
+00:05:26,464 --> 00:05:32,218
+Indian IT is a 315 billion dollar
+industry, with nearly 6 million workers.
+
+120
+00:05:32,391 --> 00:05:33,248
+Infosys, TCS,
+
+121
+00:05:33,288 --> 00:05:38,409
+Wipro and HCLTech all build AI services
+for clients using NVIDIA tools.
+
+122
+00:05:38,582 --> 00:05:40,305
+Those projects freeze.
+
+123
+00:05:40,410 --> 00:05:42,209
+Clients pause spending.
+
+124
+00:05:42,314 --> 00:05:44,846
+And when clients pause, hiring slows.
+
+125
+00:05:45,206 --> 00:05:46,580
+What about gamers?
+
+126
+00:05:46,728 --> 00:05:48,240
+Here's a surprise.
+
+127
+00:05:48,413 --> 00:05:51,896
+Most of India's 555 million
+gamers play on phones,
+
+128
+00:05:51,936 --> 00:05:55,046
+and phones mostly don't use NVIDIA chips.
+
+129
+00:05:55,219 --> 00:05:57,343
+So mobile gaming survives!
+
+130
+00:05:57,516 --> 00:05:59,585
+But PC gamers get a shock.
+
+131
+00:05:59,690 --> 00:06:02,742
+Graphics cards become
+rare, and very expensive.
+
+132
+00:06:03,102 --> 00:06:04,467
+And the stock market?
+
+133
+00:06:04,640 --> 00:06:05,734
+When Wall Street panics,
+
+134
+00:06:05,774 --> 00:06:09,610
+foreign investors often pull money out
+of markets like India to play it safe.
+
+135
+00:06:09,783 --> 00:06:13,558
+That could drag down the Sensex and the
+Nifty, and put pressure on the rupee.
+
+136
+00:06:13,731 --> 00:06:17,227
+Even Indian companies with no
+link to NVIDIA could feel it.
+
+137
+00:06:17,587 --> 00:06:19,256
+But here's the other side.
+
+138
+00:06:19,429 --> 00:06:22,583
+If the whole world has to rewrite
+its AI software for new chips...
+
+139
+00:06:22,623 --> 00:06:24,999
+who has millions of
+engineers ready to do it?
+
+140
+00:06:25,359 --> 00:06:26,594
+India does.
+
+141
+00:06:27,379 --> 00:06:28,552
+Month six.
+
+142
+00:06:28,742 --> 00:06:30,686
+The world starts to rebuild.
+
+143
+00:06:31,046 --> 00:06:34,144
+AMD and Google make chips
+as fast as they can.
+
+144
+00:06:34,317 --> 00:06:36,863
+Governments pour money into new factories.
+
+145
+00:06:37,036 --> 00:06:40,832
+Programmers move old CUDA code
+to new platforms, line by line.
+
+146
+00:06:41,005 --> 00:06:44,075
+And NVIDIA's former engineers,
+some of the best in the world,
+
+147
+00:06:44,115 --> 00:06:46,203
+get hired by rivals almost instantly.
+
+148
+00:06:46,376 --> 00:06:48,382
+Because the knowledge didn't vanish.
+
+149
+00:06:48,487 --> 00:06:49,742
+It just moved.
+
+150
+00:06:50,102 --> 00:06:51,668
+AI comes back.
+
+151
+00:06:51,773 --> 00:06:53,861
+But slower, and more expensive.
+
+152
+00:06:54,034 --> 00:06:56,558
+For a while, the future is put on pause.
+
+153
+00:06:57,173 --> 00:06:58,312
+Year one.
+
+154
+00:06:58,502 --> 00:07:00,022
+The map looks different.
+
+155
+00:07:00,195 --> 00:07:03,744
+Instead of one giant, there are
+five or six serious chipmakers.
+
+156
+00:07:03,917 --> 00:07:05,406
+More competition.
+
+157
+00:07:05,511 --> 00:07:06,845
+A slower start.
+
+158
+00:07:06,950 --> 00:07:10,555
+But a stronger system, one that can't
+be knocked out by a single blow.
+
+159
+00:07:11,340 --> 00:07:12,820
+So what's the lesson?
+
+160
+00:07:13,180 --> 00:07:15,170
+When the whole world leans on one company,
+
+161
+00:07:15,210 --> 00:07:17,680
+that company becomes a
+single point of failure.
+
+162
+00:07:17,853 --> 00:07:20,152
+It's like a city with only one bridge.
+
+163
+00:07:20,325 --> 00:07:23,270
+Everything works perfectly...
+until it doesn't.
+
+164
+00:07:23,885 --> 00:07:25,432
+And here's the twist.
+
+165
+00:07:25,792 --> 00:07:28,291
+NVIDIA doesn't even make its own chips.
+
+166
+00:07:28,464 --> 00:07:32,272
+It designs them, but they're
+manufactured by another company: TSMC.
+
+167
+00:07:32,445 --> 00:07:36,181
+So even the company the world depends
+on... depends on someone else.
+
+168
+00:07:36,796 --> 00:07:38,214
+Which makes you wonder:
+
+169
+00:07:38,319 --> 00:07:41,000
+which company does the
+world depend on next?
+
+170
+00:07:41,360 --> 00:07:42,993
+Tell me in the comments.
+
+171
+00:07:43,353 --> 00:07:46,534
+And if you enjoyed this, subscribe
+for more 'What If' stories.
