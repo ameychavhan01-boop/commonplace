@@ -60,8 +60,10 @@ sc(6, "illus", img="img05", a=(0.5, 0.45, 1.3), b=(0.5, 0.5, 1.0),
    kw=[KW("$3 TRILLION", "n", size=190, y=H * 0.42, sub="market value · 20 Nov 2026")],
    sfx=[("n", "pop", 0.8)])
 ```
-`sc(at, kind, sfx=[(at, name, gain)], cues={}, lead=0.12, trans="fade"|"slide", **params)`. Use
-`trans="slide"` (+ a whoosh) for the first scene of each section.
+`sc(at, kind, sfx=[(at, name, gain)], cues={}, lead=0.12, trans="fade"|"slide"|"burst"|"flash", **params)`. Use
+`trans="slide"` (+ a whoosh) for the first scene of each section, `"burst"` (comic speed lines) on shock
+reveals, `"flash"` for time skips. Any scene also takes `grade="crash"|"boom"|"night"|"sepia"|"warm"|"cold"`
+(+ `grade_at=seconds` to fade it in, `grade_amt=0..1`) and illustration scenes take `push=` (camera zoom per shot, default 0.16).
 
 **SFX names:** whoosh, whoosh_down, pop, click, boom, powerdown, glitch, ticker (counting), riser, ding.
 Gains 0.3–0.8. Pop on keywords and numbers, boom on shocking facts, ticker under count-ups.
@@ -76,6 +78,7 @@ sub="small line under", rot=0)`. Plate = dark box behind the text, best for capt
 | kind | key params | use for |
 |---|---|---|
 | `illus` | `img`, `a`/`b` = (x, y, zoom) start→end camera, `kw`, `shake_at`, `tint=(color, amt)` | story moments (AI art or doodle) |
+| `text` | `text`, `chapter=True` (big centred title), `color`, `size`, `cps` (typing speed) | **pro signature**: black card, white handwriting typed on, for punchlines/questions/chapter titles (~2–3 s) |
 | `big` | `lines=[(text, font, size, color)]`, `bg` dark/paper, `style` pop/glitch/stamp/type, `note`, `note_at`, `underline`, `line_at=[cue,...]` | punchy words: "NOTHING.", "DAY 1", "THE TWIST" |
 | `counter` | `value`, `prefix`, `suffix`, `decimals`, `final` (text shown at the end), `label`, `sub`, `color`, `size`, `y`, `count_dur`, cue `num`, `stamp`, `grid=dict(n, cols, cell, y0)` | big numbers counting up |
 | `bars` | `title`, `items=[(label, value, color, "value text")]`, `max`, `note`, `callout` + cue `callout`, cues `bar0`, `bar1` | comparisons (company vs GDP) |
@@ -95,7 +98,9 @@ sub="small line under", rot=0)`. Plate = dark box behind the text, best for capt
 | `end` | `img`, `lines=(line1, line2)` | 10 s end screen with 2 empty video frames + subscribe dot |
 
 Colours from gfx: `INK, DARK, PAPER, RED, YELLOW, LIME, TEAL, ORANGE, BLUE, WHITE, SAFFRON, INGREEN`.
-Fonts: `anton` (big condensed), `xbold`/`bold`/`semi`/`black` (Poppins), `hand` (Patrick Hand notes).
+Fonts: `marker` (Permanent Marker: in-scene labels, default for KW), `script` (Caveat: text cards),
+`anton` (big condensed numbers), `xbold`/`bold`/`semi`/`black` (Poppins), `hand`/`kalam` (handwritten notes).
+Permanent Marker has no arrows or ₹: write words instead.
 Canvas is 1920×1080 (`W`, `H`).
 
 ## 5. doodle_scenes.py
@@ -113,12 +118,15 @@ DOODLES = {"img01": d_bedroom, ...}       # every img id used in plan.py
 NIGHT = {"img12", ...}                     # ids drawn on the dark background
 DOODLE_KW = {"img01": "7:00 AM"}           # caption for doodle scenes that have no kw of their own
 ```
-Building blocks in `doodles.py`: `person(f, x, feet_y, scale, shirt, mood=neutral|happy|sad|shock, fi, seed,
-skin=SKIN|SKIN2, arms=down|up, t)`, `phone(..., screen=spinner|redchart|pie|game|alert|dark)`,
+Building blocks in `doodles.py`: `person(f, x, feet_y, scale, shirt, mood=neutral|happy|sad|shock|worried|angry, fi, seed,
+skin=SKIN|SKIN2, arms=down|up, t, tie=None|colour, glasses=False, hair=None|colour, legs=True, shadow=True)`, `phone(..., screen=spinner|redchart|pie|game|alert|dark)`,
 `laptop(..., screen=spinner|glitch|code|chip|blank)`, `clock(f, x, y, r, hh, mm, ...)`, `rack`, `racks_scene`,
 `building`, `skyline(f, fi, lit, base, seed, skip)`, `sun`, `moon`, `factory(f, x, base, s, fi, t, running)`,
 `money`, `question`, `screen_box(..., content=blank|blank_dark|molecule|cross|redchart)`; from gfx: `box`,
-`poly`, `circle_pts`, `rect_pts`, `rrect_pts`, `arrow`, `glow`, `chip`, `put_text`.
+`poly`, `circle_pts`, `rect_pts`, `rrect_pts`, `arrow`, `glow`, `chip`, `put_text`, `spotlight(f, cx, cy, rx, ry)`
+(lamp/stage light pool), `grade(f, preset)`.
+- Build **worlds, not icons**: give scenes a floor/horizon, background buildings or room walls, props with
+  labels, and 2–6 small characters acting. Reuse one set function (with parameters) across sections.
 - Keep the main drawing between y≈150 and y≈850: the bottom strip is where captions sit.
 - Animate gently with `t` (blinking lights, rising arrows, falling dominoes, people waving).
 - Draw generic people with dot eyes; use `SKIN2` for Indian characters in the India section.

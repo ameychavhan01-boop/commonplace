@@ -13,9 +13,11 @@ for f in kokoro-v1.0.onnx voices-v1.0.bin; do
 done
 cd "$A/fonts"
 for f in ofl/anton/Anton-Regular.ttf ofl/poppins/Poppins-ExtraBold.ttf ofl/poppins/Poppins-Bold.ttf \
-         ofl/poppins/Poppins-SemiBold.ttf ofl/poppins/Poppins-Black.ttf ofl/patrickhand/PatrickHand-Regular.ttf; do
+         ofl/poppins/Poppins-SemiBold.ttf ofl/poppins/Poppins-Black.ttf ofl/patrickhand/PatrickHand-Regular.ttf \
+         apache/permanentmarker/PermanentMarker-Regular.ttf ofl/kalam/Kalam-Bold.ttf; do
   [ -s "$(basename $f)" ] || curl -sSfL -O "https://raw.githubusercontent.com/google/fonts/main/$f"
 done
+[ -s Caveat-VF.ttf ] || curl -sSfL -o Caveat-VF.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf"
 cd "$A/geo"
 for f in ne_10m_admin_0_countries_ind ne_110m_land; do
   d=$([ $f = ne_110m_land ] && echo 110m_physical || echo 10m_cultural)

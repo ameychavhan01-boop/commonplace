@@ -45,8 +45,14 @@ def prog(t, start, dur): return clamp((t - start) / dur) if dur > 0 else float(t
 @functools.lru_cache(None)
 def font(name, size):
     files = {"anton": "Anton-Regular.ttf", "black": "Poppins-Black.ttf", "xbold": "Poppins-ExtraBold.ttf",
-             "bold": "Poppins-Bold.ttf", "semi": "Poppins-SemiBold.ttf", "hand": "PatrickHand-Regular.ttf"}
-    return ImageFont.truetype(str(FONTS / files[name]), size)
+             "bold": "Poppins-Bold.ttf", "semi": "Poppins-SemiBold.ttf", "hand": "PatrickHand-Regular.ttf",
+             # pro look (reference analysis): hand-lettered marker labels + handwritten text cards
+             "marker": "PermanentMarker-Regular.ttf", "script": "Caveat-VF.ttf", "kalam": "Kalam-Bold.ttf"}
+    f = ImageFont.truetype(str(FONTS / files[name]), size)
+    if name == "script":
+        try: f.set_variation_by_name("Bold")
+        except Exception: pass
+    return f
 
 @functools.lru_cache(maxsize=4096)
 def text_layer(text, fname="anton", size=120, fill=WHITE, stroke=0, stroke_fill=INK, shadow=0,
@@ -59,7 +65,7 @@ def text_layer(text, fname="anton", size=120, fill=WHITE, stroke=0, stroke_fill=
     for ln in lines:
         bb = f.getbbox(ln or " ", stroke_width=stroke)
         widths.append(bb[2] - bb[0] + spacing * max(0, len(ln) - 1)); heights.append(size)
-    lh = int(size * line_gap * (1.25 if fname in ("semi", "bold", "xbold", "black", "hand") else 1.0))
+    lh = int(size * line_gap * (1.25 if fname in ("semi", "bold", "xbold", "black", "hand", "marker", "script", "kalam") else 1.0))
     w = max(widths) + pad * 2; h = lh * len(lines) + pad * 2 + int(size * 0.25)
     img = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
     for i, ln in enumerate(lines):
@@ -243,3 +249,56 @@ def shake(t, start, dur=0.5, amp=14):
 def fmt_num(v, decimals=0, commas=True):
     s = f"{v:,.{decimals}f}" if commas else f"{v:.{decimals}f}"
     return s
+
+# ------------------------------------------------------------------ colour grading / lighting moods
+# Pro explainers grade whole scenes by mood: red alarm for crashes, green glow for booms,
+# cold blue for night, sepia for history, golden for hope. Always with a vignette.
+GRADES = {
+    "crash": dict(mul=(1.06, 0.8, 0.8), add=(6, -8, -8), vig=0.6, vig_col=(110, 0, 10)),
+    "boom":  dict(mul=(0.85, 1.1, 0.85), add=(-4, 16, -2), vig=0.45, vig_col=(0, 60, 20)),
+    "night": dict(mul=(0.72, 0.8, 1.0), add=(-6, 0, 14), vig=0.6, vig_col=(0, 0, 20)),
+    "sepia": dict(mul=(1.0, 0.9, 0.72), add=(16, 8, -8), vig=0.5, vig_col=(40, 25, 10), desat=0.65),
+    "warm":  dict(mul=(1.06, 0.98, 0.86), add=(10, 4, -6), vig=0.35, vig_col=(40, 20, 0)),
+    "cold":  dict(mul=(0.9, 0.97, 1.08), add=(-4, 0, 8), vig=0.4, vig_col=(0, 10, 30)),
+}
+
+@functools.lru_cache(None)
+def _vig_soft(strength):
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
+    d = np.sqrt(((x - W / 2) / (W * 0.62)) ** 2 + ((y - H / 2) / (H * 0.62)) ** 2)
+    return (np.clip(d - 0.45, 0, 1) ** 1.5 * strength)[:, :, None]
+
+def grade(frame, preset, amount=1.0):
+    """Apply a lighting/colour mood to a whole frame. amount 0..1 (animate it for fades)."""
+    if not preset or amount <= 0.01: return frame
+    g = GRADES[preset]; f = frame.astype(np.float32)
+    if g.get("desat"):
+        grey = f.mean(2, keepdims=True); f = f * (1 - g["desat"] * amount) + grey * g["desat"] * amount
+    mul = np.array([lerp(1, m, amount) for m in g["mul"]], np.float32)
+    add = np.array([a * amount for a in g["add"]], np.float32)
+    f = f * mul + add
+    v = _vig_soft(g["vig"]) * amount
+    f = f * (1 - v) + np.array(g["vig_col"], np.float32) * v
+    return np.clip(f, 0, 255).astype(np.uint8)
+
+def spotlight(frame, cx, cy, rx, ry, strength=0.55):
+    """Darken everything outside an elliptical pool of light (lamp / stage spotlight)."""
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
+    d = np.sqrt(((x - cx) / rx) ** 2 + ((y - cy) / ry) ** 2)
+    m = (np.clip(d - 0.6, 0, 1.2) / 1.2 * strength)[:, :, None]
+    return (frame * (1 - m)).astype(np.uint8)
+
+def speed_lines(frame, t, amount=1.0, cx=W / 2, cy=H / 2, dark=False, seed=0):
+    """Comic 'shock' burst: radial speed lines (used as a 0.3-0.6 s accent on big reveals)."""
+    if amount <= 0.01: return frame
+    r = np.random.default_rng(seed + int(t * 24))
+    ov = frame.copy()
+    col = (20, 20, 20) if not dark else (245, 245, 245)
+    for k in range(70):
+        a = r.uniform(0, 2 * math.pi); w_ = r.uniform(0.01, 0.035)
+        r0 = r.uniform(260, 420)
+        pts = [(cx + r0 * math.cos(a), cy + r0 * math.sin(a)),
+               (cx + 2400 * math.cos(a - w_), cy + 2400 * math.sin(a - w_)),
+               (cx + 2400 * math.cos(a + w_), cy + 2400 * math.sin(a + w_))]
+        cv2.fillPoly(ov, [np.int32(pts)], col, cv2.LINE_AA)
+    return cv2.addWeighted(ov, amount, frame, 1 - amount, 0)

@@ -15,29 +15,72 @@ SKIN2 = (196, 140, 100)
 CY = 470   # vertical centre of the drawing (bottom area is kept for captions)
 
 # ------------------------------------------------------------------ building blocks
-def person(f, x, y, s=1.0, shirt=TEAL, mood="neutral", fi=0, seed=0, skin=SKIN, arms="down", t=0.0):
-    """Simple rounded character. y = feet position."""
-    bw, bh = 110 * s, 150 * s
-    box(f, x - bw / 2, y - bh, x + bw / 2, y, shirt, INK, max(3, int(5 * s)), fi, r=40 * s, seed=seed, shadow=False)
-    hr = 58 * s; hy = y - bh - hr * 0.8
-    poly(f, circle_pts(x, hy, hr, 36), INK, fill=skin, thick=max(3, int(5 * s)), fi=fi, wob=1.2, seed=seed + 1)
-    ey = hy - 6 * s
+def person(f, x, y, s=1.0, shirt=TEAL, mood="neutral", fi=0, seed=0, skin=SKIN, arms="down", t=0.0,
+           tie=None, glasses=False, hair=None, legs=True, shadow=True):
+    """Pro-style cartoon character (after the reference channel): big round head, dot eyes with
+    eyebrows that carry the emotion, small bean body, thin legs with round feet, soft floor shadow.
+    mood: neutral | happy | sad | shock | worried | angry.  y = feet position."""
+    bw, bh = 104 * s, 130 * s
+    leg = 46 * s if legs else 0
+    if shadow:
+        ov = f.copy(); cv2.ellipse(ov, (int(x), int(y + 4)), (int(bw * 0.75), int(12 * s)), 0, 0, 360, (0, 0, 0), -1, cv2.LINE_AA)
+        f[:] = cv2.addWeighted(ov, 0.18, f, 0.82, 0)
+    if legs:
+        for side in (-1, 1):
+            lx = x + side * 20 * s
+            poly(f, [(lx, y - leg - 4), (lx, y - 6 * s)], INK, None, max(3, int(6 * s)), fi, 0.6, seed + 30 + side, closed=False)
+            poly(f, circle_pts(lx + side * 8 * s, y - 4 * s, 11 * s, 14), INK, fill=(60, 50, 50), thick=3, fi=fi, wob=0.4, seed=seed + 40 + side)
+    by = y - leg
+    box(f, x - bw / 2, by - bh, x + bw / 2, by, shirt, INK, max(3, int(5 * s)), fi, r=42 * s, seed=seed, shadow=False)
+    if tie:
+        poly(f, [(x, by - bh + 6 * s), (x - 11 * s, by - bh * 0.45), (x, by - bh * 0.3), (x + 11 * s, by - bh * 0.45)], INK,
+             fill=tie, thick=3, fi=fi, wob=0.5, seed=seed + 50)
+    hr = 64 * s; hy = by - bh - hr * 0.72
+    poly(f, circle_pts(x, hy, hr, 40), INK, fill=skin, thick=max(3, int(5 * s)), fi=fi, wob=1.0, seed=seed + 1)
+    if hair:
+        poly(f, circle_pts(x, hy - hr * 0.35, hr * 0.95, 24, 195, 345) + [(x + hr * 0.7, hy - hr * 0.2), (x - hr * 0.7, hy - hr * 0.2)],
+             INK, fill=hair, thick=3, fi=fi, wob=0.8, seed=seed + 60)
+    ey = hy - 4 * s; ex = 22 * s
+    eye_r = 9 * s if mood in ("shock", "worried") else 7 * s
+    for dx in (-ex, ex):
+        if mood in ("shock", "worried"):
+            cv2.circle(f, (int(x + dx), int(ey)), int(eye_r + 5 * s), WHITE, -1, cv2.LINE_AA)
+            cv2.circle(f, (int(x + dx), int(ey)), int(eye_r + 5 * s), INK, max(2, int(3 * s)), cv2.LINE_AA)
+            cv2.circle(f, (int(x + dx), int(ey + 1)), int(eye_r * 0.55), INK, -1, cv2.LINE_AA)
+        else:
+            cv2.circle(f, (int(x + dx), int(ey)), int(eye_r), INK, -1, cv2.LINE_AA)
+        # eyebrows carry the emotion
+        side = -1 if dx < 0 else 1
+        inner = (x + side * 8 * s, ey - 22 * s); outer = (x + side * 32 * s, ey - 22 * s)
+        if mood in ("worried", "sad", "shock"):  inner = (inner[0], inner[1] - 9 * s)
+        if mood == "angry":                      inner = (inner[0], inner[1] + 9 * s)
+        if mood == "happy":                      outer = (outer[0], outer[1] + 4 * s); inner = (inner[0], inner[1] + 4 * s)
+        poly(f, [inner, outer], INK, None, max(3, int(5 * s)), fi, 0.4, seed + 70 + side, closed=False)
+        if glasses:
+            cv2.circle(f, (int(x + dx), int(ey)), int(17 * s), INK, max(2, int(3 * s)), cv2.LINE_AA)
+    if glasses:
+        cv2.line(f, (int(x - ex + 17 * s), int(ey)), (int(x + ex - 17 * s), int(ey)), INK, max(2, int(3 * s)), cv2.LINE_AA)
+    my = hy + 28 * s
     if mood == "shock":
-        for dx in (-20, 20): cv2.circle(f, (int(x + dx * s), int(ey)), int(8 * s), INK, -1, cv2.LINE_AA)
-        poly(f, circle_pts(x, hy + 26 * s, 13 * s, 16), INK, fill=(90, 30, 40), thick=3, fi=fi, wob=0.6, seed=seed + 2)
-    elif mood == "sad":
-        for dx in (-20, 20): cv2.circle(f, (int(x + dx * s), int(ey)), int(6 * s), INK, -1, cv2.LINE_AA)
-        poly(f, [(x - 18 * s, hy + 32 * s), (x, hy + 24 * s), (x + 18 * s, hy + 32 * s)], INK, None, 4, fi, 0.6, seed + 3, closed=False)
+        poly(f, circle_pts(x, my + 2 * s, 14 * s, 18), INK, fill=(150, 40, 50), thick=3, fi=fi, wob=0.5, seed=seed + 2)
+    elif mood in ("sad", "worried"):
+        poly(f, [(x - 16 * s, my + 6 * s), (x, my - 3 * s), (x + 16 * s, my + 6 * s)], INK, None, 4, fi, 0.5, seed + 3, closed=False)
     elif mood == "happy":
-        for dx in (-20, 20): cv2.circle(f, (int(x + dx * s), int(ey)), int(6 * s), INK, -1, cv2.LINE_AA)
-        poly(f, [(x - 20 * s, hy + 20 * s), (x, hy + 32 * s), (x + 20 * s, hy + 20 * s)], INK, None, 4, fi, 0.6, seed + 3, closed=False)
+        poly(f, [(x - 18 * s, my - 4 * s), (x, my + 8 * s), (x + 18 * s, my - 4 * s)], INK, None, 4, fi, 0.5, seed + 3, closed=False)
+    elif mood == "angry":
+        poly(f, [(x - 14 * s, my + 2 * s), (x + 14 * s, my + 2 * s)], INK, None, 5, fi, 0.5, seed + 3, closed=False)
     else:
-        for dx in (-20, 20): cv2.circle(f, (int(x + dx * s), int(ey)), int(6 * s), INK, -1, cv2.LINE_AA)
-        poly(f, [(x - 14 * s, hy + 26 * s), (x + 14 * s, hy + 26 * s)], INK, None, 4, fi, 0.6, seed + 3, closed=False)
+        poly(f, [(x - 12 * s, my), (x + 12 * s, my)], INK, None, 4, fi, 0.5, seed + 3, closed=False)
+    if mood in ("worried", "shock"):   # sweat drops
+        for k, (dx, dy) in enumerate(((-hr * 0.95, -hr * 0.1), (-hr * 1.1, hr * 0.25))):
+            ddy = (t * 40 * s + k * 15) % (20 * s)
+            cx_, cy_ = x + dx, hy + dy + ddy
+            poly(f, [(cx_, cy_ - 14 * s)] + circle_pts(cx_, cy_, 7 * s, 10, -10, 190), INK, fill=(140, 200, 255), thick=2,
+                 fi=fi, wob=0.3, seed=seed + 80 + k)
     if arms == "up":
         wave = math.sin(t * 8) * 8 * s
         for side in (-1, 1):
-            poly(f, [(x + side * bw / 2.2, y - bh * 0.8), (x + side * (bw / 2 + 40 * s), y - bh * 1.35 + wave)], INK, None, int(9 * s), fi, 1, seed + 5 + side, closed=False)
+            poly(f, [(x + side * bw / 2.2, by - bh * 0.8), (x + side * (bw / 2 + 40 * s), by - bh * 1.35 + wave)], INK, None, int(9 * s), fi, 1, seed + 5 + side, closed=False)
     return hy
 
 def phone(f, x, y, s=1.0, screen="spinner", fi=0, t=0.0, seed=0):

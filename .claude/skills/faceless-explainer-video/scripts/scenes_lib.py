@@ -33,7 +33,7 @@ def kw_overlay(frame, t, items, fi):
         size = it.get("size", 120)
         col = it.get("color", YELLOW)
         rot = it.get("rot", 0.0)
-        fn = it.get("font", "anton")
+        fn = it.get("font", "marker")
         if style == "plate":
             tw, th = text_size(it["text"], fn, size)
             pw, ph = tw + 70, th + 34
@@ -129,8 +129,9 @@ class Illus(Scene):
         a = self.p.get("a", (0.5, 0.5, 1.0)); b = self.p.get("b", (0.5, 0.5, 1.12))
         k = ease_in_out(t / max(self.dur, 0.01))
         # gentle camera on code-drawn art: small zoom + drift in the same direction as planned
-        z = 1.0 + 0.06 * k if b[2] >= a[2] else 1.06 - 0.06 * k
-        dx = (b[0] - a[0]) * 120 * k; dy = (b[1] - a[1]) * 80 * k
+        push = self.p.get("push", 0.16)            # pro reference: ~15% push over a 4 s shot
+        z = 1.0 + push * k if b[2] >= a[2] else 1.0 + push * (1 - k)
+        dx = (b[0] - a[0]) * 260 * k; dy = (b[1] - a[1]) * 160 * k
         M = np.array([[z, 0, (1 - z) * W / 2 - dx], [0, z, (1 - z) * H / 2 - dy]], np.float32)
         if self.p.get("shake_at") is not None:
             sx, sy = shake(t, self.p["shake_at"], 0.6, 16); M[0, 2] += sx; M[1, 2] += sy
@@ -771,6 +772,33 @@ class EndScreen(Scene):
             put_text(fr, "SUBSCRIBE", W / 2, 960, "xbold", 30, WHITE, scale=ease_back(prog(t, 1.3, 0.4)))
         return fr
 
-TYPES = dict(illus=Illus, big=BigText, counter=Counter, bars=Bars, pie=Pie, line=LineChart, india=IndiaMap,
+# ------------------------------------------------------------------ black text card (pro signature beat)
+class TextCard(Scene):
+    """Black card, white handwritten text typed on letter by letter (the reference video uses one
+    about every 17 s, ~2.7 s long, for punchlines, questions and chapter titles).
+    p: text, size (90), cps (typing speed, 26), chapter (bool: bigger, centred, no typing), color"""
+    def render(self, t, fi):
+        f = np.zeros((H, W, 3), np.uint8); f[:] = (8, 8, 10)
+        txt = self.p["text"]; chapter = self.p.get("chapter", False)
+        size = self.p.get("size", 128 if chapter else 92)
+        col = self.p.get("color", WHITE)
+        import textwrap
+        lines = textwrap.wrap(txt, 30 if not chapter else 22)
+        full = "\n".join(lines)
+        if chapter:
+            shown = full; a = ease_out(prog(t, 0.05, 0.35))
+        else:
+            n = int(prog(t, 0.08, max(0.25, len(txt) / self.p.get("cps", 26))) * len(full) + 0.999)
+            shown = full[:n]; a = 1.0
+        if shown.strip():
+            L = text_layer(full, "script", size, col, align="left" if not chapter else "center")
+            sub = text_layer(shown, "script", size, col, align="left" if not chapter else "center")
+            s = 1.0 + 0.025 * ease_in_out(t / max(self.dur, 0.1))
+            x0 = W / 2 - L.shape[1] * s / 2
+            blit(f, sub, x0 if not chapter else W / 2, H / 2 - (L.shape[0] - sub.shape[0]) * s / 2, s, a,
+                 anchor="left" if not chapter else "center")
+        return f
+
+TYPES = dict(text=TextCard, illus=Illus, big=BigText, counter=Counter, bars=Bars, pie=Pie, line=LineChart, india=IndiaMap,
              world=WorldMap, chip=ChipScene, cards=Cards, timeline=Timeline, code=CodeEditor, tiles=Tiles,
              progress=Progress, network=Network, towers=Towers, title=Title, end=EndScreen)

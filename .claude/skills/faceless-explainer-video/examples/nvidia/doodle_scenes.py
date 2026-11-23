@@ -143,7 +143,7 @@ def d_trading(f, t, fi):
         x = 400 + k * 280
         arrow(f, x, 220, x + 60, 400, RED, 12, 34, fi, 10 + k)
     for i in range(6):
-        person(f, 260 + i * 280, 900 + (i % 2) * 20, 0.75, [BLUE, TEAL, ORANGE, RED, YELLOW, LIME][i], "shock", fi, 40 + i, arms="up", t=t + i)
+        person(f, 260 + i * 280, 900 + (i % 2) * 20, 0.7, [DARK2, BLUE, DARK2, TEAL, DARK2, BLUE][i], "shock", fi, 40 + i, arms="up", t=t + i, tie=RED)
 
 def d_money_fly(f, t, fi):
     skyline(f, fi, 0.3, seed=8)
@@ -174,7 +174,7 @@ def d_crowd_q(f, t, fi, panic=False):
 def d_boardroom(f, t, fi):
     box(f, 360, 600, 1560, 700, (150, 110, 80), INK, 7, fi, r=20, seed=1)
     for i in range(5):
-        person(f, 520 + i * 220, 620, 0.8, [DARK2, BLUE, DARK2, TEAL, DARK2][i], "shock", fi, 60 + i, arms="up" if i % 2 else "down", t=t + i)
+        person(f, 520 + i * 220, 620, 0.75, [DARK2, BLUE, DARK2, TEAL, DARK2][i], "worried", fi, 60 + i, arms="up" if i % 2 else "down", t=t + i, tie=RED, glasses=i == 2, legs=False)
     for k in range(4):
         x = 700 + k * 200 + math.sin(t * 3 + k) * 20; y = 260 + (t * 120 + k * 60) % 200
         cv2.rectangle(f, (int(x), int(y)), (int(x + 70), int(y + 90)), WHITE, -1); cv2.rectangle(f, (int(x), int(y)), (int(x + 70), int(y + 90)), INK, 3)
@@ -234,7 +234,7 @@ def d_office_chips(f, t, fi):
 
 def d_engineer_shock(f, t, fi):
     sun(f, 1600, 230, 60, fi, t)
-    person(f, 760, 860, 1.4, (120, 160, 200), "shock", fi, 3, skin=SKIN2)
+    person(f, 760, 860, 1.3, (120, 160, 200), "worried", fi, 3, skin=SKIN2, hair=(40, 30, 30))
     phone(f, 1200, 520, 0.8, "alert", fi, t, 5)
 
 def d_startup_dark(f, t, fi):

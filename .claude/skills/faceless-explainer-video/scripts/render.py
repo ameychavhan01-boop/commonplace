@@ -71,11 +71,17 @@ def frame_at(t, fi):
     idx = max(i for i, (s, _) in enumerate(B) if s["start"] <= t or i == 0)
     s, obj = B[idx]
     f = obj.render(t - s["start"], fi)
+    if s["p"].get("grade"):        # lighting / colour mood for the whole scene (gfx.GRADES)
+        f = grade(f, s["p"]["grade"], s["p"].get("grade_amt", 1.0) * ease_out(prog(t - s["start"], s["p"].get("grade_at", 0.0), 0.5)))
     # transition from previous scene
     if idx > 0:
         ps, pobj = B[idx - 1]
         lt = t - s["start"]
-        if s["trans"] == "slide":
+        if s["trans"] == "burst" and lt < 0.45:    # comic speed-line accent on a shocking reveal
+            f = speed_lines(f, t, 1 - lt / 0.45, seed=idx)
+        elif s["trans"] == "flash" and lt < 0.35:  # white flash (time skip)
+            f = cv2.addWeighted(f, lt / 0.35, np.full_like(f, 255), 1 - lt / 0.35, 0)
+        elif s["trans"] == "slide":
             d = 0.32
             if lt < d:
                 k = ease_in_out(lt / d)

@@ -1,4 +1,4 @@
-"""Final audio mix: narration + lo-fi music (about 11 dB under the voice) + subtle SFX.
+"""Final audio mix: narration + score (default 18 LU under the voice, pro reference ~20) + subtle SFX.
 Master and the voice-only version are both normalised to -15 LUFS, true peak about -2 dB.
 usage: python mix.py VOICE.wav MUSIC_SFX_DIR OUT_MIX.wav OUT_VOICE_ONLY.wav"""
 import json, subprocess, sys
@@ -9,7 +9,7 @@ import plan
 
 SR = 48000
 LUFS, TP = -15.0, -2.0
-MUSIC_UNDER = 11.0        # LU below the voice
+MUSIC_UNDER = float(__import__("os").environ.get("MUSIC_UNDER", 18.0))   # LU below the voice (pro reference: ~20)
 voice_p, adir, out_mix, out_vo = sys.argv[1:5]
 n = int((plan.TOTAL + 0.3) * SR)
 meter = pyln.Meter(SR)

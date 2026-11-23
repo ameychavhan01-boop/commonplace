@@ -16,8 +16,8 @@ What the user approved on the first video (treat as defaults unless they say oth
 | Format | 1920x1080, 30 fps, H.264 + AAC, 6–8 min |
 | Voice | Kokoro TTS (free, Apache-2.0), voice `am_michael`, speed 0.97, US English, generated sentence by sentence, numbers spelled out |
 | Music | The original **cinematic score** in `audio_gen.py` (moods follow the story). The user rejected lo-fi. |
-| Mix | Music ~11 LU under the voice; master and voice-only both at **−15 LUFS, true peak −2 dB** |
-| Visuals | New picture every 3–5 s; code-drawn doodle cartoons + animated charts; "THOUGHT EXPERIMENT"-style corner badge + time labels |
+| Mix | Music **18 LU under the voice** (pro reference ≈ 20; the first video used 11); master and voice-only both at **−15 LUFS, true peak −2 dB** |
+| Visuals | **Pro style** (see `references/pro_style_guide.md`): new picture every ~3.5 s, camera pushing on almost every shot, black handwritten text cards every 15–25 s, lighting moods per scene, expressive cartoon cast in rich little worlds, data drawn as objects, hand-lettered marker labels; corner badge + time labels |
 | Paid AI art | Optional only. If ElevenLabs (or any paid tool) has no credits, don't wait: use the doodles |
 | Style | Simple English a 12-year-old understands, "you", short sentences; no politics, no stock tips, no real logos/photos |
 
@@ -35,8 +35,9 @@ export VIDEO_ASSETS=$HOME/.video_assets     # models, fonts, map data (shared ac
 bash <project>/setup.sh                    # ~360 MB first time; free, commercial-use licences
 ```
 
-Then work through the stages. Read `references/scene_api.md` before writing the plan (it documents every
-scene type and the files you need to write), and look at `examples/nvidia/` for a complete, approved video.
+Then work through the stages. Read `references/pro_style_guide.md` (what makes the user's reference
+video look professional, with measured targets) and `references/scene_api.md` (every scene type and the
+files you need to write) before writing the script and plan. `examples/nvidia/` is a complete approved video.
 
 ### 1. Research (save every fact with a link)
 - Use web search (and the TradingView MCP when available, for prices) to collect current facts. Write
@@ -55,6 +56,9 @@ scene type and the files you need to write), and look at `examples/nvidia/` for 
 - Structure that worked: hook with the biggest number in the first 15 s → simple explanation (analogies)
   → a timeline (Hour 1, Day 1, Week 1 …) → a dedicated India section (the audience) → recovery →
   lesson + twist + a comment question → "subscribe" line.
+- Write for the pro rhythm: short punchy lines that can stand alone on a black text card (questions,
+  "Not yet.", chapter names), a concrete metaphor for every abstract idea, a recurring set or motif,
+  an ordinary-person "what this means for you" scene, and an ending that calls back to the opening image.
 - Show the script and **wait for the user's OK** before generating anything expensive. When they ask for
   fixes, reply with only the changed lines.
 
@@ -72,6 +76,10 @@ Write `plan.py` (scene list keyed to narration segments and words) and `doodle_s
 (one drawing per illustration id), as described in `references/scene_api.md`.
 - Run `python plan.py`: aim for an average of ≤ 3.5 s per scene. Split any static scene longer than ~6 s at
   a word cue (animated charts and map pins can run a little longer).
+- Apply the pro checklist: ~1 `text` card per 15–25 s on the punchiest lines; `grade=` on every scene
+  whose mood isn't neutral (crash red, boom green, night, sepia history, warm hope); `trans="burst"` on
+  2–5 shock reveals; characters with emotion (`mood`, ties, glasses); labels on objects in `marker` font;
+  white/yellow text on a plate over red or busy scenes.
 - Every on-screen number must match `sources.md`; label estimates "estimated" and dates "as of …".
 - India maps use the Natural Earth **India point-of-view** borders (from setup.sh). Never draw India's
   borders any other way.
@@ -121,5 +129,7 @@ waiting.
   (score + SFX), `mix.py`, `gfx.py` (drawing kit), `doodles.py` (cartoon building blocks),
   `scenes_lib.py` (scene types), `render.py`, `make_subs.py`, `make_thumb.py`, `build_all.sh`.
 - `references/scene_api.md`: how to write `narration.py`, `plan.py` and `doodle_scenes.py`; every scene type.
+- `references/pro_style_guide.md`: study of the user's pro reference video, with measured pacing, camera,
+  colour, sound, characters, text cards and thumbnail rules, and how our code reproduces each.
 - `examples/nvidia/`: the approved first video ("What If NVIDIA Vanished Tomorrow?"): script, sources,
   narration, plan, doodle scenes, image prompts, YouTube details. Copy and adapt rather than starting blank.
