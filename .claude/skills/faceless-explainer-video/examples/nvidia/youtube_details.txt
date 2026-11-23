@@ -1,0 +1,85 @@
+=====================================================================
+YOUTUBE DETAILS — "What If NVIDIA Vanished Tomorrow?"
+Video length: 8:39   |   Research date: 22 November 2026
+=====================================================================
+
+---------------------------------------------------------------------
+TITLE (use this one)
+---------------------------------------------------------------------
+What If NVIDIA Vanished Tomorrow?
+
+Alternative titles (for A/B testing):
+1. The Day NVIDIA Disappears: What Happens to AI, Stocks and India
+2. One Company Vanishes. The Whole World Breaks. (NVIDIA Thought Experiment)
+
+
+---------------------------------------------------------------------
+DESCRIPTION (copy everything between the lines)
+---------------------------------------------------------------------
+It's 7 AM. You open ChatGPT. Nothing. Your stock app is flashing red. And it all happened because one company, worth about $3 trillion, disappeared overnight.
+
+In this thought experiment, we follow what would happen, hour by hour, if NVIDIA (the company that makes most of the world's AI chips) vanished tomorrow: AI going dark, stock market chaos, tech giants scrambling for replacements, and what it would mean for India's IT jobs, AI startups, data centers, gamers, the Sensex and the rupee. Then we look at how the world would rebuild, and the big lesson about depending on one company.
+
+This is a thought experiment, not a prediction. Nothing in this video is financial advice.
+
+CHAPTERS
+0:00 The morning NVIDIA disappears
+0:26 What NVIDIA actually does
+1:34 Hour 1: AI goes dark
+2:26 Day 1: Stock market chaos
+3:37 Week 1: The tech giants panic
+4:52 What happens to India
+7:05 Month 6 to Year 1: Rebuilding
+7:51 The big lesson (and a twist)
+
+Which company do you think the world depends on next? Tell me in the comments.
+
+SOURCES (numbers checked as of 20–22 November 2026)
+• NVIDIA market value (~$3.0T on 20 Nov 2026 = $125.53 close × 24.1B shares): NVIDIA 10-Q https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm · https://companiesmarketcap.com/usd/nvidia/marketcap/
+• Peak ~$5.8T (6 Oct 2026) and ~$2.7T fall: https://decrypt.co/379959 · https://beinsure.com/news/nvidia-market-cap-drop-exceeds-wiped-out-in-stock-crash/
+• NVIDIA Q3 fiscal 2027 results ($115.8B revenue, $107.6B data center): https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/ · https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm
+• ~80% AI accelerator share (estimate): https://siliconanalysts.com/analysis/nvidia-ai-accelerator-market-share-2024-2026
+• 11 million CUDA developers: https://itbrief.co.uk/story/nvidia-marks-cuda-20-years-with-11-million-developers
+• S&P 500 weight: https://calculatorai.app/blog/how-much-of-the-sp-500-is-nvidia
+• India GDP 2026 ($4.06T, IMF WEO Oct 2026): https://www.worldometers.info/gdp/india-gdp/
+• ChatGPT weekly users: https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users
+• $500B chip order visibility: https://fortune.com/2025/10/29/nvidia-first-5-trillion-company-ceo-jensen-huang-500-billion-revenue-blackwell-rubin-gpus-china/
+• AMD–OpenAI deal: https://techcrunch.com/2025/10/06/amd-to-supply-6gw-of-compute-capacity-to-openai-in-chip-deal-worth-tens-of-billions
+• IndiaAI Mission 38,000+ GPUs: https://www.communicationstoday.co.in/38000-gpus-one-big-problem-indias-ai-mission-cant-find-enough-users/
+• Sarvam AI trained on 4,096 H100s: https://www.nvidia.com/en-us/case-studies/sarvam-sovereign-ai/
+• Reliance–NVIDIA (Jamnagar) and Yotta: https://indiaai.gov.in/news/nvidia-partners-with-reliance-to-advance-ai-in-india · https://www.sdxcentral.com/news/indian-companies-order-tens-of-1000s-of-nvidia-chips/
+• Indian tech industry $315B / ~6M workers (NASSCOM): https://yourstory.com/enterprise-story/2026/02/india-tech-industry-revenue-to-touch-315-billion-in-fy26-nasscom
+• Indian IT firms working with NVIDIA: https://cxotoday.com/ai/indian-tech-companies-that-have-partnered-with-nvidia-in-2026/
+• 555 million Indian gamers (Lumikai): https://respawn.outlookindia.com/gaming/gaming-news/lumikai-india-gaming-market-1-5-billion-rmg-ban-2025
+• TSMC manufactures NVIDIA chips: https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/
+Full source list with every number: available on request.
+
+Music: original score composed for this channel. Narration: synthetic voice (Kokoro TTS). Illustrations and animations: original, made for this channel. No real photos, logos or footage are used. Company names are used for identification only.
+
+#NVIDIA #WhatIf #AI
+
+
+---------------------------------------------------------------------
+TAGS (15) — paste into the Tags box, comma separated
+---------------------------------------------------------------------
+what if nvidia vanished, nvidia, nvidia explained, what if, thought experiment, ai chips, gpu explained, cuda, nvidia stock, stock market crash, nvidia india, indian it industry, indiaai mission, sensex nifty, business explainer
+
+
+---------------------------------------------------------------------
+PINNED COMMENT
+---------------------------------------------------------------------
+🧠 Your turn: if NVIDIA vanished tomorrow, which company would the world depend on NEXT? TSMC? Microsoft? Google? Someone else? Reply with your pick and WHY. I'll read every answer, and the best one might become the next "What If" video. 👇
+
+
+---------------------------------------------------------------------
+UPLOAD CHECKLIST (for you)
+---------------------------------------------------------------------
+• Upload final_video.mp4, set the title, paste the description and tags.
+• Thumbnail: upload thumbnail.jpg.
+• Subtitles: Subtitles → Add language → English → Upload file → "With timing" → subtitles.srt.
+• End screen (last 10 seconds, starts at 8:29): add 2 video elements over the two empty frames
+  (left: "Best for viewer", right: a playlist) and a Subscribe element over the red circle.
+• Altered or synthetic content: answer "No". The video is clearly animated and doesn't show
+  realistic people or events (YouTube's label is meant for realistic-looking content). The
+  description already says the narration is a synthetic voice.
+• Category: Education. Audience: not made for kids.
